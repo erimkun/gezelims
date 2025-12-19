@@ -1,0 +1,132 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* ========================================
+     Z-INDEX HIERARCHY SYSTEM
+     Sistematik katmanlama için merkezi değerler
+     ======================================== */
+  
+  /* Base layers (0-99) */
+  --z-base: 0;
+  --z-above: 1;
+  --z-below: -1;
+  
+  /* Map controls (100-499) */
+  --z-map-controls: 100;
+  --z-map-markers: 200;
+  --z-map-popover: 300;
+  
+  /* Sidebar (1000-1099) */
+  --z-sidebar-backdrop: 999;
+  --z-sidebar: 1000;
+  --z-sidebar-toggle: 1001;
+  --z-sidebar-scroll-buttons: 1010;
+  
+  /* Popups & Modals (2000-2999) */
+  --z-popup-backdrop: 1999;
+  --z-popup: 2000;
+  --z-popup-image-gallery: 2100;
+  --z-poi-popup: 2000;
+  --z-image-modal: 2500;
+  
+  /* Navigation overlay (3000-3999) */
+  --z-navigation-backdrop: 2999;
+  --z-navigation: 3000;
+  --z-navigation-controls: 3100;
+  --z-walking-nav: 3000;
+  --z-walking-loading: 3500;
+  
+  /* Modal dialogs (4000-4999) */
+  --z-modal-backdrop: 3999;
+  --z-modal: 4000;
+  --z-modal-content: 4100;
+  
+  /* Toast & Notifications (5000-5999) */
+  --z-toast: 5000;
+  --z-notification: 5100;
+  
+  /* Loading overlays (6000+) */
+  --z-loading: 6000;
+  --z-loading-fullscreen: 6500;
+  
+  /* iOS Safe Area */
+  --safe-area-inset-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-area-inset-top: env(safe-area-inset-top, 0px);
+}
+
+/* Tüm scrollbar'ları gizle - Global */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+  width: 0;
+  height: 0;
+}
+
+body {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

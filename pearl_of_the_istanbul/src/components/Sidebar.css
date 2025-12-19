@@ -1,0 +1,872 @@
+/* Backdrop */
+.sidebar-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: var(--z-sidebar-backdrop);
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Tüm sidebar butonlarında focus outline'ı kaldır */
+.sidebar button {
+  outline: none;
+}
+
+.sidebar button:focus {
+  outline: none;
+}
+
+.sidebar button:active {
+  outline: none;
+}
+
+/* Sidebar - Mobil (Bottom Sheet) */
+.sidebar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  border-radius: var(--popup-border-radius) var(--popup-border-radius) 0 0;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+  z-index: var(--z-sidebar);
+  transform: translateY(calc(100% - 80px)); /* Daha fazla görünsün */
+  transition: transform 0.3s ease;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: var(--safe-area-inset-bottom);
+}
+
+.sidebar.open {
+  transform: translateY(0);
+}
+
+/* Kapanma animasyonu */
+.sidebar.closing {
+  animation: sidebarSlideOut 0.3s ease forwards;
+}
+
+@keyframes sidebarSlideOut {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+/* Drag Handle */
+.drag-handle {
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  cursor: grab;
+  touch-action: none;
+}
+
+.drag-handle:active {
+  cursor: grabbing;
+}
+
+.drag-handle-bar {
+  width: 40px;
+  height: 5px;
+  background: #DDD;
+  border-radius: 3px;
+}
+
+/* Sidebar Content */
+.sidebar-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0 20px 20px;
+}
+
+/* Header Container */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  min-height: 32px;
+}
+
+.sidebar-content h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  flex: 1;
+}
+
+/* Arama İkon Butonu */
+.search-icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  transition: color 0.2s ease;
+}
+
+.search-icon-button:hover {
+  color: #333;
+}
+
+.search-icon-button:active {
+  transform: scale(0.95);
+}
+
+/* Arama Çubuğu */
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #F5F5F5;
+  border-radius: 12px;
+  padding: 8px 12px;
+  flex: 1;
+}
+
+.search-bar svg {
+  color: #666;
+  flex-shrink: 0;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.search-input::placeholder {
+  color: #999;
+  font-weight: 400;
+}
+
+.search-close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  transition: color 0.2s ease;
+  flex-shrink: 0;
+}
+
+.search-close-button:hover {
+  color: #333;
+}
+
+.search-close-button:active {
+  transform: scale(0.95);
+}
+
+/* Kategoriler */
+.categories-container {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0 0 12px 0;
+  margin-bottom: 16px;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scroll-behavior: smooth;
+}
+
+.categories-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Category wrapper - scroll butonları için */
+.category-wrapper {
+  position: relative;
+  padding: 0 16px 16px;
+}
+
+/* Mobil scroll indicator - kategoriler için */
+.category-wrapper::after {
+  content: '';
+  position: absolute;
+  bottom: 36px;
+  right: 24px;
+  width: 50px;
+  height: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    #9CA3AF 0px,
+    #9CA3AF 4px,
+    transparent 4px,
+    transparent 6px,
+    #9CA3AF 6px,
+    #9CA3AF 12px,
+    transparent 12px,
+    transparent 15px,
+    #9CA3AF 15px,
+    #9CA3AF 24px,
+    transparent 24px,
+    transparent 28px,
+    #9CA3AF 28px,
+    #9CA3AF 50px
+  );
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.category-scroll-btn {
+  display: none;
+}
+
+.category-button {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  gap: 4px;
+  border: 3px solid;
+}
+
+.category-button:active {
+  transform: scale(0.95);
+}
+
+.category-button.active {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.category-icon {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.category-label {
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.2;
+  max-width: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* Placeholders */
+.poi-list-placeholder {
+  background: #F5F5F5;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #999;
+}
+
+/* Desktop (PC) için sidebar */
+@media (min-width: 769px) {
+  /* Backdrop'u kaldır */
+  .sidebar-backdrop {
+    display: none;
+  }
+  
+  /* Drag handle'ı gizle */
+  .drag-handle {
+    display: none;
+  }
+  
+  /* Sidebar sol tarafta, tam yükseklik */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    width: 600px;
+    border-radius: 0;
+    transform: translateX(0);
+    max-height: 100vh;
+    box-shadow: 2px 0 16px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Kapalı durum: sola gizle */
+  .sidebar:not(.open) {
+    transform: translateX(-600px);
+  }
+  
+  /* Header biraz daha fazla padding */
+  .header-container {
+    padding: 24px 24px 20px;
+    position: relative;
+  }
+  
+  .header-container h2 {
+    font-size: 24px;
+    padding-right: 100px; /* Hem arama hem kapatma butonu için yer */
+  }
+  
+  /* Search icon button - desktop'ta sağ pozisyon */
+  .search-icon-button {
+    position: absolute;
+    right: 70px; /* Kapatma butonundan 70px sola */
+    top: 24px;
+  }
+  
+  /* Desktop Close Button - Yuvarlak Kare */
+  .sidebar-close-btn {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 2px solid #EF4444;
+    border-radius: 12px; /* Yuvarlak kare için border-radius */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #EF4444;
+    z-index: 10;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    outline: none;
+    box-shadow: 0 2px 8px rgba(239, 68, 68, 0.15);
+  }
+  
+  .sidebar-close-btn:hover {
+    background: #EF4444;
+    color: white;
+    transform: scale(1.08);
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+  }
+  
+  .sidebar-close-btn:active {
+    transform: scale(0.95);
+  }
+  
+  .sidebar-close-btn:focus {
+    outline: none;
+  }
+  
+  /* Kategoriler daha büyük */
+  .categories-container {
+    padding: 0 24px 16px;
+  }
+  
+  .category-wrapper {
+    padding: 0;
+    margin-bottom: 16px;
+  }
+  
+  /* Desktop'ta scroll indicator'ı gizle */
+  .category-wrapper::after {
+    display: none;
+  }
+  
+  .categories-container {
+    padding: 0 50px;
+  }
+  
+  .category-scroll-btn {
+    display: flex;
+    position: absolute;
+    top: 8px;
+    width: 36px;
+    height: 36px;
+    background: white;
+    border: 2px solid #D1D5DB;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    color: #4B5563;
+    z-index: 5;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    outline: none;
+  }
+  
+  .category-scroll-btn:hover {
+    background: #6366F1;
+    color: white;
+    border-color: #6366F1;
+    box-shadow: 0 4px 16px rgba(99, 102, 241, 0.3);
+  }
+  
+  .category-scroll-btn:active {
+    background: #4F46E5;
+  }
+  
+  .category-scroll-btn.left {
+    left: 8px;
+  }
+  
+  .category-scroll-btn.right {
+    right: 8px;
+  }
+  
+  .category-button {
+    width: 85px;
+    height: 85px;
+  }
+  
+  .category-icon {
+    font-size: 30px;
+  }
+  
+  .category-label {
+    font-size: 13px;
+  }
+  
+  /* Alt kategoriler */
+  .subcategories-container {
+    padding: 0 24px 16px;
+  }
+  
+  .subcategory-wrapper {
+    padding: 0;
+    margin-bottom: 16px;
+  }
+  
+  /* Desktop'ta scroll indicator'ı gizle */
+  .subcategory-wrapper::after {
+    display: none;
+  }
+  
+  .subcategories-container {
+    padding: 0 50px;
+  }
+  
+  .subcategory-scroll-btn {
+    display: flex;
+    position: absolute;
+    top: 16px;
+    width: 36px;
+    height: 36px;
+    background: white;
+    border: 2px solid #D1D5DB;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    color: #4B5563;
+    z-index: 5;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    outline: none;
+  }
+  
+  .subcategory-scroll-btn:hover {
+    background: #6366F1;
+    color: white;
+    border-color: #6366F1;
+    box-shadow: 0 4px 16px rgba(99, 102, 241, 0.3);
+  }
+  
+  .subcategory-scroll-btn:active {
+    background: #4F46E5;
+  }
+  
+  .subcategory-scroll-btn.left {
+    left: 8px;
+  }
+  
+  .subcategory-scroll-btn.right {
+    right: 8px;
+  }
+  
+  /* POI listesi - scrollbar gizle */
+  .poi-list {
+    padding: 0 24px 24px;
+  }
+  
+  .poi-list::-webkit-scrollbar {
+    width: 0;
+    display: none;
+  }
+  
+  /* POI kartları daha geniş padding */
+  .poi-card {
+    padding: 20px;
+  }
+  
+  .poi-name {
+    font-size: 17px;
+  }
+  
+  /* Search bar desktop */
+  .search-bar {
+    padding: 12px 16px;
+  }
+}
+
+/* Alt Kategoriler */
+.subcategories-container {
+  display: flex;
+  gap: 8px;
+  padding: 0 16px 16px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+}
+
+/* Subcategory wrapper - scroll butonları için */
+.subcategory-wrapper {
+  position: relative;
+  padding: 0 16px 16px;
+}
+
+/* Mobil scroll indicator - alt kategoriler için */
+.subcategory-wrapper::after {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  right: 24px;
+  width: 50px;
+  height: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    #9CA3AF 0px,
+    #9CA3AF 4px,
+    transparent 4px,
+    transparent 6px,
+    #9CA3AF 6px,
+    #9CA3AF 12px,
+    transparent 12px,
+    transparent 15px,
+    #9CA3AF 15px,
+    #9CA3AF 24px,
+    transparent 24px,
+    transparent 28px,
+    #9CA3AF 28px,
+    #9CA3AF 50px
+  );
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.subcategory-scroll-btn {
+  display: none;
+}
+
+/* Scrollbar gizle - alt kategoriler */
+.subcategories-container::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.subcategories-container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  padding: 0;
+}
+
+.subcategory-chip {
+  flex-shrink: 0;
+  padding: 8px 16px;
+  background: #F3F4F6;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #4B5563;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.subcategory-chip:hover {
+  background: #E5E7EB;
+  transform: translateY(-1px);
+}
+
+.subcategory-chip.active {
+  background: #6366F1;
+  color: white;
+  border-color: #4F46E5;
+}
+
+/* Load More Container */
+.load-more-container {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: linear-gradient(to bottom, white 0%, white 85%, rgba(255, 255, 255, 0) 100%);
+  padding: 12px;
+  margin: -16px -16px 8px -16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.load-more-btn {
+  flex: 1;
+  max-width: 100%;
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.load-more-btn.primary {
+  background: linear-gradient(135deg, #6366F1 0%, #4F46E5 100%);
+  color: white;
+}
+
+.load-more-btn.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+}
+
+.load-more-btn.primary:active {
+  transform: translateY(0);
+}
+
+/* POI Listesi - Performance Optimized */
+.poi-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  /* GPU Acceleration */
+  transform: translateZ(0);
+  -webkit-overflow-scrolling: touch;
+  /* Layout Optimization */
+  contain: layout style paint;
+  will-change: scroll-position;
+}
+
+/* Scrollbar gizle - tüm platformlarda */
+.poi-list::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.poi-list {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Loading */
+.poi-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  color: #6B7280;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #E5E7EB;
+  border-top-color: #6366F1;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-bottom: 12px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Empty State */
+.poi-empty {
+  text-align: center;
+  padding: 40px 20px;
+  color: #9CA3AF;
+  font-size: 15px;
+}
+
+/* POI Card - Performance Optimized */
+.poi-card {
+  background: white;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  overflow: hidden;
+  /* GPU Acceleration */
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  /* Layout Optimization */
+  contain: layout style paint;
+}
+
+.poi-card:hover {
+  border-color: #6366F1;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.15);
+  transform: translateZ(0) translateY(-2px);
+}
+
+/* Highlighted POI Card - Haritadan tıklandığında */
+.poi-card.highlighted {
+  background: linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%);
+  border-color: #F59E0B;
+  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.3);
+  animation: highlightPulse 1.5s ease;
+}
+
+@keyframes highlightPulse {
+  0%, 100% {
+    transform: translateZ(0) scale(1);
+  }
+  50% {
+    transform: translateZ(0) scale(1.02);
+  }
+}
+
+/* Thumbnail */
+.poi-card-thumbnail {
+  position: relative;
+  width: 100%;
+  height: 140px;
+  overflow: hidden;
+}
+
+.poi-card-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.poi-card-image-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* Card Body */
+.poi-card-body {
+  padding: 16px;
+}
+
+.poi-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.poi-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 0;
+  flex: 1;
+  line-height: 1.4;
+}
+
+.poi-category-badge {
+  flex-shrink: 0;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 500;
+  color: white;
+  white-space: nowrap;
+}
+
+/* Rating in Card */
+.poi-card-rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.poi-card-rating .rating-stars {
+  font-size: 13px;
+  line-height: 1;
+}
+
+.poi-card-rating .rating-value {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1F2937;
+}
+
+.poi-card-rating .rating-count {
+  font-size: 12px;
+  color: #6B7280;
+}
+
+.poi-address {
+  font-size: 14px;
+  color: #6B7280;
+  margin: 0 0 8px 0;
+  line-height: 1.5;
+}
+
+.poi-description {
+  font-size: 13px;
+  color: #9CA3AF;
+  margin: 8px 0 0 0;
+  line-height: 1.5;
+  border-top: 1px solid #F3F4F6;
+  padding-top: 8px;
+}
+

@@ -1,0 +1,7028 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0476856,
+          41.0307693
+        ]
+      },
+      "properties": {
+        "id": "10330780",
+        "name": "Enveriye Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Burhaniye Abdullahağa Cad. BURHANİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0355434,
+          41.0271149
+        ]
+      },
+      "properties": {
+        "id": "10332738",
+        "name": "Şehit Sinan Gümüştaş Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Cemil Meriç Sk. İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0352936,
+          41.0243797
+        ]
+      },
+      "properties": {
+        "id": "10332955",
+        "name": "Bağlarbaşı Çocuk Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Devrim Sk. SELAMİ ALİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0251026,
+          41.0178185
+        ]
+      },
+      "properties": {
+        "id": "10331006",
+        "name": "Kasımağa Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Kartalbaba Cad. VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0448875,
+          41.0195999
+        ]
+      },
+      "properties": {
+        "id": "10542739",
+        "name": "Barış Manço Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Tophanelioğlu Cad. ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0815105,
+          41.0267448
+        ]
+      },
+      "properties": {
+        "id": "10585368",
+        "name": "Hacı Arif Bey Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Hacı Arifbey Sk. KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0859051,
+          41.0161934
+        ]
+      },
+      "properties": {
+        "id": "10330376",
+        "name": "Turgut Reis Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Turgut Reis Sk. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.073864,
+          41.0073509
+        ]
+      },
+      "properties": {
+        "id": "10332074",
+        "name": "Libadiye Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Barajyolu Sk. CUMHURİYET/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07477,
+          41.0261803
+        ]
+      },
+      "properties": {
+        "id": "10330789",
+        "name": "Kısıklı Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Ferah Cad. KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0597954,
+          41.0477676
+        ]
+      },
+      "properties": {
+        "id": "10508034",
+        "name": "Çengelköy Tenis Kortu",
+        "category": "Spor",
+        "subcategory": "Tenis Kortu",
+        "address": "Güzeltepe Cad. ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0372639,
+          41.0299377
+        ]
+      },
+      "properties": {
+        "id": "11131100",
+        "name": "Dereiçi Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Kuzguncuk Deresi Sk. KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0294552,
+          41.0259132
+        ]
+      },
+      "properties": {
+        "id": "10588238",
+        "name": "Kerpiçhane Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Şehit Asteğmen Halil Ögel Sk. SELAMİ ALİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0633125,
+          41.0113297
+        ]
+      },
+      "properties": {
+        "id": "10296266",
+        "name": "Sevgi Bahçesi",
+        "category": "Sosyal",
+        "subcategory": "Yeme-İçme Yerleri/Diğer",
+        "address": "Ayanoğlu Sk. No:2 /2 KÜÇÜKÇAMLICA/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0325279,
+          41.0172348
+        ]
+      },
+      "properties": {
+        "id": "10485372",
+        "name": "Cumhuriyet Parkı Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Serçe Sk. BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0314598,
+          41.0085983
+        ]
+      },
+      "properties": {
+        "id": "10485366",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Bahar Sk. BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.041935,
+          41.0150833
+        ]
+      },
+      "properties": {
+        "id": "10331015",
+        "name": "Temel Gündoğu Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Çamlık Sk. BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.027647,
+          41.0223808
+        ]
+      },
+      "properties": {
+        "id": "10330001",
+        "name": "Tıknefes Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Topal Sk. MURATREİS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0769024,
+          41.0451279
+        ]
+      },
+      "properties": {
+        "id": "10330341",
+        "name": "Kırçiçeği Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Bosna Bulvarı BAHÇELİEVLER/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0877323,
+          41.0127411
+        ]
+      },
+      "properties": {
+        "id": "10330375",
+        "name": "Süleyman Kule Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Dadaş Sk. CUMHURİYET/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0287647,
+          41.0307465
+        ]
+      },
+      "properties": {
+        "id": "10331072",
+        "name": "Çocuk Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Fethipaşa Korusu İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0782948,
+          41.0110016
+        ]
+      },
+      "properties": {
+        "id": "10330669",
+        "name": "Vadi Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Uzundere Sk. CUMHURİYET/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0805492,
+          41.0598068
+        ]
+      },
+      "properties": {
+        "id": "10332480",
+        "name": "Sultan Murat Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Özen Sk. BAHÇELİEVLER/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0327778,
+          41.019783
+        ]
+      },
+      "properties": {
+        "id": "10332689",
+        "name": "Fıstıkbayır Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Mantar Sk. VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0278664,
+          41.0259247
+        ]
+      },
+      "properties": {
+        "id": "10332487",
+        "name": "Orkide Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Yüksel Sk. SELAMİ ALİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0590439,
+          41.0733528
+        ]
+      },
+      "properties": {
+        "id": "10330006",
+        "name": "Kandilli Boğaziçi Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Kandilli İskele Cad. KANDİLLİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0806961,
+          41.0145187
+        ]
+      },
+      "properties": {
+        "id": "10329806",
+        "name": "Karlıdere Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Esatpaşa Cad. CUMHURİYET/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0807266,
+          41.0163841
+        ]
+      },
+      "properties": {
+        "id": "10331424",
+        "name": "Dostluk Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Söğütlüçayır Çeşmesi Sk. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0769234,
+          41.0291138
+        ]
+      },
+      "properties": {
+        "id": "10485301",
+        "name": "Erenler Parkı Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Nihat Sami Banarlı Sk. No:19 FERAH/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0312595,
+          41.0240059
+        ]
+      },
+      "properties": {
+        "id": "11072209",
+        "name": "Ladies Fitness",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Gazi Cad. No:32 A SELAMİ ALİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0817776,
+          41.0192909
+        ]
+      },
+      "properties": {
+        "id": "10968383",
+        "name": "Bilgi Bahçesi Yabancı Dil Kursu",
+        "category": "Eğitim",
+        "subcategory": "Eğitim Kursları Diğer",
+        "address": "İzzettinbey Sk. No:41 B BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0199127,
+          41.0098495
+        ]
+      },
+      "properties": {
+        "id": "10333716",
+        "name": "Selimiye Futbol Sahası",
+        "category": "Spor",
+        "subcategory": "Spor Diğer",
+        "address": "Tıbbiye Cad. No:30 /1 SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0816479,
+          41.0219345
+        ]
+      },
+      "properties": {
+        "id": "11111669",
+        "name": "Pasifik Center Woman",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Ender Sk. No:1 B BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0332623,
+          41.0191956
+        ]
+      },
+      "properties": {
+        "id": "10587850",
+        "name": "Academia Pilates",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Nuhkuyusu Cad. No:171 VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0159798,
+          41.0215111
+        ]
+      },
+      "properties": {
+        "id": "10540606",
+        "name": "Aletli Pilates Studio",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Halk Cad. No:4 -6 AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0344925,
+          41.0267868
+        ]
+      },
+      "properties": {
+        "id": "11464115",
+        "name": "Big Center Gym",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Temaşa Sk. No:3 A İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0719242,
+          41.0016441
+        ]
+      },
+      "properties": {
+        "id": "11465045",
+        "name": "Ünalan Muhsin Yazıcıoğlu Spor Kompleksi",
+        "category": "Spor",
+        "subcategory": "Spor Kompleksi",
+        "address": "Soyak Camii Sk. No:1 /3 ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0718651,
+          41.0037613
+        ]
+      },
+      "properties": {
+        "id": "10527768",
+        "name": "Play Bowling",
+        "category": "Spor",
+        "subcategory": "Bowling",
+        "address": "Libadiye Cad. No:80 ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0451813,
+          41.0439491
+        ]
+      },
+      "properties": {
+        "id": "11030608",
+        "name": "Beylerbeyi Pilates",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Yalıboyu Cad. No:73 A BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0249939,
+          41.0212212
+        ]
+      },
+      "properties": {
+        "id": "12272115",
+        "name": "Valide Tayfun Spor",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Huzur Camii Sk. No:9 MURATREİS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0706673,
+          41.061882
+        ]
+      },
+      "properties": {
+        "id": "12319460",
+        "name": "Tem Isitma",
+        "category": "Yeşil Alan",
+        "subcategory": "Tiyatro",
+        "address": "Güzeldere Sk. No:4C1 KÜÇÜKSU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0662918,
+          41.0637512
+        ]
+      },
+      "properties": {
+        "id": "12363885",
+        "name": "Paradise Botanik",
+        "category": "Yeşil Alan",
+        "subcategory": "Botanik Parkı",
+        "address": "Rasathane Cad. No:55/3 KÜÇÜKSU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0183182,
+          41.0196686
+        ]
+      },
+      "properties": {
+        "id": "10527014",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Necmeddin Okyay Sk. AHMEDİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0406189,
+          41.0153236
+        ]
+      },
+      "properties": {
+        "id": "10332492",
+        "name": "Sevgi Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Pınar Çıkmazı BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0639496,
+          41.0205231
+        ]
+      },
+      "properties": {
+        "id": "11301034",
+        "name": "Küçük Çamlıca Korusu",
+        "category": "Yeşil Alan",
+        "subcategory": "Koru",
+        "address": "Küçük Çamlıca Cad. KÜÇÜKÇAMLICA/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0125523,
+          41.0091171
+        ]
+      },
+      "properties": {
+        "id": "10330370",
+        "name": "Halet Tuncet Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Selimiye İskele Cad. SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0155811,
+          41.0233879
+        ]
+      },
+      "properties": {
+        "id": "10527801",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Hakimiyeti Milliye Cad. AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0109901,
+          41.0205193
+        ]
+      },
+      "properties": {
+        "id": "10332489",
+        "name": "Abdulvahap Yıldırım Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Oymasaray Çıkmazı AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0350227,
+          41.0296249
+        ]
+      },
+      "properties": {
+        "id": "10331493",
+        "name": "İcadiye Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Ahmet Dayı Sk. İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0751495,
+          41.0282784
+        ]
+      },
+      "properties": {
+        "id": "10615027",
+        "name": "Zerafet Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Zerafet Sk. KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.079628,
+          41.0204887
+        ]
+      },
+      "properties": {
+        "id": "10331491",
+        "name": "Mavi Maramara Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Atalar Sk. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0639763,
+          41.0511436
+        ]
+      },
+      "properties": {
+        "id": "10332076",
+        "name": "Ortadere Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Prof. Dr. Beynun Akyavaş Cad. ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0716114,
+          41.0003242
+        ]
+      },
+      "properties": {
+        "id": "10485394",
+        "name": "Basketbol Sahası - Göztepe Soyak Sitesi",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Soyak Siteleri Sk. ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0330391,
+          41.0203857
+        ]
+      },
+      "properties": {
+        "id": "10330003",
+        "name": "Allame Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Allame Cad. VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0295105,
+          41.0231705
+        ]
+      },
+      "properties": {
+        "id": "10332073",
+        "name": "Çinili Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Devati Mustafa Efendi Sk. MURATREİS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0456924,
+          41.0380058
+        ]
+      },
+      "properties": {
+        "id": "11320415",
+        "name": "Kuyubaşı Fidanlığı",
+        "category": "Yeşil Alan",
+        "subcategory": "Fidanlık",
+        "address": "Beybostanı Sk. No:20 /1 BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0793743,
+          41.0518341
+        ]
+      },
+      "properties": {
+        "id": "10485284",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Söğüt Cad. BAHÇELİEVLER/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0692787,
+          41.0531158
+        ]
+      },
+      "properties": {
+        "id": "10333666",
+        "name": "Mehmet Çakır Kültür ve Spor Merkezi",
+        "category": "Spor",
+        "subcategory": "Spor Tesisi",
+        "address": "Engin Cad. No:3 ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0280457,
+          41.0211067
+        ]
+      },
+      "properties": {
+        "id": "10331683",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Muratreis Sk. MURATREİS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0118217,
+          41.0131874
+        ]
+      },
+      "properties": {
+        "id": "10331897",
+        "name": "İsmail Hakkı Tonguç Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Harem Sahil Yolu Cad. SALACAK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0200348,
+          41.0114822
+        ]
+      },
+      "properties": {
+        "id": "10332684",
+        "name": "Duvardibi Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Tıbbiye Cad. SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0139008,
+          41.0177116
+        ]
+      },
+      "properties": {
+        "id": "10331003",
+        "name": "Öğretmenler Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Tunusbağı Cad. SALACAK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0524006,
+          41.0170555
+        ]
+      },
+      "properties": {
+        "id": "10329812",
+        "name": "Şehitler Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Acıbadem Cad. D100 Köprülü Kavşağı ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0803986,
+          41.0215073
+        ]
+      },
+      "properties": {
+        "id": "10329748",
+        "name": "İzzetbey Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Yurtsever Sk. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0669689,
+          41.0556717
+        ]
+      },
+      "properties": {
+        "id": "10330383",
+        "name": "Lekeci Nuri Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Lekeci Nuri Sk. ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0766811,
+          41.0453148
+        ]
+      },
+      "properties": {
+        "id": "10067940",
+        "name": "Park Taksi Durağı",
+        "category": "Ulaşım",
+        "subcategory": "Taksi Durağı",
+        "address": "Bosna Bulvarı No:138 /1 BAHÇELİEVLER/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0292091,
+          41.0233955
+        ]
+      },
+      "properties": {
+        "id": "10937433",
+        "name": "Selamsız Spor Külübü",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Gazi Cad. No:121 MURATREİS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0329609,
+          41.0280647
+        ]
+      },
+      "properties": {
+        "id": "11047174",
+        "name": "Üsküdar İcadiye Spor Kulübü",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Mağazacı Sk. No:10 A İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.014492,
+          41.0198936
+        ]
+      },
+      "properties": {
+        "id": "10575946",
+        "name": "Diş Hekimi Doğan Özler",
+        "category": "Sağlık",
+        "subcategory": "Diş Hekimi",
+        "address": "Halk Cad. No:43 AHMEDİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0692749,
+          40.9970284
+        ]
+      },
+      "properties": {
+        "id": "10496556",
+        "name": "Basketbol Sahası - İrem Sitesi",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Gazi Mustafa Şekip Birgöl Cad. ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0750122,
+          41.0290947
+        ]
+      },
+      "properties": {
+        "id": "11424444",
+        "name": "Prof. Dr. Raşit Küçük Gençlik ve Spor Merkezi",
+        "category": "Spor",
+        "subcategory": "Spor Kompleksi",
+        "address": "Bağ Sk. No:2 FERAH/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0726471,
+          41.0240173
+        ]
+      },
+      "properties": {
+        "id": "10479786",
+        "name": "Salih Solman Piknik Alanı",
+        "category": "Sosyal",
+        "subcategory": "Piknik Alanı",
+        "address": "Ferah Cad. KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0809021,
+          41.0274315
+        ]
+      },
+      "properties": {
+        "id": "10594881",
+        "name": "Adlin Pilates",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Bosna Bulvarı No:21 C KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0666008,
+          41.0681992
+        ]
+      },
+      "properties": {
+        "id": "12006805",
+        "name": "Rasathane Ortaokulu Kapalı Spor Salonu",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Küçüksu Mah. Rasathane Cad. No:29/31",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0435276,
+          41.0432777
+        ]
+      },
+      "properties": {
+        "id": "11030588",
+        "name": "Boutique Pilates & Personel Trainer",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Abdullahağa Cad. No:15 A BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0182419,
+          41.0245438
+        ]
+      },
+      "properties": {
+        "id": "11465393",
+        "name": "Galia Pilates",
+        "category": "Spor",
+        "subcategory": "Spor Diğer",
+        "address": "Karagazi Sk. No:4 MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0388432,
+          41.0219231
+        ]
+      },
+      "properties": {
+        "id": "12217816",
+        "name": "Mars Sportif Tesisler Işletmeciliğianonim Şirketi",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0306416,
+          41.0129738
+        ]
+      },
+      "properties": {
+        "id": "12162412",
+        "name": "Sinerji Dinlenme Ve Spor Kompleksi Turizm Sanayi ",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0117836,
+          41.0182724
+        ]
+      },
+      "properties": {
+        "id": "12242168",
+        "name": "Özel Doğan Anaokulu",
+        "category": "Eğitim",
+        "subcategory": "Anaokulu Özel",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0688019,
+          41.0196114
+        ]
+      },
+      "properties": {
+        "id": "12242464",
+        "name": "Özel Küçük Çamlıca Lale Bahçesi Anaokulu",
+        "category": "Eğitim",
+        "subcategory": "Anaokulu Özel",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0647869,
+          41.0302238
+        ]
+      },
+      "properties": {
+        "id": "12243382",
+        "name": "Özel İstanbul Park İnternatıonal Lıse",
+        "category": "Eğitim",
+        "subcategory": "Lise Özel",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0426998,
+          41.025753
+        ]
+      },
+      "properties": {
+        "id": "12243593",
+        "name": "Özel Nakkaştepe Bahçeşehir Koleji 50. Yıl Fen Ve Teknoloji Lisesi",
+        "category": "Eğitim",
+        "subcategory": "Lise Özel",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0178967,
+          41.0110588
+        ]
+      },
+      "properties": {
+        "id": "12272792",
+        "name": "Raava Stüdyo Spor",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Selimiye Kışla Cad. No:28 SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0530033,
+          41.0500221
+        ]
+      },
+      "properties": {
+        "id": "12292995",
+        "name": "Tema Yeşil",
+        "category": "Yeşil Alan",
+        "subcategory": "Yeşil Alan Diğer",
+        "address": "Albay Hüsamettin Ertürk Sk. No:12/1 ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0743828,
+          41.028038
+        ]
+      },
+      "properties": {
+        "id": "12319248",
+        "name": "Nova Spor",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Ferah Cad. No:83 KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0485039,
+          41.0399818
+        ]
+      },
+      "properties": {
+        "id": "12319464",
+        "name": "Uçar Spor",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Şemsiefendi Sk. No:36/1 KÜPLÜCE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0096169,
+          41.0226212
+        ]
+      },
+      "properties": {
+        "id": "10331427",
+        "name": "Ayazma Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Tulumbacılar Sk. AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0260773,
+          41.0192337
+        ]
+      },
+      "properties": {
+        "id": "10332493",
+        "name": "Valide-i Atik Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Çinili Camii Sk. VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0728321,
+          41.0190964
+        ]
+      },
+      "properties": {
+        "id": "10547711",
+        "name": "Çamlık Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Etiler Sk. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0742931,
+          41.0342026
+        ]
+      },
+      "properties": {
+        "id": "10330675",
+        "name": "Günbattı Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Günbattı Sk. FERAH/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0242119,
+          41.0267029
+        ]
+      },
+      "properties": {
+        "id": "10562984",
+        "name": "Necmettin Öztürk Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Cumhuriyet Cad. SELAMİ ALİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.03508,
+          41.0280609
+        ]
+      },
+      "properties": {
+        "id": "10331746",
+        "name": "Çınaraltı Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Türk Hatun Sk. İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0780869,
+          41.0443115
+        ]
+      },
+      "properties": {
+        "id": "10485277",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Erguvan Cad. BAHÇELİEVLER/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0686169,
+          41.0084305
+        ]
+      },
+      "properties": {
+        "id": "10580027",
+        "name": "Devlet Su İşleri Tenis Kortu",
+        "category": "Spor",
+        "subcategory": "Tenis Kortu",
+        "address": "Enver Sk. KÜÇÜKÇAMLICA/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0575428,
+          41.0136414
+        ]
+      },
+      "properties": {
+        "id": "10485353",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Acıbadem Cad. D100 Köprülü Kavşağı ACIBADEM/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0304089,
+          41.0203896
+        ]
+      },
+      "properties": {
+        "id": "10527772",
+        "name": "Spor Atletik",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Allame Cad. No:8 A VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0780964,
+          41.0351334
+        ]
+      },
+      "properties": {
+        "id": "10485290",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Irmak Sk. FERAH/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0519505,
+          41.0128326
+        ]
+      },
+      "properties": {
+        "id": "10330373",
+        "name": "Menkeşe Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Raufpaşa Sk. ACIBADEM/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0749435,
+          41.0579796
+        ]
+      },
+      "properties": {
+        "id": "10330767",
+        "name": "Seyfi Ali Yıldız Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Sultan Murat Cad. BAHÇELİEVLER/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0773201,
+          41.0240898
+        ]
+      },
+      "properties": {
+        "id": "10331499",
+        "name": "Akasya Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Reşatbey Sk. KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0668316,
+          41.0032959
+        ]
+      },
+      "properties": {
+        "id": "10331494",
+        "name": "Maslak Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Maslak Sk. ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0656281,
+          41.0694313
+        ]
+      },
+      "properties": {
+        "id": "10330766",
+        "name": "Küçüksu Mahalle Muhtarlığı Yanı Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Ömürtepe Yokuşu Sk. KÜÇÜKSU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0565357,
+          41.0294495
+        ]
+      },
+      "properties": {
+        "id": "10330781",
+        "name": "Yeni Çamlıca Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Çamlıca Cad. BURHANİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0689068,
+          41.0015221
+        ]
+      },
+      "properties": {
+        "id": "10330013",
+        "name": "Üçgül Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Soyak Camii Sk. ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0631657,
+          41.0268593
+        ]
+      },
+      "properties": {
+        "id": "10329753",
+        "name": "Coşkun Okul Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Meltem Sk. KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0214901,
+          41.0236244
+        ]
+      },
+      "properties": {
+        "id": "10329751",
+        "name": "Toygar Hamza Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Solak Çıkmazı MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0738392,
+          41.0337105
+        ]
+      },
+      "properties": {
+        "id": "10329715",
+        "name": "Altıntaş Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Günbattı Sk. FERAH/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0597973,
+          41.0380173
+        ]
+      },
+      "properties": {
+        "id": "12006229",
+        "name": "Şenol Güneş Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Orhan Seyfi Orhon Cad. KİRAZLITEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0730038,
+          41.0380211
+        ]
+      },
+      "properties": {
+        "id": "10332695",
+        "name": "Hasip Paşa Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Hasippaşa Cad. MEHMET AKİF ERSOY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0492516,
+          41.009903
+        ]
+      },
+      "properties": {
+        "id": "10329750",
+        "name": "Erdem Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Erdem Çıkmazı ACIBADEM/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0779533,
+          41.0229187
+        ]
+      },
+      "properties": {
+        "id": "10331070",
+        "name": "Namazgah Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Alemdağ Yan Yolu KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0587482,
+          41.0583458
+        ]
+      },
+      "properties": {
+        "id": "10332080",
+        "name": "Emek Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Havacı Sk. KULELİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0711136,
+          41.0220604
+        ]
+      },
+      "properties": {
+        "id": "10331448",
+        "name": "Hanımseti Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Hanımseti Sk. KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0327282,
+          41.0098534
+        ]
+      },
+      "properties": {
+        "id": "10332407",
+        "name": "Gökyüzü Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Açıl Sk. BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0526657,
+          41.0605507
+        ]
+      },
+      "properties": {
+        "id": "10330921",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Kuleli Cad. KULELİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0671196,
+          41.025383
+        ]
+      },
+      "properties": {
+        "id": "10331497",
+        "name": "Çamlıca Tepesi",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Turistik Çamlıca Cad. KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.075201,
+          41.0149994
+        ]
+      },
+      "properties": {
+        "id": "10479175",
+        "name": "Özel Dişpark Ağız ve Diş Sağlığı Polikliniği",
+        "category": "Sağlık",
+        "subcategory": "Özel Ağız ve Diş Sağlığı Merkezleri",
+        "address": "Libadiye Cad. No:8 E KÜÇÜKÇAMLICA/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0289803,
+          41.015316
+        ]
+      },
+      "properties": {
+        "id": "10574969",
+        "name": "Burhan Felek Kapalı Yüzme Havuzu",
+        "category": "Spor",
+        "subcategory": "Yüzme Havuzu",
+        "address": "Nuhkuyusu Cad. No:14 /1 BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0582676,
+          41.0287781
+        ]
+      },
+      "properties": {
+        "id": "10485302",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Nizamı Cedit Sk. BURHANİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0222759,
+          41.02631
+        ]
+      },
+      "properties": {
+        "id": "10508114",
+        "name": "Fitness Clup",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Selmanı Pak Cad. No:83 B SULTANTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0750999,
+          41.0581017
+        ]
+      },
+      "properties": {
+        "id": "10459343",
+        "name": "Üsküdar Belediyesi Bahçelievler Çocuk Akademisi",
+        "category": "Eğitim",
+        "subcategory": "Kreş/Gündüz Bakımevi",
+        "address": "Sultan Murat Cad. No:5 /1 BAHÇELİEVLER/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0325146,
+          41.0322495
+        ]
+      },
+      "properties": {
+        "id": "10485289",
+        "name": "Kuzguncuk Parkı Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "İcadiye Cad. KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0432949,
+          41.0169754
+        ]
+      },
+      "properties": {
+        "id": "10579101",
+        "name": "Marvel Pilates Studio",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Tophanelioğlu Cad. No:52 /1A BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0717182,
+          41.0707474
+        ]
+      },
+      "properties": {
+        "id": "11448260",
+        "name": "Küçüksu Bahçelievler Cami",
+        "category": "Dini",
+        "subcategory": "Cami",
+        "address": "Hatip Sk. No:7 KÜÇÜKSU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0723915,
+          41.0578194
+        ]
+      },
+      "properties": {
+        "id": "11423854",
+        "name": "Bahçelievler Mahalle Muhtarlığı",
+        "category": "Kamu",
+        "subcategory": "Muhtarlık",
+        "address": "Kaldırım Cad. No:79 KÜÇÜKSU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.074419,
+          41.0092049
+        ]
+      },
+      "properties": {
+        "id": "11423523",
+        "name": "Pilates Salonu",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Libadiye Cad. No:57 C CUMHURİYET/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0797749,
+          41.0197983
+        ]
+      },
+      "properties": {
+        "id": "12006739",
+        "name": "Çağrıbey Anadolu Lisesi",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Bulgurlu Mahallesi Detay Sokak No: 4, 34696 üsküdar/İstanbul",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0127411,
+          41.021328
+        ]
+      },
+      "properties": {
+        "id": "12241166",
+        "name": "Özel Üsküdar Doğa İlkokulu",
+        "category": "Eğitim",
+        "subcategory": "İlkokul Özel",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0631199,
+          41.0061722
+        ]
+      },
+      "properties": {
+        "id": "12297813",
+        "name": "Imajmedya Spor",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0353947,
+          41.0227203
+        ]
+      },
+      "properties": {
+        "id": "12365070",
+        "name": "Performist Spor",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Acemoğlu Sk. No:11 MURATREİS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0408573,
+          41.0393753
+        ]
+      },
+      "properties": {
+        "id": "12357594",
+        "name": "Koç Topluluğu Spor",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0847416,
+          41.0125313
+        ]
+      },
+      "properties": {
+        "id": "10331488",
+        "name": "Şifa Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Boyalı Sk. CUMHURİYET/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0754166,
+          41.0274887
+        ]
+      },
+      "properties": {
+        "id": "10331008",
+        "name": "Ferah Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Abdipaşa Sk. KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0177593,
+          41.010582
+        ]
+      },
+      "properties": {
+        "id": "10330787",
+        "name": "Selimiye Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Selimiye Kışla Cad. SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0819988,
+          41.0218582
+        ]
+      },
+      "properties": {
+        "id": "10330782",
+        "name": "Bağlarıçi Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Ender Sk. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0236626,
+          41.0327263
+        ]
+      },
+      "properties": {
+        "id": "10331438",
+        "name": "Paşa Limanı Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Paşalimanı Cad. SULTANTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0757236,
+          41.0151482
+        ]
+      },
+      "properties": {
+        "id": "10329749",
+        "name": "Mimoza Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Libadiye Cad. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0750103,
+          41.0651321
+        ]
+      },
+      "properties": {
+        "id": "10522629",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Metin Sk. KÜÇÜKSU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0824966,
+          41.0216179
+        ]
+      },
+      "properties": {
+        "id": "10485331",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Ender Sk. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0450916,
+          41.0118256
+        ]
+      },
+      "properties": {
+        "id": "10485352",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Atıfbey Sk. ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0313358,
+          41.0236435
+        ]
+      },
+      "properties": {
+        "id": "10329810",
+        "name": "Gülseve Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Gülsev Sk. MURATREİS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0503902,
+          41.0093651
+        ]
+      },
+      "properties": {
+        "id": "10291660",
+        "name": "Lezzet Bahçesi",
+        "category": "Sosyal",
+        "subcategory": "Yeme-İçme Yerleri/Diğer",
+        "address": "Erdem Çıkmazı No:2 B ACIBADEM/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0748367,
+          41.0493965
+        ]
+      },
+      "properties": {
+        "id": "10483629",
+        "name": "Bahçelievler Derya Kız Kuran Kursu",
+        "category": "Eğitim",
+        "subcategory": "Kuran Kursu",
+        "address": "Beyaz Köşk Sk. No:4 GÜZELTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0281334,
+          41.0318947
+        ]
+      },
+      "properties": {
+        "id": "10483974",
+        "name": "Fethipaşa Korusu",
+        "category": "Yeşil Alan",
+        "subcategory": "Koru",
+        "address": "Fethipaşa Korusu KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0676403,
+          41.0216217
+        ]
+      },
+      "properties": {
+        "id": "10350919",
+        "name": "Uzm. Kl. Psk. Handan Erdoğan",
+        "category": "Sağlık",
+        "subcategory": "Psikologlar",
+        "address": "İmam Ethem Sk. No:4 KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0809536,
+          41.016861
+        ]
+      },
+      "properties": {
+        "id": "10331335",
+        "name": "Dostluk Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Söğütlüçayır Cad. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0681839,
+          41.0126724
+        ]
+      },
+      "properties": {
+        "id": "10331489",
+        "name": "Hüdayi Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Çilehane Sk. KÜÇÜKÇAMLICA/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0710583,
+          41.0192833
+        ]
+      },
+      "properties": {
+        "id": "10331492",
+        "name": "Gaziler Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Etiler Sk. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0257626,
+          41.0224609
+        ]
+      },
+      "properties": {
+        "id": "10332686",
+        "name": "Murat Reis Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Muratreis Sk. MURATREİS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0483398,
+          41.0104904
+        ]
+      },
+      "properties": {
+        "id": "10329811",
+        "name": "Gülistan Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Gülistan Sk. ACIBADEM/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0318661,
+          41.0144768
+        ]
+      },
+      "properties": {
+        "id": "10330372",
+        "name": "Barbaros Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Mareşal Sk. BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0839844,
+          41.0158081
+        ]
+      },
+      "properties": {
+        "id": "10332486",
+        "name": "Altınköy Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Altın Sk. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070631,
+          40.9964218
+        ]
+      },
+      "properties": {
+        "id": "10329633",
+        "name": "Ilgaz Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Ünalan Cad. ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0533409,
+          41.0567589
+        ]
+      },
+      "properties": {
+        "id": "10332694",
+        "name": "Kuleli Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Kuleli Cad. ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0588627,
+          41.0744438
+        ]
+      },
+      "properties": {
+        "id": "10330784",
+        "name": "Kandilli Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Kandilli Göksu Cad. KANDİLLİ/ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0486755,
+          41.0185471
+        ]
+      },
+      "properties": {
+        "id": "10330791",
+        "name": "Altunizade Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Okul Sk. ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.063982,
+          41.0100899
+        ]
+      },
+      "properties": {
+        "id": "10331490",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Bodrumi Cami Sk. KÜÇÜKÇAMLICA/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0305939,
+          41.0128746
+        ]
+      },
+      "properties": {
+        "id": "10333473",
+        "name": "Burhan Felek Millî Takımlar Kamp Eğitim Merkezi",
+        "category": "Spor",
+        "subcategory": "Spor Tesisi",
+        "address": "Alaattin Yavaşça Sk. No:10 /1 BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0678558,
+          41.0205002
+        ]
+      },
+      "properties": {
+        "id": "10333486",
+        "name": "Çamlıca Spor Okulu",
+        "category": "Spor",
+        "subcategory": "Spor Diğer",
+        "address": "Hamal Sk. No:2 /1 KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.018034,
+          41.0101929
+        ]
+      },
+      "properties": {
+        "id": "11064056",
+        "name": "Acıbadem Yıldız Spor Kulübü",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Selimiye Hamamı Sk. No:63 A SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0182896,
+          41.021286
+        ]
+      },
+      "properties": {
+        "id": "10938199",
+        "name": "Gym Mode",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Çavuşdere Cad. No:10 A MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0346127,
+          41.0238075
+        ]
+      },
+      "properties": {
+        "id": "10575471",
+        "name": "Denge Cimnastik",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Gazi Cad. No:10 SELAMİ ALİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0353546,
+          41.0234528
+        ]
+      },
+      "properties": {
+        "id": "10518710",
+        "name": "Diş Hekimi Adnan Gökdoğan",
+        "category": "Sağlık",
+        "subcategory": "Diş Hekimi",
+        "address": "Gazi Cad. No:17 MURATREİS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0145092,
+          41.0199814
+        ]
+      },
+      "properties": {
+        "id": "10071475",
+        "name": "Perfect Sport Center",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Halk Cad. No:41 AHMEDİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0863171,
+          41.0445786
+        ]
+      },
+      "properties": {
+        "id": "10485280",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Süvari Sk. YAVUZTÜRK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0834045,
+          41.0533752
+        ]
+      },
+      "properties": {
+        "id": "10582020",
+        "name": "Tenis Kortu",
+        "category": "Spor",
+        "subcategory": "Tenis Kortu",
+        "address": "Ihlamur Cad. BAHÇELİEVLER/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0751705,
+          41.0346107
+        ]
+      },
+      "properties": {
+        "id": "10485298",
+        "name": "Basketbol ve Voleybol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Günbattı Sk. FERAH/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0836411,
+          41.0536156
+        ]
+      },
+      "properties": {
+        "id": "10504344",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Ihlamur Cad. BAHÇELİEVLER/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0115662,
+          41.0191078
+        ]
+      },
+      "properties": {
+        "id": "10522277",
+        "name": "Doğancılar Şehit Tuncer Mustafaoğlu Polis Merkezi Amirliği",
+        "category": "Kamu",
+        "subcategory": "Polis Merkezleri",
+        "address": "Bestekar Selahattin Pınar Sk. No:2 -8 SALACAK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0806789,
+          41.0276756
+        ]
+      },
+      "properties": {
+        "id": "10537973",
+        "name": "Anka Okçuluk Spor Kulübü",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Bosna Bulvarı No:25 KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0517178,
+          41.0511093
+        ]
+      },
+      "properties": {
+        "id": "10072009",
+        "name": "Kuleli Sahil",
+        "category": "Sosyal",
+        "subcategory": "Sosyal Diğer",
+        "address": "Kuleli Cad. No:3 ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0549221,
+          41.0135193
+        ]
+      },
+      "properties": {
+        "id": "10545387",
+        "name": "K Pilates",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Acıbadem Cad. No:224 C ACIBADEM/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0691662,
+          41.0225449
+        ]
+      },
+      "properties": {
+        "id": "12076027",
+        "name": "Doğa Koleji Çamlıca Kampüsü",
+        "category": "Eğitim",
+        "subcategory": "Kolej",
+        "address": "Kısıklı Mah. Alemdağ caddesi, Çamlıca Tepesi yl No:39",
+        "description": "1",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0391788,
+          41.0277786
+        ]
+      },
+      "properties": {
+        "id": "12223235",
+        "name": "Vakifbank Spor Kulübü Derneği",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0683975,
+          41.0235863
+        ]
+      },
+      "properties": {
+        "id": "12243460",
+        "name": "Özel Çamlıca Doğa Anadolu Lisesi",
+        "category": "Eğitim",
+        "subcategory": "Lise Özel",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0603218,
+          41.0588722
+        ]
+      },
+      "properties": {
+        "id": "12336320",
+        "name": "Çengelköy Spor",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Şekip Ayhan Özışık Cad. No:23 KULELİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.030838,
+          41.0304985
+        ]
+      },
+      "properties": {
+        "id": "12344796",
+        "name": "Bahçee Eğlence",
+        "category": "Sosyal",
+        "subcategory": "Eğlence Yerleri",
+        "address": "Çifteçınar Sk. No:13 İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.042511,
+          41.0222969
+        ]
+      },
+      "properties": {
+        "id": "12366963",
+        "name": "Bahçeci Sağlik",
+        "category": "Sağlık",
+        "subcategory": "Sağlık Diğer",
+        "address": "Mahir İz Cad. No:35B ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0238056,
+          41.0233765
+        ]
+      },
+      "properties": {
+        "id": "12276089",
+        "name": "Üsküdar Amatör Spor",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Selamiali Efendi Cad. No:123 SELAMİ ALİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0100708,
+          41.0221405
+        ]
+      },
+      "properties": {
+        "id": "10615016",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Karakol Sk. AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0701523,
+          41.0600319
+        ]
+      },
+      "properties": {
+        "id": "10332194",
+        "name": "Tufan Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Mustafa Düzgünman Cad. KÜÇÜKSU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0291843,
+          41.0181732
+        ]
+      },
+      "properties": {
+        "id": "10331686",
+        "name": "Pazarbaşı Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Hattat Kemal Batanay Sk. VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0170708,
+          41.0290527
+        ]
+      },
+      "properties": {
+        "id": "10332241",
+        "name": "Hacıbaba Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Paşalimanı Cad. SULTANTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0323505,
+          41.0324593
+        ]
+      },
+      "properties": {
+        "id": "10329731",
+        "name": "Kuzguncuk Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "İcadiye Cad. KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0737972,
+          41.0166473
+        ]
+      },
+      "properties": {
+        "id": "10596207",
+        "name": "Nezih Özel Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Bulgurlu Cad. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0249271,
+          41.0166168
+        ]
+      },
+      "properties": {
+        "id": "10569140",
+        "name": "Divitçiler Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Eski Toptaşı Cad. VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0194473,
+          41.0106964
+        ]
+      },
+      "properties": {
+        "id": "10485370",
+        "name": "Selimiye Parkı Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Kavak İskele Cad. SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0333366,
+          41.0271034
+        ]
+      },
+      "properties": {
+        "id": "10332488",
+        "name": "Kuruçeşme Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Cemil Meriç Sk. İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0157948,
+          41.0256233
+        ]
+      },
+      "properties": {
+        "id": "10479738",
+        "name": "Piknik Kuzu Kokoreç",
+        "category": "Sosyal",
+        "subcategory": "Lokanta/Restoran- Sakatat",
+        "address": "Hakimiyeti Milliye Cad. No:7 A MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.031662,
+          41.014595
+        ]
+      },
+      "properties": {
+        "id": "10485371",
+        "name": "Barbaros Parkı Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Mareşal Sk. BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0327644,
+          41.0196075
+        ]
+      },
+      "properties": {
+        "id": "10485326",
+        "name": "Fıstıkbayır Parkı Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Mantar Sk. VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0424709,
+          41.0420685
+        ]
+      },
+      "properties": {
+        "id": "10333462",
+        "name": "Beylerbeyi Tff Futbol Sahası",
+        "category": "Spor",
+        "subcategory": "Spor Diğer",
+        "address": "Abdullahağa Cad. BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0852737,
+          41.017067
+        ]
+      },
+      "properties": {
+        "id": "10330783",
+        "name": "Turgut Reis Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Ömer Seyfettin Sk. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0836544,
+          41.0169716
+        ]
+      },
+      "properties": {
+        "id": "10331299",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Kırçiçeği Sk. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0532951,
+          41.0574379
+        ]
+      },
+      "properties": {
+        "id": "10332404",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Kuleli Cad. KULELİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0426769,
+          41.0436592
+        ]
+      },
+      "properties": {
+        "id": "10332956",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Abdullahağa Cad. BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0667248,
+          41.0266495
+        ]
+      },
+      "properties": {
+        "id": "10331738",
+        "name": "Çocuk Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Turistik Çamlıca Cad. KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.054903,
+          41.0032654
+        ]
+      },
+      "properties": {
+        "id": "10330678",
+        "name": "Akasya Koru Evleri Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Çeçen Sk. ACIBADEM/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0628471,
+          41.0224991
+        ]
+      },
+      "properties": {
+        "id": "10331447",
+        "name": "Kısıklı Milli İrade Meydanı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Üsküdar Ümraniye TEM Bağlantı Yolu KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0782051,
+          41.0102386
+        ]
+      },
+      "properties": {
+        "id": "10331066",
+        "name": "Dutdibi Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Erler Sk. CUMHURİYET/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0509586,
+          41.0364876
+        ]
+      },
+      "properties": {
+        "id": "10329809",
+        "name": "Küplüce Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Özbek Sk. KÜPLÜCE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0784073,
+          41.0251656
+        ]
+      },
+      "properties": {
+        "id": "10332408",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Gümüşsuyu Cami Sk. KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0739365,
+          41.0616035
+        ]
+      },
+      "properties": {
+        "id": "10332479",
+        "name": "Çınarlıdere Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Çınarlıdere Sk. KÜÇÜKSU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0857391,
+          41.0098381
+        ]
+      },
+      "properties": {
+        "id": "10332196",
+        "name": "Sedef Çiçeği Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Ayık Sk. CUMHURİYET/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.080164,
+          41.0083046
+        ]
+      },
+      "properties": {
+        "id": "10331422",
+        "name": "Manolya Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Tayfun Sk. CUMHURİYET/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0450344,
+          41.0206795
+        ]
+      },
+      "properties": {
+        "id": "10331695",
+        "name": "Fahrettin Kerim Gökay Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Erdem Sk. ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0850544,
+          41.0604935
+        ]
+      },
+      "properties": {
+        "id": "10483475",
+        "name": "Bahçelievler Celil Cami Kuran Kursu",
+        "category": "Eğitim",
+        "subcategory": "Kuran Kursu",
+        "address": "Dereboyu Yokuşu Sk. No:52 BAHÇELİEVLER/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0699501,
+          41.0188789
+        ]
+      },
+      "properties": {
+        "id": "10549249",
+        "name": "Everest Spor ve Yaşam Akademisi",
+        "category": "Spor",
+        "subcategory": "Spor Diğer",
+        "address": "Bulgurlu Cad. No:64 KÜÇÜKÇAMLICA/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0753307,
+          41.0546074
+        ]
+      },
+      "properties": {
+        "id": "11021427",
+        "name": "Northway Sports",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Zübeyde Hanım Cad. No:42 /1 BAHÇELİEVLER/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0652237,
+          41.0554848
+        ]
+      },
+      "properties": {
+        "id": "10485199",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Lekeci Nuri Sk. No:18 ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.072998,
+          41.0570526
+        ]
+      },
+      "properties": {
+        "id": "11021480",
+        "name": "Women Zone Spor Salonu",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Kaldırım Cad. No:64 B ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0126171,
+          41.0192566
+        ]
+      },
+      "properties": {
+        "id": "10523762",
+        "name": "X-Angel Spor Merkezi",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Halk Cad. No:82 A AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0154648,
+          41.0209846
+        ]
+      },
+      "properties": {
+        "id": "10573326",
+        "name": "Sevgi Can Pilates",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Halk Cad. No:18 AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0426579,
+          41.0200806
+        ]
+      },
+      "properties": {
+        "id": "10485325",
+        "name": "Aydın Demir Parkı Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "İsmailpaşa Sk. ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0671329,
+          41.0558052
+        ]
+      },
+      "properties": {
+        "id": "10485200",
+        "name": "Lekeci Nuri Parkı Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "İmamı Azam Camii Sk. ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0778275,
+          41.0367699
+        ]
+      },
+      "properties": {
+        "id": "10485292",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Toros Sk. MEHMET AKİF ERSOY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0811157,
+          41.046032
+        ]
+      },
+      "properties": {
+        "id": "10300106",
+        "name": "Ata 2 Sitesi Tenis Kortu Çengelköy",
+        "category": "Spor",
+        "subcategory": "Tenis Kortu",
+        "address": "Mavi Çam Cad. BAHÇELİEVLER/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.035078,
+          41.0271683
+        ]
+      },
+      "properties": {
+        "id": "10485287",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Cemil Meriç Sk. İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0765438,
+          41.0359917
+        ]
+      },
+      "properties": {
+        "id": "10485291",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Mehmet Akif Ersoy Cad. FERAH/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0695152,
+          41.0015106
+        ]
+      },
+      "properties": {
+        "id": "11465042",
+        "name": "The Bees Pilates",
+        "category": "Spor",
+        "subcategory": "Spor Diğer",
+        "address": "Soyak Camii Sk. No:6 GA ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0544682,
+          41.0026283
+        ]
+      },
+      "properties": {
+        "id": "10534142",
+        "name": "Retro Lunapark",
+        "category": "Sosyal",
+        "subcategory": "Lunapark",
+        "address": "Çeçen Sk. No:25 ACIBADEM/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0683994,
+          41.0555992
+        ]
+      },
+      "properties": {
+        "id": "12006838",
+        "name": "Çengelköy Şehit Okan Altıparmak Anadolu Lisesi Kapalı Spor Salonu",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Çengelköy Mah. Lekeci Nuri Sk. No11  Üsküdar",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0731392,
+          41.0065613
+        ]
+      },
+      "properties": {
+        "id": "12223506",
+        "name": "K Pilates Spor Ve Eğitim ",
+        "category": "Sağlık",
+        "subcategory": "Sağlık Diğer",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0568371,
+          41.0162125
+        ]
+      },
+      "properties": {
+        "id": "12241080",
+        "name": "Özel Acıbadem Bilim Doğa İlkokulu",
+        "category": "Eğitim",
+        "subcategory": "İlkokul Özel",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0571671,
+          41.0162773
+        ]
+      },
+      "properties": {
+        "id": "12243561",
+        "name": "Özel Acıbadem Bilim Doğa Anadolu Lisesi",
+        "category": "Eğitim",
+        "subcategory": "Lise Özel",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0532265,
+          41.0459671
+        ]
+      },
+      "properties": {
+        "id": "12300905",
+        "name": "Mavi Yeşil",
+        "category": "Yeşil Alan",
+        "subcategory": "Yeşil Alan Diğer",
+        "address": "Havuzbaşı Sk. No:30 BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0285244,
+          41.0153999
+        ]
+      },
+      "properties": {
+        "id": "12364678",
+        "name": "Bilimsel Yüzme",
+        "category": "Spor",
+        "subcategory": "Yüzme Havuzu",
+        "address": "Nuhkuyusu Cad. No:69 VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0159912,
+          41.0280075
+        ]
+      },
+      "properties": {
+        "id": "11163068",
+        "name": "Üsküdar Meydanı",
+        "category": "Yeşil Alan",
+        "subcategory": "Meydan",
+        "address": "Paşalimanı Cad. MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0344887,
+          41.013092
+        ]
+      },
+      "properties": {
+        "id": "10615274",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Yeşil Kanarya Sk. BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0363026,
+          41.0239639
+        ]
+      },
+      "properties": {
+        "id": "10564015",
+        "name": "Bağlarbaşı Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Cumhuriyet Cad. SELAMİ ALİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0777111,
+          41.035038
+        ]
+      },
+      "properties": {
+        "id": "10331009",
+        "name": "Irmak Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Irmak Sk. FERAH/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0354958,
+          41.0398407
+        ]
+      },
+      "properties": {
+        "id": "10330662",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Abdullahağa Cad. KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0651608,
+          40.9977875
+        ]
+      },
+      "properties": {
+        "id": "12006141",
+        "name": "Ünalan Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Park Sk. ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0814819,
+          41.0113182
+        ]
+      },
+      "properties": {
+        "id": "10612410",
+        "name": "Çocuk Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Karadere Sk. CUMHURİYET/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.075737,
+          41.0083923
+        ]
+      },
+      "properties": {
+        "id": "10612409",
+        "name": "Çocuk Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Meşecik Sk. CUMHURİYET/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0536613,
+          41.0468597
+        ]
+      },
+      "properties": {
+        "id": "10615282",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Mehmet Gümüşay Sk. ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.080574,
+          41.0117836
+        ]
+      },
+      "properties": {
+        "id": "10331333",
+        "name": "Gençlik Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Camiiçi Sk. CUMHURİYET/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0771484,
+          41.0165596
+        ]
+      },
+      "properties": {
+        "id": "10540688",
+        "name": "Saransk Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Bulgurlu Cad. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0250244,
+          41.0158577
+        ]
+      },
+      "properties": {
+        "id": "10331687",
+        "name": "Zeynep Kamil Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Dr. Burhanettin Üstünel Sk. ZEYNEP KAMİL/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0838661,
+          41.0431175
+        ]
+      },
+      "properties": {
+        "id": "10332696",
+        "name": "Alzambak Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Fırın Arkası Sk. YAVUZTÜRK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0166454,
+          41.0182838
+        ]
+      },
+      "properties": {
+        "id": "10332491",
+        "name": "Dönmedolap Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Dönmedolap Sk. AHMEDİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0191669,
+          41.0031815
+        ]
+      },
+      "properties": {
+        "id": "10333559",
+        "name": "Haydarpaşa Futbol Sahası",
+        "category": "Spor",
+        "subcategory": "Spor Diğer",
+        "address": "Burhan Felek Cad. SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0180817,
+          41.0203896
+        ]
+      },
+      "properties": {
+        "id": "11207367",
+        "name": "Üsküdar İlçe Tarım ve Orman Müdürlüğü",
+        "category": "Kamu",
+        "subcategory": "Tarım ve Orman Müdürlüğü",
+        "address": "Dr. Fahri Atabey Cad. No:21 MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0817356,
+          41.0316849
+        ]
+      },
+      "properties": {
+        "id": "10485295",
+        "name": "Yavuztürk Parkı Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Gülcü Sk. YAVUZTÜRK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0319691,
+          41.0132599
+        ]
+      },
+      "properties": {
+        "id": "10333507",
+        "name": "Ergün Gürsoy Olimpik Yüzme Havuzu",
+        "category": "Spor",
+        "subcategory": "Yüzme Havuzu",
+        "address": "Alaattin Yavaşça Sk. No:9 BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0747852,
+          41.0449257
+        ]
+      },
+      "properties": {
+        "id": "10330007",
+        "name": "Aydın Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Adembey Sk. MEHMET AKİF ERSOY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.074852,
+          41.033905
+        ]
+      },
+      "properties": {
+        "id": "10329797",
+        "name": "Kamilya Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Irmak Sk. FERAH/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0669994,
+          41.0223198
+        ]
+      },
+      "properties": {
+        "id": "10331498",
+        "name": "Çamlıca Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Turistik Çamlıca Cad. KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0680676,
+          41.0489044
+        ]
+      },
+      "properties": {
+        "id": "10330382",
+        "name": "Çamlıktepe Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Çamova Sk. GÜZELTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0362263,
+          41.012001
+        ]
+      },
+      "properties": {
+        "id": "10332405",
+        "name": "Şehit Muhammed Durra Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Bekir Sıtkı Sezgin Sk. BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.030611,
+          41.0233459
+        ]
+      },
+      "properties": {
+        "id": "10331004",
+        "name": "Gonca Gül Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Koncagül Sk. MURATREİS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0472584,
+          41.0403023
+        ]
+      },
+      "properties": {
+        "id": "10331765",
+        "name": "Şemsibey Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Şemsi Efendi Sk. BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0754776,
+          41.0347824
+        ]
+      },
+      "properties": {
+        "id": "10332691",
+        "name": "Gündoğu Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Günbattı Sk. FERAH/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0586166,
+          41.0289421
+        ]
+      },
+      "properties": {
+        "id": "10329730",
+        "name": "Aziziye Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Nizamı Cedit Sk. BURHANİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0390778,
+          41.0245285
+        ]
+      },
+      "properties": {
+        "id": "10330785",
+        "name": "Gümüşyolu Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Haluk Türksoy Arkası Sk. ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0321102,
+          41.0097466
+        ]
+      },
+      "properties": {
+        "id": "10330342",
+        "name": "Karayolları Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Karayolları Site Sk. BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.079174,
+          41.025219
+        ]
+      },
+      "properties": {
+        "id": "10330790",
+        "name": "İlkbahar Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Baha Sk. KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0540619,
+          41.0054245
+        ]
+      },
+      "properties": {
+        "id": "10329754",
+        "name": "Valievleri Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Berk Sk. ACIBADEM/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0218945,
+          41.0131531
+        ]
+      },
+      "properties": {
+        "id": "10583924",
+        "name": "X Gym Spor Center",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Nuhkuyusu Cad. No:21 A ZEYNEP KAMİL/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0205669,
+          41.0209465
+        ]
+      },
+      "properties": {
+        "id": "11111146",
+        "name": "Çavuşdere Spor Sarayı",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Çavuşdere Cad. No:35 MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0526047,
+          41.0512085
+        ]
+      },
+      "properties": {
+        "id": "10424159",
+        "name": "Burger Et Çengelköy Sahil",
+        "category": "Sosyal",
+        "subcategory": "Lokanta/Restoran- Fast Food",
+        "address": "Tanrıverdi Sk. No:4 ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0850525,
+          41.0605011
+        ]
+      },
+      "properties": {
+        "id": "10044066",
+        "name": "Bahçeli Evler Cami",
+        "category": "Dini",
+        "subcategory": "Cami",
+        "address": "Dereboyu Yokuşu Sk. No:52 BAHÇELİEVLER/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0658016,
+          40.9974709
+        ]
+      },
+      "properties": {
+        "id": "10485390",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Ünalan Cad. ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0333462,
+          41.0188751
+        ]
+      },
+      "properties": {
+        "id": "10893157",
+        "name": "No:21 Boxing St.",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Nuhkuyusu Cad. No:76 A BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0278091,
+          41.0233917
+        ]
+      },
+      "properties": {
+        "id": "10937427",
+        "name": "Metin Aydın Spor Klübü",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Gazi Cad. No:151 B MURATREİS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0265846,
+          41.0342751
+        ]
+      },
+      "properties": {
+        "id": "10072268",
+        "name": "Kuzguncuk Sahili",
+        "category": "Sosyal",
+        "subcategory": "Sosyal Diğer",
+        "address": "Paşalimanı Cad. KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0697498,
+          41.0525436
+        ]
+      },
+      "properties": {
+        "id": "11013067",
+        "name": "Pilates",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Prof. Dr. Beynun Akyavaş Cad. No:75 A GÜZELTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0815163,
+          41.0211487
+        ]
+      },
+      "properties": {
+        "id": "10967688",
+        "name": "Yenidünya Fitness",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "İzzettinbey Sk. No:18 C BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0786572,
+          41.0190315
+        ]
+      },
+      "properties": {
+        "id": "10485329",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Mavimarmara Sk. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0135708,
+          41.0226593
+        ]
+      },
+      "properties": {
+        "id": "10485317",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Hüdai Mahmut Sk. AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.024189,
+          41.0167694
+        ]
+      },
+      "properties": {
+        "id": "10510459",
+        "name": "Üsküdar Diyabet ve Obezite Spor Merkezi",
+        "category": "Spor",
+        "subcategory": "Spor Tesisi",
+        "address": "Dr. Fahri Atabey Cad. No:83 VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0660667,
+          40.9987564
+        ]
+      },
+      "properties": {
+        "id": "11465023",
+        "name": "Çuf Çuf Oyun Parkı",
+        "category": "Sosyal",
+        "subcategory": "Eğlence Yerleri",
+        "address": "Eğitim Sk. No:8 B ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0629787,
+          40.9992027
+        ]
+      },
+      "properties": {
+        "id": "12006565",
+        "name": "Ünalan Dereiçi Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Demir Sk. ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0222435,
+          41.0206985
+        ]
+      },
+      "properties": {
+        "id": "10939237",
+        "name": "Mac Fit",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Çavuşdere Cad. No:41 E MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0672188,
+          41.0306511
+        ]
+      },
+      "properties": {
+        "id": "12006568",
+        "name": "İstanbul Kent Üniversitesi Mesut Yılmaz Hatıra Ormanı",
+        "category": "Yeşil Alan",
+        "subcategory": "Kent Ormanı",
+        "address": "Çamlıca Tepesi Sk. No:40 FERAH/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0743752,
+          41.0089989
+        ]
+      },
+      "properties": {
+        "id": "11423532",
+        "name": "Diş Hekimi Nafiye Esra Orman",
+        "category": "Sağlık",
+        "subcategory": "Diş Hekimi",
+        "address": "Meşecik Sk. No:1 CUMHURİYET/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0822811,
+          41.0163803
+        ]
+      },
+      "properties": {
+        "id": "12072599",
+        "name": "Doğa Eczanesi",
+        "category": "Sağlık",
+        "subcategory": "Eczane",
+        "address": "Söğütlüçayır Cad. No: 21 AB  BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0804596,
+          41.0119171
+        ]
+      },
+      "properties": {
+        "id": "12222858",
+        "name": "Vadi Spor Klubü Derneği",
+        "category": "Sağlık",
+        "subcategory": "Sağlık Diğer",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0682087,
+          41.0629234
+        ]
+      },
+      "properties": {
+        "id": "12253757",
+        "name": "Tenzile Erdoğan Kız Anadolu İmam Hatip Lisesi",
+        "category": "Eğitim",
+        "subcategory": "Lise Devlet",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0682564,
+          41.0063744
+        ]
+      },
+      "properties": {
+        "id": "12241081",
+        "name": "Özel Bahçeşehir Çamlıca İlkokulu",
+        "category": "Eğitim",
+        "subcategory": "İlkokul Özel",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0480537,
+          41.0350266
+        ]
+      },
+      "properties": {
+        "id": "12242580",
+        "name": "Özel Beylerbeyı Lale Bahçesı Anaokulu",
+        "category": "Eğitim",
+        "subcategory": "Anaokulu Özel",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0568905,
+          41.0161629
+        ]
+      },
+      "properties": {
+        "id": "12243470",
+        "name": "Özel Acıbadem Doğa Fen Ve Teknoloji Lisesi",
+        "category": "Eğitim",
+        "subcategory": "Lise Özel",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0121822,
+          41.0187531
+        ]
+      },
+      "properties": {
+        "id": "12243573",
+        "name": "Özel Doğan Anadolu Lisesi",
+        "category": "Eğitim",
+        "subcategory": "Lise Özel",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.035059,
+          41.01828
+        ]
+      },
+      "properties": {
+        "id": "12283316",
+        "name": "Nil Isitma",
+        "category": "Yeşil Alan",
+        "subcategory": "Tiyatro",
+        "address": "Güllübahçe Sk. No:17 ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0508766,
+          41.0342255
+        ]
+      },
+      "properties": {
+        "id": "12319096",
+        "name": "Akceylan Spor",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Ayazma Cad. No:10C BURHANİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0338116,
+          41.0256805
+        ]
+      },
+      "properties": {
+        "id": "12363639",
+        "name": "Üsküdar Bağlarbaşi Spor",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Vakıf Sk. No:5/2 SELAMİ ALİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0122833,
+          41.0187798
+        ]
+      },
+      "properties": {
+        "id": "12365069",
+        "name": "Doğan Özel",
+        "category": "Eğitim",
+        "subcategory": "Özel Etüd Eğitim Merkezi",
+        "address": "Tunusbağı Cad. No:2/1 SALACAK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0391979,
+          41.0143929
+        ]
+      },
+      "properties": {
+        "id": "10329650",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Uğur Sk. BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0132999,
+          41.0189056
+        ]
+      },
+      "properties": {
+        "id": "10332490",
+        "name": "Doğancılar Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Kefçedede Sk. AHMEDİYE/ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0816383,
+          41.031559
+        ]
+      },
+      "properties": {
+        "id": "10332478",
+        "name": "Yavuztürk Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Gülcü Sk. YAVUZTÜRK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0272846,
+          41.0323334
+        ]
+      },
+      "properties": {
+        "id": "10071237",
+        "name": "Fethi Paşa Korusu",
+        "category": "Yeşil Alan",
+        "subcategory": "Koru",
+        "address": "Fethipaşa Korusu KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0263062,
+          41.0162163
+        ]
+      },
+      "properties": {
+        "id": "10331445",
+        "name": "Cahit Zarifoğlu Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Bağcıodaları Sk. VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0422802,
+          41.0138702
+        ]
+      },
+      "properties": {
+        "id": "11301037",
+        "name": "Validebağ Korusu",
+        "category": "Yeşil Alan",
+        "subcategory": "Koru",
+        "address": "Tophanelioğlu Cad. ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0372639,
+          41.0363731
+        ]
+      },
+      "properties": {
+        "id": "10072270",
+        "name": "Üsküdar Nakkaştepe Millet Bahçesi",
+        "category": "Yeşil Alan",
+        "subcategory": "Millet Bahçesi",
+        "address": "Abdullahağa Mezarlıkyolu Sk. KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0724678,
+          41.0577469
+        ]
+      },
+      "properties": {
+        "id": "10331692",
+        "name": "Çernobil Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Kaldırım Cad. KÜÇÜKSU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0300179,
+          41.0136986
+        ]
+      },
+      "properties": {
+        "id": "10333474",
+        "name": "Burhan Felek Voleybol Salonu",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Seyit Ahmet Deresi Sk. BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0361919,
+          41.0284653
+        ]
+      },
+      "properties": {
+        "id": "10330422",
+        "name": "İmam Galip Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Sofracı Sk. İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0337524,
+          41.0308762
+        ]
+      },
+      "properties": {
+        "id": "11131099",
+        "name": "Botanik Bahçe Kuzguncuk",
+        "category": "Yeşil Alan",
+        "subcategory": "Botanik Parkı",
+        "address": "İcadiye Cad. İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0547791,
+          41.050106
+        ]
+      },
+      "properties": {
+        "id": "10291940",
+        "name": "Çengelköy Halısaha",
+        "category": "Spor",
+        "subcategory": "Halı Saha",
+        "address": "Çengelköy Cad. No:37 /4 ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0790062,
+          41.0253906
+        ]
+      },
+      "properties": {
+        "id": "10485319",
+        "name": "İlkbahar Parkı Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Gümüşsuyu Cami Sk. KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0690022,
+          41.0206642
+        ]
+      },
+      "properties": {
+        "id": "10333485",
+        "name": "Çamlıca Spor Kulübü Tesisleri",
+        "category": "Spor",
+        "subcategory": "Spor Tesisi",
+        "address": "Sarıgazi Cad. No:1 KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0704422,
+          41.0483704
+        ]
+      },
+      "properties": {
+        "id": "10330786",
+        "name": "Çanakçı Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Çanakçı Sk. GÜZELTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.069622,
+          41.0691338
+        ]
+      },
+      "properties": {
+        "id": "10331013",
+        "name": "Küçüksu Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Yazar Sk. KÜÇÜKSU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0572453,
+          41.0682983
+        ]
+      },
+      "properties": {
+        "id": "10330922",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Vaniköy Cad. KANDİLLİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0334435,
+          41.0391731
+        ]
+      },
+      "properties": {
+        "id": "10329741",
+        "name": "Kuzguncuk Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Abdullahağa Cad. KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0538044,
+          41.0233688
+        ]
+      },
+      "properties": {
+        "id": "10331014",
+        "name": "Millet Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Kısıklı Cad. BURHANİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0526505,
+          41.0255165
+        ]
+      },
+      "properties": {
+        "id": "10329805",
+        "name": "Tunuslu Mahmut Paşa Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Kanuni Sultan Süleyman Sk. BURHANİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0804501,
+          41.027153
+        ]
+      },
+      "properties": {
+        "id": "10331007",
+        "name": "Çocuk Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Gurbet Sk. KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0541973,
+          41.0348396
+        ]
+      },
+      "properties": {
+        "id": "10329752",
+        "name": "Burhaniye Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Yazmacı Emine Sk. KÜPLÜCE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0359287,
+          41.0190201
+        ]
+      },
+      "properties": {
+        "id": "10329652",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Şehit Erol Olçok Sk. ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0695248,
+          40.9967918
+        ]
+      },
+      "properties": {
+        "id": "10485402",
+        "name": "Basketbol Sahası - Site 59",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Gazi Mustafa Şekip Birgöl Cad. ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0755692,
+          41.0162582
+        ]
+      },
+      "properties": {
+        "id": "10550476",
+        "name": "Dt. Esma Erdoğan",
+        "category": "Sağlık",
+        "subcategory": "Diş Hekimi",
+        "address": "Gürpınar Cad. No:7 BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0434799,
+          41.042942
+        ]
+      },
+      "properties": {
+        "id": "10004809",
+        "name": "Park Beylerbeyi Boutique Hotel",
+        "category": "Konaklama",
+        "subcategory": "Otel",
+        "address": "Abdullahağa Hamamı Sk. No:11 BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0126114,
+          41.0243416
+        ]
+      },
+      "properties": {
+        "id": "10568212",
+        "name": "Sahil Pide Börek Salonu",
+        "category": "Sosyal",
+        "subcategory": "Börekçi",
+        "address": "Doğancılar Cad. No:33 B AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0145531,
+          41.0199738
+        ]
+      },
+      "properties": {
+        "id": "10578338",
+        "name": "Özel Doğaç İstanbul Yaratıcı Drama Eğitmenliği Kursu",
+        "category": "Eğitim",
+        "subcategory": "Eğitim Kursları Diğer",
+        "address": "Halk Cad. No:41 AHMEDİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0839882,
+          41.0429573
+        ]
+      },
+      "properties": {
+        "id": "10485278",
+        "name": "Alzambak Parkı Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Setüstü Sk. YAVUZTÜRK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0381966,
+          41.024826
+        ]
+      },
+      "properties": {
+        "id": "11057134",
+        "name": "Well Pilates Studio",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "İcadiye Bağlarbaşı Cad. No:16 B ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0744762,
+          41.0289421
+        ]
+      },
+      "properties": {
+        "id": "11424443",
+        "name": "Nova Sport",
+        "category": "Spor",
+        "subcategory": "Spor Diğer",
+        "address": "Ferah Cad. No:95 B FERAH/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0730782,
+          41.0065269
+        ]
+      },
+      "properties": {
+        "id": "11423739",
+        "name": "Cimnastika",
+        "category": "Spor",
+        "subcategory": "Spor Diğer",
+        "address": "Libadiye Cad. CUMHURİYET/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0360851,
+          41.0249825
+        ]
+      },
+      "properties": {
+        "id": "11464134",
+        "name": "Çocuk Sağlığı ve Hastalıkları Uzmanı Uzman Dr.Alpdoğan Helvacıoğlu",
+        "category": "Sağlık",
+        "subcategory": "Doktor/Muayenehane",
+        "address": "Cumhuriyet Cad. No:167 İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0300045,
+          41.0174599
+        ]
+      },
+      "properties": {
+        "id": "12363891",
+        "name": "Dcs Spor",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Yamacı Sk. No:1-3 VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.063055,
+          41.0054321
+        ]
+      },
+      "properties": {
+        "id": "12368517",
+        "name": "Ünalan Spor",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Çamdere Sk. No:9 ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0175514,
+          41.0058441
+        ]
+      },
+      "properties": {
+        "id": "12357983",
+        "name": "Üsküdar Selimiye Spor",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0672417,
+          41.0561256
+        ]
+      },
+      "properties": {
+        "id": "10331693",
+        "name": "Çocuk Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "İmamı Azam Camii Sk. ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0234756,
+          41.0137062
+        ]
+      },
+      "properties": {
+        "id": "10331688",
+        "name": "Servili Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Dr. Burhanettin Üstünel Sk. ZEYNEP KAMİL/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0704937,
+          41.0457077
+        ]
+      },
+      "properties": {
+        "id": "10331426",
+        "name": "Elvan Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Büyük Namazgah Cad. MEHMET AKİF ERSOY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0259037,
+          41.028595
+        ]
+      },
+      "properties": {
+        "id": "10592461",
+        "name": "Yapma Bebek Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Yapmabebek Sk. SULTANTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.043045,
+          41.0432129
+        ]
+      },
+      "properties": {
+        "id": "10331037",
+        "name": "Beylerbeyi Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Beybostanı Sk. BEYLERBEYİ/ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0726471,
+          41.0240173
+        ]
+      },
+      "properties": {
+        "id": "10332494",
+        "name": "Salih Solmaz Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Ferah Cad. KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0493832,
+          41.0098
+        ]
+      },
+      "properties": {
+        "id": "10485369",
+        "name": "Erdem Parkı Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Erdem Çıkmazı ACIBADEM/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0825329,
+          41.0174599
+        ]
+      },
+      "properties": {
+        "id": "10485356",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Camii Sk. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0457497,
+          41.0389557
+        ]
+      },
+      "properties": {
+        "id": "10333461",
+        "name": "Beylerbeyi 75. Yıl Stadı",
+        "category": "Spor",
+        "subcategory": "Stadyum",
+        "address": "Beybostanı Sk. No:15 BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0705414,
+          41.0714264
+        ]
+      },
+      "properties": {
+        "id": "10331409",
+        "name": "Tahsin Toraman Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Eserli Sk. KÜÇÜKSU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0522633,
+          41.056057
+        ]
+      },
+      "properties": {
+        "id": "10331336",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Kuleli Cad. ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0317535,
+          41.0087509
+        ]
+      },
+      "properties": {
+        "id": "10332888",
+        "name": "Bahar Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Bahar Sk. BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0444508,
+          41.04356
+        ]
+      },
+      "properties": {
+        "id": "10329808",
+        "name": "Arabacılar Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Araba Meydanı Sk. BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0493202,
+          41.0328598
+        ]
+      },
+      "properties": {
+        "id": "10331051",
+        "name": "Abdullah Ağa Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Burhaniye Abdullahağa Cad. BURHANİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0424614,
+          41.020195
+        ]
+      },
+      "properties": {
+        "id": "10332079",
+        "name": "Aydın Demir Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "İsmailpaşa Sk. ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0746231,
+          41.0330238
+        ]
+      },
+      "properties": {
+        "id": "10331694",
+        "name": "Şehit Yusuf Beyaztaş Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Ova Sk. FERAH/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0692997,
+          41.0527458
+        ]
+      },
+      "properties": {
+        "id": "10331425",
+        "name": "Soğuksu Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Engin Cad. GÜZELTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0357666,
+          41.0172234
+        ]
+      },
+      "properties": {
+        "id": "10330788",
+        "name": "M. Emim Yıldırım Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Mavikonak Sk. BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0818367,
+          41.0166016
+        ]
+      },
+      "properties": {
+        "id": "10331276",
+        "name": "Zambak Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Camii Sk. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0700092,
+          41.0101662
+        ]
+      },
+      "properties": {
+        "id": "10330374",
+        "name": "Şeker Maslak Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Şeker Maslak Sk. KÜÇÜKÇAMLICA/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0839996,
+          41.0164223
+        ]
+      },
+      "properties": {
+        "id": "10496189",
+        "name": "Ali İhsan Gül Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Baki Sk. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0355835,
+          41.0148087
+        ]
+      },
+      "properties": {
+        "id": "10329632",
+        "name": "Park",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Mütevelli Çeşme Cad. BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0682259,
+          41.0154991
+        ]
+      },
+      "properties": {
+        "id": "10331423",
+        "name": "Çilehane Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Çiçek Sk. KÜÇÜKÇAMLICA/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0452061,
+          41.0121117
+        ]
+      },
+      "properties": {
+        "id": "10331496",
+        "name": "Temel Gündoğdu Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Atıfbey Sk. ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0809422,
+          41.0172882
+        ]
+      },
+      "properties": {
+        "id": "10330658",
+        "name": "Söğütluçayır Parkı",
+        "category": "Yeşil Alan",
+        "subcategory": "Park/Çocuk Parkı",
+        "address": "Çakırlar Sk. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0344486,
+          41.0248566
+        ]
+      },
+      "properties": {
+        "id": "10601398",
+        "name": "Üsküdar Belediyesi Vakıfbank Spor Sarayı",
+        "category": "Spor",
+        "subcategory": "Spor Kompleksi",
+        "address": "Vakıf Sk. No:8 SELAMİ ALİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0753689,
+          41.065094
+        ]
+      },
+      "properties": {
+        "id": "10502949",
+        "name": "Yüzme Havuzu",
+        "category": "Spor",
+        "subcategory": "Yüzme Havuzu",
+        "address": "Metin Sk. No:20 /1A KÜÇÜKSU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0815372,
+          41.0200233
+        ]
+      },
+      "properties": {
+        "id": "11111667",
+        "name": "Pilates Time",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "İzzettinbey Sk. No:26 BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0139141,
+          41.0199242
+        ]
+      },
+      "properties": {
+        "id": "10536525",
+        "name": "Abartı Gym",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Halk Cad. No:62 A AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0579395,
+          41.023365
+        ]
+      },
+      "properties": {
+        "id": "10297424",
+        "name": "Saklıbahçe",
+        "category": "Sosyal",
+        "subcategory": "Yeme-İçme Yerleri/Diğer",
+        "address": "Kısıklı Cad. No:91 /3 BURHANİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0313625,
+          41.0335655
+        ]
+      },
+      "properties": {
+        "id": "11131087",
+        "name": "No 49 Training Studio",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Tenekeci Musa Sk. No:2 E KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0350571,
+          41.020237
+        ]
+      },
+      "properties": {
+        "id": "10295398",
+        "name": "Naturel Plates",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "Nuhkuyusu Cad. No:98 ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0270824,
+          41.0282593
+        ]
+      },
+      "properties": {
+        "id": "10597867",
+        "name": "Olimpark Cimnastik Okulu",
+        "category": "Eğitim",
+        "subcategory": "Eğitim Diğer",
+        "address": "Cumhuriyet Cad. No:39 SULTANTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0701847,
+          41.0595322
+        ]
+      },
+      "properties": {
+        "id": "10485201",
+        "name": "Park Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Mustafa Düzgünman Cad. KÜÇÜKSU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0806732,
+          41.0454445
+        ]
+      },
+      "properties": {
+        "id": "10485281",
+        "name": "Basketbol Sahası",
+        "category": "Spor",
+        "subcategory": "Basketbol ve Voleybol Sahası",
+        "address": "Kamelya Sk. BAHÇELİEVLER/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0724239,
+          41.0234489
+        ]
+      },
+      "properties": {
+        "id": "10134877",
+        "name": "Ev Gibi Doğal Ev Mamulleri",
+        "category": "Sosyal",
+        "subcategory": "Lokanta/Restoran- Ev Yemekleri",
+        "address": "Ferah Cad. No:16 B KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0338573,
+          41.0269012
+        ]
+      },
+      "properties": {
+        "id": "10125428",
+        "name": "Doğa Çay Ocağı",
+        "category": "Sosyal",
+        "subcategory": "Çay Ocağı",
+        "address": "Temaşa Sk. No:2 /1B İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.047699,
+          41.0200577
+        ]
+      },
+      "properties": {
+        "id": "11464995",
+        "name": "Altınyurt Spor Kulübü",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Ord. Prof. Fahrettin Kerim Gökay Cad. No:38 ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0749817,
+          41.0421715
+        ]
+      },
+      "properties": {
+        "id": "12210797",
+        "name": "Mars Sportif Tesisler Işletmeciliğianonim Şirke",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0357418,
+          41.0238838
+        ]
+      },
+      "properties": {
+        "id": "12219063",
+        "name": "Fizyoems Pilates Ve Sağlikli Yaşam Merkezi ",
+        "category": "Spor",
+        "subcategory": "Spor Salonu",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0680771,
+          41.0235596
+        ]
+      },
+      "properties": {
+        "id": "12241145",
+        "name": "Özel Çamlıca Doğa İlkokulu",
+        "category": "Eğitim",
+        "subcategory": "İlkokul Özel",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0681801,
+          41.0208778
+        ]
+      },
+      "properties": {
+        "id": "12242204",
+        "name": "Özel Kısıklı Hasbahçe Çocuk Akademisi Anaokulu",
+        "category": "Eğitim",
+        "subcategory": "Anaokulu Özel",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0808182,
+          41.022274
+        ]
+      },
+      "properties": {
+        "id": "12242439",
+        "name": "Özel Sima Sevgi Bahçesi Anaokulu",
+        "category": "Eğitim",
+        "subcategory": "Anaokulu Özel",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0629864,
+          41.0322227
+        ]
+      },
+      "properties": {
+        "id": "12275738",
+        "name": "Dalan Karate Spor",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Mehmet Ağa Cad. No:60 KÜPLÜCE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0731888,
+          41.0380325
+        ]
+      },
+      "properties": {
+        "id": "12364285",
+        "name": "Hasippaşa Spor",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Güzelçeşme Sk. No:2 MEHMET AKİF ERSOY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0790806,
+          41.0124626
+        ]
+      },
+      "properties": {
+        "id": "12292035",
+        "name": "Vadi Spor",
+        "category": "Spor",
+        "subcategory": "Spor Kulübü",
+        "address": "Karlıdere Cd CUMHURİYET/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0739698,
+          29.0598457
+        ]
+      },
+      "properties": {
+        "id": "ChIJS5T86_HJyhQROlUWj_3dfEk",
+        "name": "Cemile Sultan Korusu",
+        "category": "Park",
+        "subcategory": "",
+        "address": "Kucuksu, Omurtepe Yokusu Sk. No:6, 34684 Uskudar/Istanbul",
+        "description": "Beyaz masa ortuleri ve terastan Bogaz manzaralari esliginde geleneksel lezzetler sunan ferah restoran.",
+        "source": "yemek_json",
+        "phone": "(0216) 308 49 43",
+        "website": "http://www.cemilesultan.com/",
+        "rating": 4.6,
+        "reviews_count": 5373,
+        "images": [
+          "https://lh3.googleusercontent.com/p/AF1QipN8cEt_-5SpmIMI-d4a53F7jmCaPS8rA_2y_09I=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noeRN1IqcXC2-TdnWagf2cvVp7QBqrrvXE5Kyru0C7znUZkJORezjy67JlSUTcRfh83mzBwGkyJr8jCTrAaM983lO46h85T56vzSodvfGrYiVBX43Tw2smmGn6EauxipOm-nPbD2wjiDLbk=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqRlHRITWJtdIFb3UfhIKtw3cc0f2v72--M5PFXBKmYKDPcWkG9QZpyRK0O67W04k7PyqDZfEWdT_7h18CtwUYw7WPHsq65OZs22L-rRYSQo7IThPa2NdZvfElV-KDQRPFyk0Fqcg=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipOW838WJmn17Kpw8DC6KL0Rzw6YXHG4EH3HbRel=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipOVD021U2Ctl2eQmIPo4x_ZMrhRWZcUUL3TaQEn=s1024"
+        ],
+        "workday_timing": "09:00-22:00"
+      }
+    }
+  ]
+}

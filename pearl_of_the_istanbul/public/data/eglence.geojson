@@ -1,0 +1,1310 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0218468,
+          41.0206413
+        ]
+      },
+      "properties": {
+        "id": "10939173",
+        "name": "Çarşım Tantuni",
+        "category": "Sosyal",
+        "subcategory": "Lokanta/Restoran - Yöresel",
+        "address": "Çavuşdere Cad. No:41 E MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0402985,
+          41.0209084
+        ]
+      },
+      "properties": {
+        "id": "11443146",
+        "name": "Capitol Avm Kapalı Otopark",
+        "category": "Ulaşım",
+        "subcategory": "Otopark Kapalı",
+        "address": "Mahir İz Cad. No:1 ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0166016,
+          41.0247536
+        ]
+      },
+      "properties": {
+        "id": "10570353",
+        "name": "Çarşı Cafe",
+        "category": "Sosyal",
+        "subcategory": "Kafe",
+        "address": "Selamiali Efendi Cad. No:1 MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0217495,
+          41.0201569
+        ]
+      },
+      "properties": {
+        "id": "12072453",
+        "name": "Nevçarşı Eczanesi",
+        "category": "Sağlık",
+        "subcategory": "Eczane",
+        "address": "Çavuşdere Cad.  No:41/E-104  MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0543442,
+          41.0008125
+        ]
+      },
+      "properties": {
+        "id": "12080262",
+        "name": "Akasya Avm Şarj İstasyonu",
+        "category": "Ulaşım",
+        "subcategory": "Şarj İstasyonu",
+        "address": "Acıbadem Mah. Çeçen Sk. ACIBADEM/ÜSKÜDAR",
+        "description": "AC3-380V-32A / 22kW / 10:00-22:00 / 10:00-22:00",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0549412,
+          41.0007401
+        ]
+      },
+      "properties": {
+        "id": "11443116",
+        "name": "Akasya Acıbadem Avm Kapalı Otopark",
+        "category": "Ulaşım",
+        "subcategory": "Otopark Kapalı",
+        "address": "Çeçen Sk. No:25 A ACIBADEM/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0193481,
+          41.0245171
+        ]
+      },
+      "properties": {
+        "id": "10545634",
+        "name": "Üsküdar Üniversitesi Çarşı Kampüsü",
+        "category": "Eğitim",
+        "subcategory": "Üniversite Özel/Vakıf",
+        "address": "İsmail Dümbüllü Sk. No:4 MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0716705,
+          41.0039444
+        ]
+      },
+      "properties": {
+        "id": "10504402",
+        "name": "Emaar Akvaryum & Su Altı Hayvanat Bahçesi",
+        "category": "Sosyal",
+        "subcategory": "Sosyal Diğer",
+        "address": "Libadiye Cad. No:80 ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0211048,
+          41.0203857
+        ]
+      },
+      "properties": {
+        "id": "10348601",
+        "name": "Nev Avm",
+        "category": "Sosyal",
+        "subcategory": "Kafe",
+        "address": "Çavuşdere Cad. No:39 MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.020249,
+          41.020067999999995
+        ]
+      },
+      "properties": {
+        "id": "ChIJXT_5HzO3yhQRdoavunBdLR4",
+        "name": "Cinens Sinemalari Uskudar Nevcarsi",
+        "category": "Sinema Salonu",
+        "subcategory": "",
+        "address": "MIMARSINAN CAD. CAVUSDERE CAD. NO:41E /33, 34674 Uskudar/Istanbul",
+        "description": "Cinens Sinemalari Uskudar Nevcarsi Subesi Hizmete Acilmistir. Tum Sinema Severleri Sinemamiza Bekliyoruz.",
+        "source": "eglence",
+        "phone": "(0216) 759 81 15",
+        "website": "http://www.cinens.com/",
+        "rating": 3.2,
+        "reviews_count": 150,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrV9TEhZhwxSuTlRhIBxmFpCyG0DO-vnUWpHQRIYj42wpOVbMws_q4kNpnMKk0Gezdg3TlVouV39zGc10_sMY2P_s-sQpV3G3CkJ6gtb0Iyfd2_Ih-UarR9yqQeSqKEGJ4VSg5L=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrLYFVtoWH1bXCShTrdvTTf_k5Lq_m_ZaLMXPIaWfiVAyyOpn_1faBuxwZOcS5Kl4g2Zx4p6heI6JkU87lTkNSl4A2gTB4Db8r2tB6qO2B6PHBopo11Dk2YDMVodx33MJfD66J3Dg=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipNDXBGU3C2dBGt4nxAXwZ3wARsvGyQyWoBrgA0j=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=r6GiYx7HmoRLrRMOHCRu1A&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=68.868065&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.040011999999997,
+          41.021014
+        ]
+      },
+      "properties": {
+        "id": "ChIJm2tkj_u3yhQRvZpA5SMCOIc",
+        "name": "Capitol Spectrum Cineplex",
+        "category": "Sinema Salonu",
+        "subcategory": "",
+        "address": "Altunizade, Mahir Iz Cd. No:4, 34662 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "phone": "(0216) 554 77 70",
+        "website": "http://www.spectrumsinema.com/",
+        "rating": 4.4,
+        "reviews_count": 4071,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4novcCBAm6KKJbSoePjIAM3Bdnr-5KK_sJ7ezqdQuf8mrtqY-kkTC6wHmExNMDd-kRqxzjF7LItt3J2J6tSy3bgVuAiOWlqKZ_thneUrUYUoSkiwpmPLSfPULXsuPSPYfc9_57eI=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nquxC9-9M-9ELcIyGdn0VqR_KnFkSTZhV0K9rMNPk4X4PShrWPiRKD6OmCiptk8DlEIWHU5Xn8wW5-7TbTDs0kt85qq9U92L2SH-hFhU0lczhYcPen-P2iCsQJMEwhO4SUNMM_S323v2PE9=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqVgBvHR9_g64j08OeJ0Ke6kC9ZWWwRpheNiPoJlN5SlRVeHEyoTDeah6DbQVCcjVX7juUSvMd3ilDU0TadlDfH-CuLlWbUEy7D1VD-BWSzuU-qZ3PDf2S8AS5_Cy1UpAu0-EOv=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqWxVYiepRUEgSdyqMzZhTDQAwFL3MRwMvQcaiuLdl1PQfK0KDayELLtcpC0qdVOGMHCGqFladrNV3YW-jtB6JFBpbymbKLoLFq3ogngXXyypEbLVY_FQTiOMW7FMiOYRZadw0lHA=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0715288,
+          41.0047865
+        ]
+      },
+      "properties": {
+        "id": "ChIJM3ZlpN_HyhQRllCDCmJfWGw",
+        "name": "Paribu Cineverse",
+        "category": "Sinema Salonu",
+        "subcategory": "",
+        "address": "Unalan, Ayazma Cd. No:78, 34700 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "phone": "0850 220 0967",
+        "website": "https://www.cinemaximum.com.tr/emaar-sinema-salonu",
+        "rating": 4,
+        "reviews_count": 1703,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrudHSDvZKOf5Kq5xYLCb7IqUX_WAiTvgaZvH8l92p4S4fmy64Q0AUGRWK8rK-iDTwtNmcFbJni9aqX3SjEo0MY1u130qcIpTb6YE4yHCJTegQ23UP28lckhFqWaJDVSaL9elL6=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipM2wNQt-C4aKtuZrTNEPBNPcMjc0_bulR3FEVyz=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noeTl5km1LwNzeTmqYk_qCcC7knPwRXJ58mGfqUYL9hj8EXsSEt-vGZGDK8FrOo0noPkKDpSLbjr9TqKQhRbnsa9ZrJ5Gs3s0ojtHjM4Xm-kztgrWd2Xu2LdquYbUt-OYwvb7o=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Vf1Vh86Rm2JG1EEDZIvFZA&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=87.82335&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.054417899999997,
+          41.002191499999995
+        ]
+      },
+      "properties": {
+        "id": "ChIJ4_sRf_rHyhQRaqfJ7WWrlgY",
+        "name": "Paribu Cineverse Akasya",
+        "category": "Sinema Salonu",
+        "subcategory": "",
+        "address": "Acibadem Mahallesi Cecen Sokak, Akasya Avm No:25, 34660 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "phone": "0850 220 0967",
+        "website": "https://www.paribucineverse.com/",
+        "rating": 4.1,
+        "reviews_count": 3947,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq7bwxJ_M3SMA8P4cIKCiYVwfbaUXOZBqBOfefq4pQLIlJ2mkHJfiHTTiAQseZW_guPdaC_Y5BH8ycwLzVC8d1s2JfynUlf11nE4Sv0mld9EJh9cuEvrI_LeZ7NU4IJJkQpNzJLwQ=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noAQPk2LefEmlNybf3vtlWO2IdJ5olcqYNuFGKShZ8mxCfPbzZm7EKP951Oz_T_rIGmIM_1ddhNUElO7u0ANUmO4N2jQL4yJENnSz7gn6Db8dJN5ATaeE66WufMD7H9woQvTPg=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nraydHc4GRqXSOQkvcgIZKqfwZh0qKa5hHGGg3wzuuA37Y0G9pAZS7FbQXMHsenFvIg2ao5mJ8n81bRKOwWjRKvE5H-BSBZD67YHkNaQ_ZVGdV4Q8Quu-4L4Ovf8v7Jc59-swRMlQ=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipNXWSopuMP-3QinQmuyWEsE50sFYC0fNxL50v-6=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.020849799999997,
+          41.0202862
+        ]
+      },
+      "properties": {
+        "id": "ChIJORS2J9C3yhQR7FlS5_a-6nA",
+        "name": "Nevcarsi Alisveris Merkezi",
+        "category": "Alisveris merkezi",
+        "subcategory": "",
+        "address": "Mimar Sinan, Cavusdere Cd. No:41E, 34672 Uskudar/Istanbul",
+        "description": "Halat (Hasir-Dogal-Kendir-Urgan) Ip ve Kordon Ip Toptan ve Perakende",
+        "source": "eglence",
+        "phone": "(0216) 531 12 00",
+        "website": "https://nevcarsiuskudar.com/",
+        "rating": 4.2,
+        "reviews_count": 4464,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq59TCM3JFXBkNMGOBeB_zmOSSHSkp-38yQX3DbURnLN5r5d56jDzaTc0Ju_sa_NSU0HYCIADPT5Kt93dxuqiOhFayEPu4OCMzu135N4s7GrBqChL3Yb912ykXT3y9HeQnABIWQLsQI4XQd=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrsLT8GDIVJPZYbWuknG-MxFJmZ4szR7RdvDptypKrm5GqIsAjJdoII67TFp44jj_V34CaVw-_fMvRIeUTXQSYkDXUtjhX2EfN_aNh71cF5zm-C_LWc-ycbdf6MvoWUgPBZu98UGBKwqrNi=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4norwb9VhPKfABUIEYGXaLoOUTihetCRqpyy4sL5Vz9vOk4MkbrQkR8zesaN-Kt0cbhK-Ll3VhbboYv6XR6tHUu3qlNOnOTmXmNshw5TeGptBIEeSS7Eg55iS3KZMccMvdZCjzGk=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nou2dOpGOC95nwFFzvMr5wMFMeJoBlFsLMyh99ULsadj_7pbDwIK5nN7AdKmLRtjSaxPs3O3KPpzLloW-u1UP9zEdIIdSDP2r_h9oNznMt19LgZkyDv4gXend5-4COgh8pvSdqw=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XtPHhs3H08qX8fsiC4cH-g&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=12.628863&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "10:00-22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0545294,
+          41.001597
+        ]
+      },
+      "properties": {
+        "id": "ChIJU_oyfPrHyhQRqLlEG4y5ZJw",
+        "name": "Lg Imax",
+        "category": "Sinema Salonu",
+        "subcategory": "",
+        "address": "Acibadem, Cecen Sok. No:25, 34660 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "rating": 3.5,
+        "reviews_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.054417899999997,
+          41.002191499999995
+        ]
+      },
+      "properties": {
+        "id": "ChIJUQlbYfrHyhQRA33zldlhI7w",
+        "name": "Cinemaximum",
+        "category": "Sinema Salonu",
+        "subcategory": "",
+        "address": "Acibadem, Cecen Sok. No:25, 34660 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "phone": "0850 220 0967",
+        "website": "https://www.cinemaximum.com.tr/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071494299999998,
+          41.0047177
+        ]
+      },
+      "properties": {
+        "id": "ChIJq_1VmN_HyhQRfRVAJPKg2s0",
+        "name": "Cinemars",
+        "category": "Sinema Salonu",
+        "subcategory": "",
+        "address": "Unalan, Libadiye Cd. No:88, 34700 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "phone": "0850 220 0967",
+        "images": [
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Tczu13Ol8HryblNSFJDV0A&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=272.72687&pitch=0&thumbfov=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Tczu13Ol8HryblNSFJDV0A&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=272.72687&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0129405,
+          41.019608399999996
+        ]
+      },
+      "properties": {
+        "id": "ChIJUTVBSya4yhQRYEG4ic_y-bg",
+        "name": "IBB Sehir Tiyatrolari Musahipzade Celal Sahnesi",
+        "category": "Tiyatro",
+        "subcategory": "",
+        "address": "Aziz Mahmut Hudayi, Halk Cd. No:84, 34672 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "phone": "(0216) 553 03 97",
+        "website": "https://sehirtiyatrolari.ibb.istanbul/",
+        "rating": 4.7,
+        "reviews_count": 1927,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr8_wdABRh0M020bYkmHtPEJPQqmvirMkodxv1Bzv4ajmLRLZhtSuTo3AyDn_fBNxteOmH50a252Q0qStgpEMEOcQrlx_kBY6w9W89E_JrAXWMibC38IT3ibAp2GTmRIQwa1FSyRQ=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gQVFZYkQ_uNWZl8aRTXSMA&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=202.6609&pitch=0&thumbfov=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nob3y-wAQ3bDc68oPJRMUsdVajpcJWvXpU5DivJ5V7HPn2Vg4bUReUca6512errLY4GV5HfqUdR15bPvuwfPlAnX2jPB41zS_TbZvONMziHg3sGoq582ocQ3S24_E5MR40ktk46iw=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0235792,
+          41.017164099999995
+        ]
+      },
+      "properties": {
+        "id": "ChIJB5z6nB-4yhQRePR9lthBQBs",
+        "name": "Istanbul Buyuksehir Belediyesi Sehir Tiyatrolari Uskudar Kerem Yilmazer Sahnesi",
+        "category": "Tiyatro",
+        "subcategory": "",
+        "address": "Zeynep Kamil, Dr. Fahri Atabey Cd. No:79, 34664 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "phone": "(0212) 455 39 00",
+        "website": "http://sehirtiyatrolari.ibb.istanbul/",
+        "rating": 4.5,
+        "reviews_count": 847,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npLs_tnfpku3pxKmA7P6EUs8a6EVFnFymJ8ZM8wWCuaEp6ifO6muH_TE4PKIx1DWEAUUUhTiZJK0EtEh1tPMotFhNhmaOZxwFAiFZpc2kcgaGZmL8ka3Gp0FqTiYC2zsCMNH_o2=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npWX6SNDx71GzU8m0sBCxCeg0N9aVYTxNN0rUuZbznNmniVkPGTDaIeb9oDUHkKeIpIaR9vI9Nkxrf74hNBVsCDfELqaPPlsDuBxOqezK-dCZw5tuxnWwtekNyZw4DVjPY_ieTYFQ=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrniQEkrL-l0pMTSbtsbotk8pNbRFR4DIqfDaV7AQQqWyQi-vpVZrf6kI9cSo_LJAw9yFM0lCmIw4nWuScUevwPDVxbH2R-P0ZHa4vTevUNXJn4H6jTzXrfAcysRb-AHHIW2Yg=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=agJ0rOwdAc64TfPyV4m2Gg&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=25.35983&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.019330999999998,
+          41.0250652
+        ]
+      },
+      "properties": {
+        "id": "ChIJZY6jam63yhQRMyDfS4TaUrk",
+        "name": "Uskudar Sahne Hane",
+        "category": "Tiyatro Sahnesi",
+        "subcategory": "",
+        "address": "Mimar Sinan, Selmani Pak Cd. No:48 2 D:1, 34672 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "phone": "0536 320 58 55",
+        "website": "https://www.instagram.com/sahnehane_uskudar/",
+        "rating": 4,
+        "reviews_count": 402,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noxbm7H18ucx6anBYgxk0W7_1ciXbeM1liWJp7oZ54cZHFHT6haRxHW773mDnzfC8zSgx6UWwfyx0BFoFzcL2w7BGKHVeb-f2w_ssiTBQ_2Ju7yNamquIkRhyb20L-8a2icFbNj=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipMN37wWIJmDD88oTTaSoybg8_PdvV9TH2AAGoVN=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npOVTHWxR_pkWspCgGE1rQcnwU0kSTIXNfvo0h6eygdOdFDGAZJMtsxAZbfMBoN2Wnc6usyT5RMiewAJ6ThwiC28Elma33ctG7eXgxIu4PEmfJm_DtC8eJlrymOF_bwLo25tPI7uw=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=1ehC6MMWFDudoK3wP3FfKg&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=159.64168&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.017233899999997,
+          41.011058399999996
+        ]
+      },
+      "properties": {
+        "id": "ChIJk5TcrAK5yhQRcoamqR5c29k",
+        "name": "Samimi Tiyatro",
+        "category": "Tiyatro Sahnesi",
+        "subcategory": "",
+        "address": "Selimiye, Daye Kadin Sk. No:38, 34668 Uskudar/Istanbul",
+        "description": "\"Yeni, ozgun ve gelenekselin aksine; sanatcilarin deneylerini rahatlikla sergileyebilecekleri bir teknik duzende, tiyatro nerede yok ise; biz oradayiz... Sokakta, apartman boslugunda, depoda, catida, otobus duraginda... Sahne her yerde...\"",
+        "source": "eglence",
+        "phone": "0551 072 64 64",
+        "website": "https://samimitiyatro.com/",
+        "rating": 4.8,
+        "reviews_count": 52,
+        "images": [
+          "https://lh3.googleusercontent.com/p/AF1QipMbuhrryosrQW0zPpdr4feESWSnNDjEShf86V1E=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipPJij126ZMDf5Tn9ZHfFc9MPZE7TDVJnK06zNy5=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=dyW8k_0pDNcOL_9icQPD_g&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=143.92088&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "14:00-23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0316767,
+          41.0337549
+        ]
+      },
+      "properties": {
+        "id": "ChIJf3OaTei3yhQRZAQqSAqkOVg",
+        "name": "KUZGUNCUK SANAT TIYATROSU",
+        "category": "Tiyatro",
+        "subcategory": "",
+        "address": "Kuzguncuk, Icadiye Cd. No:85, 34674 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "phone": "0553 187 67 98",
+        "rating": 4.3,
+        "reviews_count": 65,
+        "images": [
+          "https://lh3.googleusercontent.com/p/AF1QipN5O-1O5XMCQoQsyZyc8NQ_MQ4re4J7Hdd0-F9h=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipNjF-OuTktgNd61Ox13u3xbmkhMmEnCC2T7Xu29=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noXs9WyNiFEtaynaUjFDdJV1U2yRMijXTANlXZMi7WrEniNp4xQSD1sdGrxotBnShbCuL93yRXbMGr-exv-E1MjDvQNesUg5hhIBpRgDoRypnohGaFkd9ZeveOWbOf2SXqt6Erepw=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrst7YUsQtwquUAvYBWKw61gptDGAU8RZ5PGMtsfFXDdNDcDxc0jXgYOedwksMvgHedW3HyeurDtYsoKYZwZlfts3oZjtbB5tBJrAvWzMmxQtKyltMgzBLpLRhROgjFAmo9N4s1Kw=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0154285,
+          41.022914799999995
+        ]
+      },
+      "properties": {
+        "id": "ChIJBdQVl4m3yhQRK3ZE-UgqtCY",
+        "name": "Koza Tiyatrosu",
+        "category": "Tiyatro",
+        "subcategory": "",
+        "address": "Aziz Mahmut Hudayi, Hakimiyeti Milliye Cd. No:58, 34672 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "phone": "0533 291 48 42",
+        "website": "http://www.kozatiyatrosu.com.tr/",
+        "rating": 4,
+        "reviews_count": 65,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nosZCwnksS8W_SkguJIDh4p5Gz3v_43jsWIMIMd7wj7e5wmaiaWRFpQWvAswtEtxq8S-Sb7-DMapI9El77BFzKzLv48yfWCM-pEPIj25DCNDoOt7mGVzu7wBWihW0aJy6snvkIn=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmZJirRF8D7r6f_o-S5SbRqNDf-liuhfus1edCRwkAJAabTMN-OfwT_2_uLC6S3HyckhdjKGS7Uye_y0ECC-lTBkOCwlP_Hz0NVIURi8k-g3NiMdO4E5VQqgqGXRDBjl__xk4=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=3j4Mt9Z5d5uhKqzHszZ3Bg&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=272.23672&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0174883,
+          41.0252815
+        ]
+      },
+      "properties": {
+        "id": "ChIJYewgcq23yhQR__6Q7aKVTLc",
+        "name": "Fofora Tiyatro",
+        "category": "Tiyatro",
+        "subcategory": "",
+        "address": "Sultantepe, Selmani Pak Cd. 27/b, 34674 Uskudar/Istanbul",
+        "description": "Sahnenin Buyusuyle Kendini Yeniden Kesfet...\n\"Bosluk sanatin sahnesidir\"",
+        "source": "eglence",
+        "phone": "0538 496 26 24",
+        "website": "http://www.foforatiyatro.com/",
+        "rating": 5,
+        "reviews_count": 12,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noeTvvZo8lgvKvc7sh6T2b0bJMnLtPvr61nznl90dHN4I68OgtjcVx1xbo1YI9vz_p-rruCIigbfL7VFZhZ7YMYFJRWpy2rRa4trxzbv52_GkeQwfjX4JHHgUGyg2aWgSLeDZoQag=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipPxTtxRyZg8i6u8zoBG5KZTpCo_EWLelaQEa088=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Vkzqq5DG-PgPONRYwhBLbg&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=26.37556&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.054944,
+          41.013414999999995
+        ]
+      },
+      "properties": {
+        "id": "ChIJtdsaBdDJyhQR8fKYT3HN9j4",
+        "name": "THINK House Istanbul",
+        "category": "Etkinlik Mekani",
+        "subcategory": "",
+        "address": "Acibadem Mahalle, Acibadem, Acibadem Cd. No:224- H, 34660 Uskudar/Istanbul",
+        "description": "THINK House Istanbul\nsehrin en renklisi\nstage | workshop | coworking | art\nhayat bir tutkudur.-c.chaplin\nhello@thinkhouseistanbul.com\nAcibadem Caddesi No:224 Istanbul\n533 5829997\nTHINKBIG\nTHINKART",
+        "source": "eglence",
+        "phone": "0533 051 32 75",
+        "website": "http://www.thinkhouseistanbul.com/",
+        "rating": 4.8,
+        "reviews_count": 43,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noQTgsSsoRv38hz3eTXdHKGfL2z-wdlYRp4-Ta59cUQPpae1CwY34SQqbe7GZbV3tFol-s7I7AuOvmMh3rkr4YgBVSlZkfiGhz_XBMUbW34zk8l_YuabgVlsuFmiqSoLVfYtCc=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipM4az02ZPr2GWZN7DiHDeJx6xgTrnf_5uYhggN5=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqwBtyTXffKK4uD_Ss__qygjW4dT63Chibx6rLkZ1q1SNeRWSlBx1KaqnBET13ACQ5HfaCrRiYkAPlWfYYu6tLHPo6cmfXTBarExEwNJniW_uAxP4Jmo0dO7vi5PWTszsRrSBzbJg=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=I0uXv6kEL3dwW1xgBHS07w&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=128.23546&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "09:00-23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.079846399999997,
+          41.0181615
+        ]
+      },
+      "properties": {
+        "id": "ChIJwVN4cm-4yhQRgaV8lvSsJCk",
+        "name": "Tiyatro Alkis",
+        "category": "Tiyatro",
+        "subcategory": "",
+        "address": "Bulgurlu, Hacilar Sk. No:7, 34696 Uskudar/Istanbul",
+        "description": "1998 yilinda kurulan Tiyatro Alkis Turk cocuk tiyatrosunda degisen ve gelisen yasam felsefesine, cocuklarimiza farkli bakis acisi ile perdelerini, araliksiz acmaya devam ediyor.",
+        "source": "eglence",
+        "phone": "0532 502 16 29",
+        "website": "http://www.tiyatroalkis.com/",
+        "rating": 4.5,
+        "reviews_count": 8,
+        "images": [
+          "https://lh3.googleusercontent.com/p/AF1QipNF-6umvxgYNp9BqWCddv9poFcp8pEiqhD_lK-4=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipOaoD2ykZWg--6SJ4HEJR_iV9b-TFCwtCK-Qekf=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipOaoD2ykZWg--6SJ4HEJR_iV9b-TFCwtCK-Qekf=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=GAElqnRwe7niPtEs69Ji2g&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=276.7577&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0416149,
+          41.0419876
+        ]
+      },
+      "properties": {
+        "id": "ChIJo0H1p_O3yhQRApV-OyT2QKk",
+        "name": "Sahne Parantez",
+        "category": "Tiyatro Sahnesi",
+        "subcategory": "",
+        "address": "Burhaniye, Abdullahaga Cd. No: 14/1, 34676 Uskudar/Istanbul",
+        "description": "Sahne Parantez, Istanbul'un Uskudar ilcesinin Beylerbeyi semtinde 2024 yilinda acilan tiyatro sahnesidir. 144 koltuklu sahnenin kurucusu oyuncu Vahit Atan'dir.",
+        "source": "eglence",
+        "phone": "0542 361 83 01",
+        "website": "https://tiyatroparantez.com/",
+        "rating": 4.7,
+        "reviews_count": 7,
+        "images": [
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=0821BLzaOLIDlHIpxtq4XQ&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=256.8159&pitch=0&thumbfov=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=0821BLzaOLIDlHIpxtq4XQ&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=256.8159&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0343192,
+          41.0121977
+        ]
+      },
+      "properties": {
+        "id": "ChIJUXAPq2m4yhQRnhYOwK7N_hE",
+        "name": "Tiyatro Mie",
+        "category": "Cocuk Tiyatrosu",
+        "subcategory": "",
+        "address": "OFIS:, Barbaros, Yesil Kanarya Sk. No:9 D:12, 34662 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "phone": "0532 611 55 97",
+        "website": "http://www.tiyatromie.com/",
+        "rating": 2.5,
+        "reviews_count": 4,
+        "images": [
+          "https://lh3.googleusercontent.com/p/AF1QipPsh-fQ_7Q7SKLYFYjCz9N8ag7ZXvWjT7PTDMUT=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipPsh-fQ_7Q7SKLYFYjCz9N8ag7ZXvWjT7PTDMUT=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqfIEJEfZlkvQlF1o4c--xM2EdYc3w2JmeOh2OoUMpZKm8HPi0v_MdL24pzgySnATBhBgzNHlRXN_Qb0bfbb6rlpJLw8NHhB9EENaLWQ9Ys57gcv38-0TmhU4bX7cF2LiXV_p0V=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=P4_MFc4z_etOv8y7JICJ_A&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=112.286835&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.052659499999997,
+          41.0393806
+        ]
+      },
+      "properties": {
+        "id": "ChIJG8yH9MnJyhQRWGDwklZLEKA",
+        "name": "Milli Sanat Tiyatrosu",
+        "category": "Tiyatro",
+        "subcategory": "",
+        "address": "Beylerbeyi, Gulendam Sk. No 6/A, 34001 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "phone": "0850 840 8241",
+        "website": "http://www.millisanattiyatrosu.com/",
+        "images": [
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=iobHS5IeIR7OGVlL-UrttA&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=178.98805&pitch=0&thumbfov=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipPjbx6BHAvAFGuJeuVuvl2fvPVr1pmpRJjkQpBL=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=iobHS5IeIR7OGVlL-UrttA&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=178.98805&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.061662899999998,
+          40.9979841
+        ]
+      },
+      "properties": {
+        "id": "ChIJmYe01ULHyhQRneYCmAbsVMc",
+        "name": "Imalathane Sahne",
+        "category": "Tiyatro Sahnesi",
+        "subcategory": "",
+        "address": "Unalan, 34700 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "rating": 4.7,
+        "reviews_count": 6,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq87uBE5vJD69vQRBA7Kn7twbqdx49rIt-HmxPBJ9axjEFAYbwmytEpdRLXqpNX346ZeT8OOr-oMbQBFQ3cemQXT7JgCR_ACA-N0llH2W7WOnAU66a4_cpCgSX170mCEJMtnEF5=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=GStFcrWlHomeSWBj0xrxNQ&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=128.48224&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0854961,
+          41.0409879
+        ]
+      },
+      "properties": {
+        "id": "ChIJQSOUbjfJyhQRpXruT2oKLrk",
+        "name": "Tiyatro Melodram",
+        "category": "Tiyatro",
+        "subcategory": "",
+        "address": "Yavuzturk, Karadeniz Cd. No:145, 34682 Uskudar/Istanbul",
+        "description": "Cocuk ve Yetiskin Tiyatrolari",
+        "source": "eglence",
+        "phone": "0542 716 90 28",
+        "images": [
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=JRMTJ85j9_dmzdTZrOahPg&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=300.87192&pitch=0&thumbfov=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipMLai04ccbM1T10RU8sZJjEmP5eaRjwNQxMror5=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=JRMTJ85j9_dmzdTZrOahPg&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=300.87192&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0149318,
+          41.0230276
+        ]
+      },
+      "properties": {
+        "id": "ChIJIxBvBxG3yhQRtBlJJ2DqLXE",
+        "name": "Atolye Tez",
+        "category": "Tiyatro",
+        "subcategory": "",
+        "address": "Aziz Mahmut Hudayi, Eski Mahkeme Sk. No: 30/A, 34672 Uskudar/Istanbul",
+        "description": "Tiyatro ve hareket atolyesi",
+        "source": "eglence",
+        "phone": "0540 839 20 19",
+        "rating": 4.7,
+        "reviews_count": 3,
+        "images": [
+          "https://lh3.googleusercontent.com/p/AF1QipMqW-CU89yXeWprOZ8dI-sDMq05BdInJtBo1S-u=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipOaNfCaEnZ30Uq2nK5jBEQDWirz8tpcorGZgUvy=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipO8oeva8PRPq6PWGiStu3xMlqpKZS_1HukEHkIM=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=pGHj1nQg-34vzUMlUEr7RA&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=280.26727&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0118038,
+          41.0228524
+        ]
+      },
+      "properties": {
+        "id": "ChIJr95Ntcm3yhQRd0GptZ-efCo",
+        "name": "Tiyatro Parantez",
+        "category": "Tiyatro",
+        "subcategory": "",
+        "address": "Aziz Mahmut Hudayi Mah. No: 88/A, 34000 Uskudar/Istanbul",
+        "description": "Tiyatro Parantez olarak karsinizdayiz; Cunku detaylar, parantez icinde saklidir...",
+        "source": "eglence",
+        "phone": "0541 349 62 22",
+        "website": "https://www.tiyatroparantez.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=5906960809169675161",
+        "rating": 2,
+        "reviews_count": 1,
+        "images": [
+          "https://lh3.googleusercontent.com/p/AF1QipPUhdPu5dbPuiJJDJdnLuBLp5UA1CFUXHx06QJS=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipNJC2P67klxMAEX22mJlRX3gEwkVthW1V_W5i0a=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipPGzYZe_wAfcT965I4Za_Ww4gVTWoK8j1IBWQP5=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PzaTN3Xtqa114VQAwhLT1g&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=235.77527&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.035868899999997,
+          41.013190699999996
+        ]
+      },
+      "properties": {
+        "id": "ChIJdYFyKyi5yhQRTdGTWHz0c14",
+        "name": "Sac Tiyatrosu",
+        "category": "Kuafor",
+        "subcategory": "",
+        "address": "Altunizade, Veysi Pasa Sk. 1CA, 34662 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "phone": "(0216) 474 79 65",
+        "rating": 5,
+        "reviews_count": 5,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nods_68OVuXIE1RvHdhoJP14XOGBGjkTnvc2ntgefOMucj_SaCxdt5DvBQr_nO2Xa7wLGzmTDWZ1Ii4csfjG5pc1DENFRYhDVkYh2raqPYjIEtV4_TIlTikryQMeysBqKXECrvnLA=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=F46rgc0AOhp6O_FLrDZ4FQ&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=336.64&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "08:30-21:00",
+        "closed_on": [
+          "Pazar"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.014972,
+          41.0230129
+        ]
+      },
+      "properties": {
+        "id": "ChIJuYgLu4m3yhQRbCpaM-p79mA",
+        "name": "Koza Tiyatrosu Davet & Organizasyon",
+        "category": "Organizasyon Sirketi",
+        "subcategory": "",
+        "address": "Aziz Mahmut Hudayi, Eski Mahkeme Sk. 32/A, 34672 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "phone": "(0216) 553 51 41",
+        "rating": 4.3,
+        "reviews_count": 8,
+        "images": [
+          "//lh4.googleusercontent.com/fybMod4mXeD8Pwr8fVMyr5CZPw2S8rhx4h6mMErll8dhYGZu96kHkTJ1GBaznuS1=s1024",
+          "//lh4.googleusercontent.com/fybMod4mXeD8Pwr8fVMyr5CZPw2S8rhx4h6mMErll8dhYGZu96kHkTJ1GBaznuS1=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=pGHj1nQg-34vzUMlUEr7RA&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=259.0289&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "10:00-21:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0550842,
+          41.001979999999996
+        ]
+      },
+      "properties": {
+        "id": "ChIJ27UriPDHyhQR2yhViDUgAI8",
+        "name": "Akasya AVM",
+        "category": "Alisveris merkezi",
+        "subcategory": "",
+        "address": "Acibadem, Cecen Sok. No:25, 34660 Uskudar/Istanbul",
+        "description": "230'dan fazla magazasi, restoranlari, sinemasi ve diger eglence imkanlariyla sik ve luks alisveris merkezi.",
+        "source": "eglence",
+        "phone": "(0216) 325 03 72",
+        "website": "https://www.ak-asya.com.tr/",
+        "rating": 4.3,
+        "reviews_count": 38218,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqie2AExihxIOUSFSQ9Kh0JSDuU3gsLBmdhNJebhNso3zbbLOx2NOITpdhAyn4l8VY3TpU3Cr5gpxTQpqWpfRbwKCvmdGfN0zO1TGjpbA4yaaNnCnThTdq621kQ7IlSTiqqCHpVhHy91nw=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nphLZnJc2KThuxXne1ZbUxvYN8AfZwmdOegMKxZyzHtX10dTzQb7b7KfAerE3jpxLwDPFifDzPCVNQGlTXM5ib6R7q-Om5kE6XrTUyxMXogs2i9W65QMfxGQuWnEdYiSwHCqLIZg2CtWQzc=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nppX9g1ragFXxTraP7pR8uEyQ2DbzxrOpy2EbR9jnsWNT_CCq9DbZa9yLUbJ7yqcrON6yjNa26qCeVFITNrPOwppg0PdOi0pHePnBC_kKfs9qRlwwzBonxNW2YmD3rHqYIec4iyH9-b6kPZ=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqNmL-Vn2fwhmDaNtag-0xX0q78DhXG5T4ymGJnSPTPXMhpkv6wrvHIbxLreQtVO_vUottocsHs5noQnJHgQP5ok-gT4qId86L8YPK2nHAB6W2Nz3F3C_8BIoUXbRFL-XBmorFX=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npWDv6ZARWxXuzY9f7mYSTMOjW6dm57Fd7xagtDjfOjdrvvNyz0GSVUoOa44UYxZ1rHSBtiB8Y6nJLIxSFvcwlQlGu2b3XwgpjE09ZYysgetx-H3YpdwxDGYtSobqoSVD7JEv0t=s1024"
+        ],
+        "workday_timing": "10:00-22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0713792,
+          41.0034218
+        ]
+      },
+      "properties": {
+        "id": "ChIJ7_cHTd7HyhQRCBUEbylRP7w",
+        "name": "Emaar Square AVM",
+        "category": "Alisveris merkezi",
+        "subcategory": "",
+        "address": "Unalan, Libadiye Cd. No:88, 34700 Uskudar/Istanbul",
+        "description": "Unlu magazalari, cesitli restoranlari, sinemasi ve akvaryumuyla luks, ferah alisveris kompleksi.",
+        "source": "eglence",
+        "phone": "0850 290 8090",
+        "website": "https://www.emaarsquaremall.com/",
+        "rating": 4.3,
+        "reviews_count": 37036,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrdHHDbpt0OCBRMYIxK69tleLqjeME4Ied5Mbl3ijlkdxJ11yPETCmxYpiQZYqtarq6qLpm9lFrqmlCOsMZkRFAYvrIoSTc9CzcF2JtJUU5MjEAwEjedkWPrr8NbNnGzMzNb75k0w=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npDz8MK229uQa6pQVqnI_UEp-cMW0gR4kj_QpWh06ndDHtGmM2WnhlSqRJVpjDPU0nO6-SGHZ9h-gh6T1FzT5jJ9ekQI5CXgolsyj-V8R9S9NNwRlzRuw3c2NYmTtiX_c-2hb8MK4jbNXoN=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no-652qjjOFhvQNfzh1OivtI5LVl9yIacLxTTa0dasDTl-r-vyNJtrgzJxQ4b4hAsbzAjT4L5iBdjBKIqCpWt8e_QvNkYE9DMpIs1TdT4zTxamy6zkzXT-SSA_O3KRwScp0LbLvZg=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nphTaMVv7kz7Ykx-PSxMyrntZiUlVK-mzRFKRitaML7f8g8HCs9kgSNvmNoibGYMhZLlNkJcVv9ldzIhW44X-qEskZV1CaM5IGeE8jrmOdlf0I1I6sJa7y9AMATowBDNAIJCJ_Rmo7dTtIV=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nraVzhXR-cU96qW8PxSyzO_Yh1S9KgtK-IGmzee7G3-RzHv-aj5KGxliwa0mzYTgy-DwdeqNHDmbcGpI7qMtvTC_pxB4mSRGRBytSvQ6HHkvoOXNKjbL8DZ5EQMFOaWZGxRyp9Jtg=s1024"
+        ],
+        "workday_timing": "10:00-22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0394974,
+          41.020948499999996
+        ]
+      },
+      "properties": {
+        "id": "ChIJHUF9j_u3yhQRCqJHRD3UjUg",
+        "name": "Capitol AVM",
+        "category": "Alisveris merkezi",
+        "subcategory": "",
+        "address": "Altunizade, Mahir Iz Cd., 34662 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "phone": "(0216) 554 77 77",
+        "website": "https://www.capitol.com.tr/",
+        "rating": 4.3,
+        "reviews_count": 20693,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no9hXrFQ7OR7D9KOzw5Ed9X1xrt0HWc6WsjZIqCzP9q1xHLlF6vs6yALN30PsLurwBkiydLPiUbRr_2TyXFF0PmbvYu3zTHx_t7BB4gVeJnsdW1AZkF17WkW2gM4SAlWriFM2cjNuFIO_zT=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noPBSx-PUbcxm-5gqG95u5wF1HSCiqATiXHuf7sBVIq-iXh0pAACbkQJ7CrtqYNjnx-ULzxSWfO5gojB7IzyiqdEAYb4T4Kj5AWaQmZyKjH8P2jrTWMhaobnz_MtY4gc1EX8pIa32CmrN0H=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nowlP9owO6Oc6UCplsY0e30EZOAXpHyylUGJYaHHexmprKzG3drbdl56BHFHqYZNitWgk0V6s6d0L99MfuZyyPqL7xAq8_nHjFldYI7G332JRTtn8Q4nAnhqKEk74s5S9QjoD1YQQ=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrg7Era4wGcBxUPQHVPXgQRV08N9pBas1Sqitcb0W_S8ZGqR-8hAGLcHLMRVVu3TYZLzc-d_F4ydTz2fy97lnbfK5oCpbfrN20oX02EaXRk5m-B_a4WgKmyLAWM7yhPplWYBwae=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqpU9QvVhjSagS3w5ezMitouSOySrWG9x9domq-FQ82b1C2BUd5oBurasUxDlos3Wp-8ocV0dEXZgAvcuwDcXG0SmqEs8GGnto0IDj85T64_hAQwBX_9APXA5HOGJP0y8earVzN=s1024"
+        ],
+        "workday_timing": "10:00-22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.016021,
+          41.0244248
+        ]
+      },
+      "properties": {
+        "id": "ChIJ--ZEaYm3yhQRiAjOSUenr1k",
+        "name": "Uskudar Balikcilar Carsisi",
+        "category": "Balik Hali",
+        "subcategory": "",
+        "address": "Mimar Sinan, Selam-i Ali Efendi Cd., 34672 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "rating": 4.3,
+        "reviews_count": 4857,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrXE4dGT46Co9nI5kcl8kBIaFlFJOGgHqqw4ZF_p0sVk3LADzhL6JP45nNKrb3lW7KbTt3ZA-4irtUBe1ekMpNh8h1EZbwC4AuXykwRUhM8Dn4HlfgxQV26CYRWn1vF85aaMrm94ypQvIWq=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np_wliNJ1Y5xvIVBnfIRsFi81m9X7meY5Q3WNTC3RrtONSz2gibmTJaEDQthy5R135HRDfMnRqPsJxPkyFWyjm8KjhAE9Sz_hswautX7F62RxN9c85DjuZePYRkYN21NAeFk5ttfMQbOXj9=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noRwmn-u50XEdqGA__gqYRZHomZvc_fHhasyyrJ-T-NQrzJgRuFva-J1JjdfnBMgTjffa1XS9x0yyl57SDfYX2k6tpdKvuTHbSWyzDQHoYDmzHmQA65Yk9OcVDuESp-jSTnwKVs=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npm5zOCqzrgh_ycBeDEfXLLnvjmVPhVPKO7kO8J3W7VTlmVPBuR_lKmi3CFcbIYKU6iScYcwHBIE0uVObpeX9opZYGCdqC9618kA5zBIuhVDbtpJXNesit01yqsHVp3V6L1GQ3kFQ=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq_PNyqV4bBrtFgcaBsicBusTXO95rO9YtyIjnk-YJVqJqIApn42o4gUZLiXdSXdVWJKF93RYgOS1cOyn75jDm0zdslanZe5S-425fJPokRILi-k8vHNwHrRZaqVxcmUeMtkFHPCEfmZU3i=s1024"
+        ],
+        "workday_timing": "08:30-22:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0163391,
+          41.0246454
+        ]
+      },
+      "properties": {
+        "id": "ChIJs456XIm3yhQR410awSvCWBI",
+        "name": "Uskudar Carsisi Baharat Asian Side",
+        "category": "Alisveris merkezi",
+        "subcategory": "",
+        "address": "Mimar Sinan, Selam-i Ali Efendi Cd. No:4, 34672 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "rating": 4.3,
+        "reviews_count": 43,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqQ0NKRojSwl2_Lj7xHoz9LyGqpqinvV-ZzA2qY3QjLTnH_8b8Mghku5vjkhEVSKDU97zJPspgkdgpnmVjBbdxdiVW4-KbjjjB9I-cJ37MJNhYs56cpzahGj6uZi7nyJ6N8aW8FTA=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqxLIODLwvf3Dt4vm5o_DH5LGwuxN2KPRTeNCly0gUpl-AyHeppmZZvCO0BMZonDJGBlhSG4J2pbhIvT78OybTNtDiJ9z_IgtG8hloMH-Rbjx6sIymeRtmTtc7iyVp12LKZvAo=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np2HOKhtH-8JMjHUITr1L6ODvi2bPG4W4pD4AhqUbKnXjUA3wXD-Cx4xwDjP0HJmI8doZ3L_jZiJ3Ea_qhuPBYglUVUQfPnZdbJVhUtysduSJAq_jxLxjl9uNsCi7Tb4G2_RE0M=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=R-veInxVzgzlJktoK80dmw&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=200.43175&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "10:00-21:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0153669,
+          41.023902799999995
+        ]
+      },
+      "properties": {
+        "id": "ChIJ-dr8C4m3yhQRQQYhsSzUGjU",
+        "name": "Kuyumcular Carsisi",
+        "category": "Alisveris merkezi",
+        "subcategory": "",
+        "address": "Aziz Mahmut Hudayi, Hakimiyeti Milliye Cd. No:30 D:17, 34672 Uskudar/Istanbul",
+        "description": "Her turlu canta bavul tamiri yapilir",
+        "source": "eglence",
+        "rating": 4.2,
+        "reviews_count": 322,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noM5_gRe5oO5iOAWCnqodc8OlXI1SKU4iEjePsr44L0nX4nVZYeWnWhr3LOPZYuY9xTx1skzHmUUoFZzosozXp5aR3Gm8y8vVeFANGg_7J8ogrioGjbc6-lcXJAvE1rKZ3u2X-A=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrlED7ymuO3X6B2RneMQEkqH1J3XHNGtml8CT7KoHP2JkEKtCbVl1mwcxwS3eNKsKRegLQ8EDtjHR1NvJvbtasDfpKTynIg1pGOXCNo2jl7QUe9C800Kg0yDl1Otb7o5aj00Z35v2QnAhRb=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npEhl3Lf-W-YyHYU2etfh1miwbFGeYX-HTk3KdwTDkkQtCCXLRt2FRcJjQHXv5O36YgOc4xqC74mn2qM1zSqUauOTEqhdf4OUHerOm9LE-vj2SbffXBRu2hey4VD8rTziMybN3vCw=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipNqqFWEG17MxsB6gAqwVhDf-TqCPznlOU9_ZGhV=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrBLEzpneF5BecAJ7nGCLZpras3S6o9m7vu9gSx2MKqkH362T6KAgGEuY6gGB6z6DWpqzrzCywYpii11aGoS31iLpGq713QE8cWtsW-LZqY-THdQP8Z5aq5JXr9DJKDhLVTrjTskg=s1024"
+        ],
+        "workday_timing": "09:00-19:00",
+        "closed_on": [
+          "Pazar"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070807199999997,
+          41.002302799999995
+        ]
+      },
+      "properties": {
+        "id": "ChIJcxyCqODHyhQRS9T5VhVEYgg",
+        "name": "Emaar Akvaryum",
+        "category": "Akvaryum",
+        "subcategory": "",
+        "address": "Unalan, Libadiye Cd. No:88, 34700 Uskudar/Istanbul",
+        "description": "Yepyeni bir akvaryum deneyimi Emaar Akvaryum & Sualti Hayvanat Bahcesi'nde ziyaretcileri bekliyor.\n\nKayalik Kiyilar, tunel akvaryumun da icinde bulundugu Ana Tank, Ormanlar, Nehirler ve Selelaler, Penguen Adasi, Timsah Kralligi ve interaktif oyun alani Hayal Adasi ile tematik bolumlerden olusan akvaryum ve sualti hayvanat bahcesi 200 turden 20.000'in uzerinde deniz canlisi ve amfibiye ev sahipligi yapiyor.\n--\nEmaar Aquarium and Underwater Zoo, composed of different thematic sections, namely the Main Tank that includes the Tunnel Aquarium as well as Rocky Shores, Forests, Rivers and Falls, Penguin Island, Crocodile Kingdom and interactive play area Dreamers Island, is home more than 20,000 marine animals and amphibians of 200 species.",
+        "source": "eglence",
+        "phone": "(0216) 547 18 88",
+        "website": "https://emaarakvaryum.com/",
+        "rating": 4.3,
+        "reviews_count": 13080,
+        "images": [
+          "https://lh3.googleusercontent.com/p/AF1QipN1ygTLqDnBDWQ6qLgjUrbwhYQze3n_u3r90fEQ=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npwyWZ8Szx1m6OOgybJh5Zpc2FOoF5M4evKg8Q2qphh3o8U3y3IZ789DZ6vOIRY-7co3Mx7M5FXJ_QyHsWHm2pjTRSmeRMfZCDxRVuaRVip9wfJ5j0eNWjrsxVtbbuJUUKlTUeVGve5T3e5=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noTBNb322KmYIEydbLlIxD8gGpwzbHSt5367kgQKBsDQsm9x-N6obRkNL7ZDaM1ukwa7mIFBkSNlTDkqUgAW_IwB1yMoIqBjDQN860D2-ZrGVShdzWS7CrImmRumJSc7YkC1jI=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipN1ygTLqDnBDWQ6qLgjUrbwhYQze3n_u3r90fEQ=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=UEaALEzvRssvY2CWSszt2A&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=128.84842&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "10:00-21:15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.017589299999997,
+          41.024395899999995
+        ]
+      },
+      "properties": {
+        "id": "ChIJqRC-6Iu3yhQRTcfA1wEfK-w",
+        "name": "Tuz Deryasi",
+        "category": "Alisveris merkezi",
+        "subcategory": "",
+        "address": "391 34672 No:22, Mimar Sinan, Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "phone": "(0216) 343 93 25",
+        "images": [
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=mXyj2rSP7Nf4NJ4lMKOOqQ&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=205.82607&pitch=0&thumbfov=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrIpfTbf9WtP876zVCdC6-W9U_RsYkjsm0D2Jyq2Yb9p6-7TkscU-XOciFiD_3QKcQYB-1ryQeUWboHSZgnCUxO_IlYo2DXHpBhh_swshRBsCUNLH5fmC4jsqEk9myey3xIXI0hnQ=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=mXyj2rSP7Nf4NJ4lMKOOqQ&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=205.82607&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "12:00-19:30",
+        "closed_on": [
+          "Cumartesi",
+          "Pazar"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.054473299999998,
+          41.0144567
+        ]
+      },
+      "properties": {
+        "id": "ChIJE0nHDgDJyhQRDH7FimRleTg",
+        "name": "Mjet Acibadem Nisantasi 2",
+        "category": "Alisveris merkezi",
+        "subcategory": "",
+        "address": "Acibadem, Palmiye Sokagi No:12, 34660 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "images": [
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=l_o886WXoP7-kitrpYmEmQ&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=97.77509&pitch=0&thumbfov=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=l_o886WXoP7-kitrpYmEmQ&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=97.77509&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0124781,
+          41.0192099
+        ]
+      },
+      "properties": {
+        "id": "ChIJkdD2Nya4yhQRVS-_uvS2m4o",
+        "name": "Uskudar Kultur Evi",
+        "category": "Etkinlik Mekani",
+        "subcategory": "",
+        "address": "Aziz Mahmut Hudayi, Ramazanoglu Sk. No:4 D:1, 34672 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "website": "https://www.uskudar.bel.tr/tr/main/pages/kultur-sanat-merkezleri/52",
+        "rating": 2.7,
+        "reviews_count": 3,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npZ0yda1rUI7QZduu07nYznajic-W1Va6W1D-pnjsNsWSFtLUCLZPZG1rS6HUAkatGgpi22l1d3z_r3G57qA-dc_IcIwCnz2uIH4EjFEnszWrwHVmnjtF07e3FBi90GyEZIu0eO=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=m-bEBaHVSsSzpMiF-aWNkQ&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=11.07666&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.075639,
+          41.047863
+        ]
+      },
+      "properties": {
+        "id": "ChIJ-05sN7HJyhQR5iknzmtDwRU",
+        "name": "Alizecafe & Alize Nargile Kafe Restaurant",
+        "category": "Nargile Salonu",
+        "subcategory": "",
+        "address": "Bosna Bulvari Canakci Sk No:3, 34680 uskudar/Istanbul",
+        "description": "Otantik Nargile Kafe arayanlarin bulusma noktasi Alize Cafe\nCevre ile ic ice doga dostu bir mekan",
+        "source": "eglence",
+        "phone": "(0216) 308 62 23",
+        "website": "http://alizecafe.com/",
+        "rating": 3.9,
+        "reviews_count": 231,
+        "images": [
+          "https://lh3.googleusercontent.com/p/AF1QipN70rtbJBkP9n-yk-H52sZOJHzB0MiO_z1S_DCk=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipOznBP3xLJAMMTeuW7r_361M30-kL_KS78LMiMc=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipO1V6x0MZQXWl_uOZSOKZlBqy-S4ZlGj3Bp7tDp=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipM5iQB9c_dVuUwV8KTz5ZyRIHROnE2wP5P1hO_z=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipPWMl75J57ezlK5qUGQHOk9qzMNbTuVJMQfMbE_=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=E5m1u6-4HZ-Tj1hSEdyurA&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=185.27219&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "09:00-00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.067553,
+          41.029047
+        ]
+      },
+      "properties": {
+        "id": "ChIJ3Zn6QBXIyhQRva2XyRvqxMc",
+        "name": "Beyaz Kosk Camlica",
+        "category": "Nargile Salonu",
+        "subcategory": "",
+        "address": "Ferah, Camlica Tepesi Sk. 88/1, 34692 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence",
+        "website": "https://www.google.com/maps/place/Beyaz+K%C3%B6%C5%9Fk+%C3%87aml%C4%B1ca/data=!4m7!3m6!1s0x14cac81540fa99dd:0xc7c4ea1bc997adbd!8m2!3d41.029047!4d29.067553!16s%2Fg%2F1tds3qyf!19sChIJ3Zn6QBXIyhQRva2XyRvqxMc?authuser=0&hl=tr&rclk=1",
+        "rating": 4.3,
+        "reviews_count": 91,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np7LAqMcXYAG6VpR38KVvdSZsXcqz0aNuF8vXeLPLIRDfU2rfqVds-C5MyxGMZOFPQmEGyPAxmLtAlDx5VveGVWQIZudHeAxQrRE0Cji6krlfsTi62RDRLHqOSe824eIFsoYRCv=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npyfSBeN36oganIinomYo7VIcXNpBy8Dh5hfisrVa5naTeAJ_-yw1kU02lPiYDUNmOHs5hLnZzSZ0M66EL6-ZXX5cF9IxSb7rQN-0Bl09OLgGrUBa3eUxedLKutHoOzTTowsIxo=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqWCbs6DqRA_mWUVN6U6pvJ6mm6K51E7-gZNZvF-k2HNsdheBjas1Uj-09GAIdjRcfu9p-YbjRlYDQWqPj2BgGkU07nhvCU-aNaZCM5ccBH0pkA2CPg6G3Zbs5TdSafVGzMQfOG=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipO_BeAyYWX-WXzVPI8XLDkoX8F-pUOv34kolXMw=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PS69JpCVuzJNSwNXWVrEyA&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=345.76773&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "09:00-23:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0359914,
+          41.0241688
+        ]
+      },
+      "properties": {
+        "id": "ChIJnbTLZfC3yhQRzHcKFcmCr5o",
+        "name": "Midnight Hookah Lounge",
+        "category": "Nargile Salonu",
+        "subcategory": "",
+        "address": "Selami Ali, Gazi Cd., 34664 Uskudar/Istanbul",
+        "description": "Midnight Hookah Lounge, Uskudar'da sektor duayeni, genc ve enerjisi yuksek girisimciler tarafindan kuruldu.\nNargile, dunya mutfaklari, oyun alanlari, ucretsiz otopark saglayan ve essiz konumu ile lokasyonun en gozde isletmelerinden biri olmaya simdiden aday.\nOkey, Tabu, Tavla, Kagit oyunlari, Uno vb. oyunlar,\nSpesiyal Nargileler\nSpesiyal Icecekler\nUsta Chief'lerden enfes lezzet sunumlari ve cok daha fazlasi Midnight Hookah Lounge'da.",
+        "source": "eglence",
+        "phone": "0545 485 99 93",
+        "website": "https://www.google.com/maps/place/Midnight+Hookah+Lounge/data=!4m7!3m6!1s0x14cab7f065cbb49d:0x9aaf82c9150a77cc!8m2!3d41.0241688!4d29.0359914!16s%2Fg%2F11f4r1vbh_!19sChIJnbTLZfC3yhQRzHcKFcmCr5o?authuser=0&hl=tr&rclk=1",
+        "rating": 3.9,
+        "reviews_count": 118,
+        "images": [
+          "https://lh3.googleusercontent.com/p/AF1QipMH5rT_Baynm_tSGLvrTtYDBiiOPGZCLt94HSpC=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipNw1DxFQLVMtN-nisWxOM4t3xHWBFMqZ5Dt26yW=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipPTYPjAElmGof81Rv8PHYdfefkASHP4gPA1oo5h=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipPGi-3qfka63Wc0KVh3aFrfe17srb-nNRnpUAhK=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrk3JmQwvhRk05l0VLwOny5vQeV2mH7PxKm8Li2Y9LEabXHMMp5HGu77IWRPXVrQq7w7Sny_YY00oYIN1rp-ZPZBoHBtd_-tHDSOC2c5jUezTtAgPSia6aPYqT9uS48X1WuqXa-pw=s1024"
+        ],
+        "workday_timing": "08:00-05:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.028713499999995,
+          29.066997899999997
+        ]
+      },
+      "properties": {
+        "id": "ChIJ4-DMxZrJyhQRLrfAYnTzbdg",
+        "name": "Armonia Davet CAMLICA & PANORAMA",
+        "category": "Dugun Salonu",
+        "subcategory": "",
+        "address": "Kisikli, Camlica Tepesi yl No:2/1, 34692 Uskudar/Istanbul",
+        "description": "Armonia Camlica, oturma duzenli etkinlikler icin 550 kisilik kapasitesi ile dugun, nisan, kina ve kurumsal organizasyonlariniza ev sahipligi yapmaktadir.\n\nArmonia Panorama, oturma duzenli etkinlikler icin 350 kisilik kapasitesi ile dugun, nisan, kina ve kurumsal davetlerinize ev sahipligi yapmaktadir. Ferah yapisi sayesinde misafirleriniz icin konforlu bir ortam sunarken, panoramik Bogaz manzarasiyla unutulmaz bir deneyim yasatir.",
+        "source": "eglence",
+        "phone": "0507 751 17 03",
+        "website": "https://armoniadavet.com/",
+        "rating": 4.5,
+        "reviews_count": 315,
+        "images": [
+          "https://lh3.googleusercontent.com/p/AF1QipMKx79t5yD-Fauv-b18K6Oj3D4dCHo1PRHcxHDF=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrKu6iqf9UI5Iqmg791NfS7Z6-UVVCJkOqfQHfZ3dTBOWzS25fsPeNp9qQuBdL1eTMQOhd9zreupC4hCtpX07gEtYZrR4Z3mJVsTRgnijBcPgLYU_aGCkI16WdIO9JDh8CvEzI8ELWVICYj=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqSMAQe0QHNcvmItSU9rvAo9O48QXzNz4Op2D7o1O7G0SZpns-qlKBiPauEeKDudozvAum0yJalIR0jVUFXhcnzUp3ogN2tHlBmSV-vuOqjAFGQCu2GvddVbEEniCTUynVjUx7o=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipNCXtj9JD8_pRsPie51JZ5M12VRoMUXud1gdVvf=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=pPxNWhibHRBLX_sVux0WLg&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=318.82828&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "09:00-23:00"
+      }
+    }
+  ]
+}

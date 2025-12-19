@@ -1,0 +1,5327 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0473881,
+          41.0427895
+        ]
+      },
+      "properties": {
+        "id": "11458809",
+        "name": "Abdülkerim Efendi Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Eski Dibek Sk. BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0133438,
+          41.0182457
+        ]
+      },
+      "properties": {
+        "id": "11462313",
+        "name": "Moralı Hasan Paşa Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Tunusbağı Cad. SALACAK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0586815,
+          41.0510941
+        ]
+      },
+      "properties": {
+        "id": "11462717",
+        "name": "Hatice Hanım ve Mustafa Tahir Efendi Çeşmeleri",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Ulvi Sk. ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0141144,
+          41.0132217
+        ]
+      },
+      "properties": {
+        "id": "11462739",
+        "name": "Hibetullah Valide Sultan Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Tosunpaşa Sk. SALACAK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0127068,
+          41.0193024
+        ]
+      },
+      "properties": {
+        "id": "11426766",
+        "name": "İstanbul Sahne Perde Film Eğlence Yerleri Esnaf ve Sanatkarları Odası",
+        "category": "Kamu",
+        "subcategory": "Meslek Odaları",
+        "address": "Halk Cad. No:80 AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0640545,
+          41.0161972
+        ]
+      },
+      "properties": {
+        "id": "10289997",
+        "name": "Cihannüma Köşkü",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Oyma Sk. No:2 KÜÇÜKÇAMLICA/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0548134,
+          41.0489006
+        ]
+      },
+      "properties": {
+        "id": "10345028",
+        "name": "Tahirpaşa Konağı",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Tahirpaşa Sk. No:1 ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0402832,
+          41.0428009
+        ]
+      },
+      "properties": {
+        "id": "10344930",
+        "name": "Beylerbeyi Sarayı",
+        "category": "Kültür Turizm",
+        "subcategory": "Saray ve Kasırlar",
+        "address": "Abdullahağa Cad. No:12 BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0422764,
+          41.0369148
+        ]
+      },
+      "properties": {
+        "id": "10345220",
+        "name": "15 Temmuz Şehitleri Zafer Anıtı",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Turizm Diğer",
+        "address": "Nevnihal Sk. No:10 KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0092411,
+          41.025383
+        ]
+      },
+      "properties": {
+        "id": "10345149",
+        "name": "Şemsipaşa Atatürk Anıtı",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Turizm Diğer",
+        "address": "Şemsipaşa Cad. No:2 /2 AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0459709,
+          41.0447998
+        ]
+      },
+      "properties": {
+        "id": "10578204",
+        "name": "Tarihi Beylerbeyi Hamamı",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Hamam",
+        "address": "Yalıboyu Cad. No:70 BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0398083,
+          41.0317116
+        ]
+      },
+      "properties": {
+        "id": "11205061",
+        "name": "Nakkaştepe",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0580921,
+          40.9992371
+        ]
+      },
+      "properties": {
+        "id": "11205324",
+        "name": "Uzunçayır",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0531368,
+          41.0112877
+        ]
+      },
+      "properties": {
+        "id": "11205029",
+        "name": "Acıbadem",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0485306,
+          41.0029869
+        ]
+      },
+      "properties": {
+        "id": "10134491",
+        "name": "Lavi Sanat Merkezi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Merkezi",
+        "address": "Şehit Fethi Sk. No:3 A ACIBADEM/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0458984,
+          41.0451164
+        ]
+      },
+      "properties": {
+        "id": "10345522",
+        "name": "Sabancı Vakfı Dini Eserler Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Yalıboyu Cad. No:66 BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0198879,
+          41.0184937
+        ]
+      },
+      "properties": {
+        "id": "10586242",
+        "name": "Akçaabatlılar Kültür Merkezi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Merkezi",
+        "address": "Dr. Fahri Atabey Cad. No:82 B ZEYNEP KAMİL/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0394268,
+          41.0118256
+        ]
+      },
+      "properties": {
+        "id": "10583710",
+        "name": "Adile Sultan Kasrı",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Kalfa Çeşmesi Sk. No:1 /1 ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0443554,
+          41.0446815
+        ]
+      },
+      "properties": {
+        "id": "11459930",
+        "name": "Sezen Hanım Yalısı",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Beylerbeyi İskele Cad. No:14 BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0129395,
+          41.0194702
+        ]
+      },
+      "properties": {
+        "id": "10345371",
+        "name": "İBB Şehir Tiyatroları Musahipzade Celal Sahnesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tiyatro",
+        "address": "Halk Cad. No:74 AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.072546,
+          41.023674
+        ]
+      },
+      "properties": {
+        "id": "11464255",
+        "name": "Kısıklı",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0329304,
+          41.0240364
+        ]
+      },
+      "properties": {
+        "id": "12000479",
+        "name": "Enstitü İstanbul Üsküdar Bağlarbaşı Eğitim Merkezi",
+        "category": "Eğitim",
+        "subcategory": "İSMEK",
+        "address": "Gazi Cad. No:22 SELAMİ ALİ/ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0576,
+          41.0388985
+        ]
+      },
+      "properties": {
+        "id": "12006892",
+        "name": "Şehit Cengiz Hasbal Parkı Açık Hava Spor Etkinlik Alanı",
+        "category": "Kültür Turizm",
+        "subcategory": "Festival/Fuar Alanı",
+        "address": "Kirazlıtepe, Mehmet Akif Ersoy Cd. No:39, 34682 Üsküdar/İstanbul",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0333576,
+          41.0264091
+        ]
+      },
+      "properties": {
+        "id": "12250400",
+        "name": "Ahmet Yüksel Özemre Bilim ve Sanat Merkezi Anaokulu",
+        "category": "Eğitim",
+        "subcategory": "Anaokulu Devlet",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0192814,
+          41.0200081
+        ]
+      },
+      "properties": {
+        "id": "12367355",
+        "name": "Zembil Kültür",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Turizm Diğer",
+        "address": "Hayrettin Çavuş Sk. No:6 MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0639458,
+          40.9975548
+        ]
+      },
+      "properties": {
+        "id": "12460907",
+        "name": "Bilim Üsküdar Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Ünalan Cad. No:15 ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0309696,
+          41.0312004
+        ]
+      },
+      "properties": {
+        "id": "12460910",
+        "name": "Nevmekan Kuzguncuk Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "İcadiye Hamamı Sk. NO:41 İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0456772,
+          41.020443
+        ]
+      },
+      "properties": {
+        "id": "11458856",
+        "name": "Altunizade Külliyesi Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Tophanelioğlu Cad. ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0223904,
+          41.0234795
+        ]
+      },
+      "properties": {
+        "id": "11462700",
+        "name": "Halil Efendi Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Selamiali Efendi Cad. MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0204372,
+          41.0225296
+        ]
+      },
+      "properties": {
+        "id": "11462699",
+        "name": "Halil Efendi Çeşmesi, Mimar Sinan",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Halil Efendi Çeşmesi Sk. MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0537319,
+          41.0504341
+        ]
+      },
+      "properties": {
+        "id": "11459511",
+        "name": "Yusuf Ziya Paşa Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Çengeloğlu Sk. ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.061245,
+          41.0473633
+        ]
+      },
+      "properties": {
+        "id": "10045957",
+        "name": "Yıldırm Beyazıt Camii Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Defterdaroğlu 2. Sk. No:2 /1A GÜZELTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0545425,
+          41.0542946
+        ]
+      },
+      "properties": {
+        "id": "10345014",
+        "name": "Köçeoğlu Köşkü",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Kemalettin Tuğcu Sk. No:47 /4 ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0618935,
+          41.0224266
+        ]
+      },
+      "properties": {
+        "id": "11264780",
+        "name": "Ptt Kule",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Turizm Diğer",
+        "address": "Kısıklı Cad. No:105 KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.017004,
+          41.0098457
+        ]
+      },
+      "properties": {
+        "id": "10528814",
+        "name": "Üsküdar Selimiye Çocuk Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Şerif Kuyusu Sk. No:54 SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0538406,
+          41.0346756
+        ]
+      },
+      "properties": {
+        "id": "10345375",
+        "name": "Üsküdar Belediyesi Burhaniye Münevver Ayaşlı Kültür Merkezi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Merkezi",
+        "address": "Yazmacı Emine Sk. No:7 KÜPLÜCE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0091019,
+          41.0197334
+        ]
+      },
+      "properties": {
+        "id": "11205322",
+        "name": "Salacak",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0276146,
+          41.0152092
+        ]
+      },
+      "properties": {
+        "id": "11205323",
+        "name": "Zeynepkamil",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0111561,
+          41.0258255
+        ]
+      },
+      "properties": {
+        "id": "10561311",
+        "name": "Üsküdar Şemsi Paşa İlçe Halk Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Harem Sahil Yolu Cad. No:6 MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0284233,
+          41.019886
+        ]
+      },
+      "properties": {
+        "id": "10522736",
+        "name": "Çinili Hamamı",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Hamam",
+        "address": "Çavuşdere Cad. No:166 VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.052002,
+          41.0307083
+        ]
+      },
+      "properties": {
+        "id": "10135214",
+        "name": "Güven Sanat Deposu",
+        "category": "Ulaşım",
+        "subcategory": "Depo",
+        "address": "Şeyh Şamil Sk. No:15 BURHANİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0399628,
+          41.0427017
+        ]
+      },
+      "properties": {
+        "id": "10495823",
+        "name": "Milli Saraylar İhtisas Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Abdullahağa Cad. No:12 BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0162811,
+          41.0265427
+        ]
+      },
+      "properties": {
+        "id": "10544396",
+        "name": "Üsküdar Mihrimah Sultan Çocuk Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Selmanağa Sk. No:4 SULTANTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.034914,
+          41.0208435
+        ]
+      },
+      "properties": {
+        "id": "10534918",
+        "name": "Likulli Fikir & Sanat & İnsan",
+        "category": "Eğitim",
+        "subcategory": "Eğitim Kursları Diğer",
+        "address": "Nuhkuyusu Cad. No:229 B VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0151768,
+          41.0232239
+        ]
+      },
+      "properties": {
+        "id": "11111140",
+        "name": "Yedi Güzel Adam ve Öncüler Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Eski Mahkeme Sk. No:7 AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0129471,
+          41.0194702
+        ]
+      },
+      "properties": {
+        "id": "10544858",
+        "name": "İstanbul Büyükşehir Belediyesi Şehir Tiyatroları",
+        "category": "Kültür Turizm",
+        "subcategory": "Tiyatro",
+        "address": "Halk Cad. No:74 AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0317154,
+          41.033886
+        ]
+      },
+      "properties": {
+        "id": "10143046",
+        "name": "Demart İslamic Art Galeri",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "Simitçi Tahir Sk. No:6 KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0303993,
+          41.0260048
+        ]
+      },
+      "properties": {
+        "id": "10122045",
+        "name": "Pür Sanat Atölyesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "Söz Ebesi Sk. No:9 A SELAMİ ALİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.033102,
+          41.0239487
+        ]
+      },
+      "properties": {
+        "id": "10532144",
+        "name": "Bağlarbaşı Kültür Merkezi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Merkezi",
+        "address": "Gazi Cad. SELAMİ ALİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.067625,
+          41.000843
+        ]
+      },
+      "properties": {
+        "id": "11464285",
+        "name": "Ünalan",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0599995,
+          41.0379982
+        ]
+      },
+      "properties": {
+        "id": "12006928",
+        "name": "Şenol Güneş Parkı Açık Hava Spor Etkinlik Alanı",
+        "category": "Kültür Turizm",
+        "subcategory": "Festival/Fuar Alanı",
+        "address": "KİRAZLITEPE MAH. ORHAN SEYFİ ORHON CD. / ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0732994,
+          40.9990997
+        ]
+      },
+      "properties": {
+        "id": "12069357",
+        "name": "Soyak Göztepe Atatürk Büstü",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Anıt, Sütun ve Kuleler",
+        "address": "Libadiye Cad. ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0719299,
+          41.022438
+        ]
+      },
+      "properties": {
+        "id": "12302785",
+        "name": "Redington Turkey",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Turizm Diğer",
+        "address": "Hanımseti Sk. No:59 KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.049242,
+          41.0198555
+        ]
+      },
+      "properties": {
+        "id": "12357583",
+        "name": "Kyocera Bilgitaş Turkey",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Turizm Diğer",
+        "address": "Ord. Prof. Fahrettin Kerim Gökay Cad. No:45 ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0177364,
+          41.0201836
+        ]
+      },
+      "properties": {
+        "id": "11459506",
+        "name": "Abbas Ağa Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Necmeddin Okyay Sk. AHMEDİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0125103,
+          41.0141106
+        ]
+      },
+      "properties": {
+        "id": "11462720",
+        "name": "Hatice Sultan Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Bestekar Selahattin Pınar Sk. SALACAK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0171242,
+          41.0187683
+        ]
+      },
+      "properties": {
+        "id": "11462329",
+        "name": "Nevşehirli Damat İbrahim Paşa Çeşmesi - Üsküdar",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Gündoğumu Cad. AHMEDİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0217247,
+          41.0158577
+        ]
+      },
+      "properties": {
+        "id": "11458800",
+        "name": "Abbas Ağa Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Aşçıbaşı Mektebi Sk. ZEYNEP KAMİL/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0190353,
+          41.0199623
+        ]
+      },
+      "properties": {
+        "id": "11111138",
+        "name": "Tarihi Çeşme",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Eski Toptaşı Cad. MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0116138,
+          41.0101471
+        ]
+      },
+      "properties": {
+        "id": "11205068",
+        "name": "Harem",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0292645,
+          41.0235023
+        ]
+      },
+      "properties": {
+        "id": "11205117",
+        "name": "Selamsız",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0165157,
+          41.0201988
+        ]
+      },
+      "properties": {
+        "id": "11458782",
+        "name": "Ahmediye Medresesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Bina",
+        "address": "Gündoğumu Cad. No:26 /3 AHMEDİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0389652,
+          41.0424004
+        ]
+      },
+      "properties": {
+        "id": "10345068",
+        "name": "Beylerbeyi Sarayı Selamlık Sahil Köşkü",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Abdullahağa Cad. No:12 /5 BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0358009,
+          41.0252419
+        ]
+      },
+      "properties": {
+        "id": "11040997",
+        "name": "Türkiye Diyanet Vakfı Koordinasyon ve Eğitim Merkezi",
+        "category": "Eğitim",
+        "subcategory": "Özel Etüd Eğitim Merkezi",
+        "address": "Kurtçelebi Sk. No:2 İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0336723,
+          41.0244904
+        ]
+      },
+      "properties": {
+        "id": "10561744",
+        "name": "Üsküdar Belediyesi Bağlarbaşı Kongre ve Kültür Merkezi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Merkezi",
+        "address": "Gazi Cad. No:12 /1 SELAMİ ALİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0409851,
+          41.0414619
+        ]
+      },
+      "properties": {
+        "id": "10345197",
+        "name": "Sarı Köşk",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Şahbaz Yiğit Sk. No:2 BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0126247,
+          41.0189285
+        ]
+      },
+      "properties": {
+        "id": "11205042",
+        "name": "Doğancılar",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0833778,
+          41.0348091
+        ]
+      },
+      "properties": {
+        "id": "11007933",
+        "name": "Niyazi Sayın Eğitim ve Kültür Merkezi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Merkezi",
+        "address": "Karadeniz Cad. No:59 YAVUZTÜRK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0152645,
+          41.0232697
+        ]
+      },
+      "properties": {
+        "id": "11111145",
+        "name": "Üsküdar Sanat Hobi",
+        "category": "Eğitim",
+        "subcategory": "Eğitim Kursları Diğer",
+        "address": "Eski Mahkeme Sk. No:10 AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.016346,
+          41.0204582
+        ]
+      },
+      "properties": {
+        "id": "11460286",
+        "name": "Ahmediye Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Kütüphane",
+        "address": "Gündoğumu Cad. No:26 /5 AHMEDİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0698738,
+          40.9950752
+        ]
+      },
+      "properties": {
+        "id": "10531414",
+        "name": "İstanbul Medeniyet Üniversitesi Ziraat Bankası Kütüphane Binası",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Ünalan Cad. No:5 /5 ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0661945,
+          41.0267487
+        ]
+      },
+      "properties": {
+        "id": "10071338",
+        "name": "Büyük Çamlıca Tepesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Turizm Diğer",
+        "address": "Turistik Çamlıca Cad. KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0590763,
+          41.0153999
+        ]
+      },
+      "properties": {
+        "id": "11463435",
+        "name": "Küçük Çamlıca",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.008606,
+          41.0230293
+        ]
+      },
+      "properties": {
+        "id": "11463455",
+        "name": "Ayazma",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0153103,
+          41.0221596
+        ]
+      },
+      "properties": {
+        "id": "12000478",
+        "name": "Enstitü İstanbul Üsküdar Aziz Mahmut Hüdayi Eğitim Merkezi",
+        "category": "Eğitim",
+        "subcategory": "İSMEK",
+        "address": "Açık Türbe Mektebi Sk. No:7 A AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0330734,
+          41.0240593
+        ]
+      },
+      "properties": {
+        "id": "12000480",
+        "name": "Enstitü İstanbul Türk İslam Sanatları İhtisas Okulu Eğitim Merkezi",
+        "category": "Eğitim",
+        "subcategory": "İSMEK",
+        "address": "Gazi Cad. No:22 SELAMİ ALİ/ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0217152,
+          41.0205841
+        ]
+      },
+      "properties": {
+        "id": "10939229",
+        "name": "Cinens",
+        "category": "Kültür Turizm",
+        "subcategory": "Sinema",
+        "address": "Çavuşdere Cad. No:41 E MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071619,
+          41.0037918
+        ]
+      },
+      "properties": {
+        "id": "10551198",
+        "name": "Museum Of Illusion İstanbul Anatolia",
+        "category": "Kültür Turizm",
+        "subcategory": "Müze",
+        "address": "Libadiye Cad. No:80 ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0091991,
+          41.0252991
+        ]
+      },
+      "properties": {
+        "id": "12069278",
+        "name": "Atatürk Heykeli",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Anıt, Sütun ve Kuleler",
+        "address": "Harem Sahil Yolu Cad. AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0200996,
+          41.0012016
+        ]
+      },
+      "properties": {
+        "id": "12069350",
+        "name": "GATA Atatürk Heykeli",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Anıt, Sütun ve Kuleler",
+        "address": "Burhan Felek Cad. SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0341187,
+          41.0286064
+        ]
+      },
+      "properties": {
+        "id": "12365083",
+        "name": "Üsküdar Tarihi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Eser",
+        "address": "Hacı Bakkal Sk. No:59 İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0103359,
+          41.0252876
+        ]
+      },
+      "properties": {
+        "id": "12460896",
+        "name": "Nevmekan Sahil Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Şemsipaşa Cad. NO:2 AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0161552,
+          41.0103035
+        ]
+      },
+      "properties": {
+        "id": "12460898",
+        "name": "Nevmekan Selimiye Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Şerif Kuyusu Sk. NO:50 SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0168076,
+          41.0202179
+        ]
+      },
+      "properties": {
+        "id": "11458820",
+        "name": "Ahmediye Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Gündoğumu Cad. AHMEDİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0216274,
+          41.031971
+        ]
+      },
+      "properties": {
+        "id": "11319444",
+        "name": "Paşa Limanı Su İskelesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Mekanlar",
+        "address": "Paşalimanı Cad. SULTANTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0243168,
+          41.0169373
+        ]
+      },
+      "properties": {
+        "id": "11458867",
+        "name": "Yakup Ağa Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Hasanbey Sk. VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0652943,
+          41.0272293
+        ]
+      },
+      "properties": {
+        "id": "10501569",
+        "name": "Yusuf İzzettin Efendi Sarayı",
+        "category": "Kültür Turizm",
+        "subcategory": "Saray ve Kasırlar",
+        "address": "Kısıklı Büyük Çamlıca Cad. No:52 /1 KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0551281,
+          41.0531044
+        ]
+      },
+      "properties": {
+        "id": "10345145",
+        "name": "Ağalar Köşkü",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Kemalettin Tuğcu Sk. No:47 /5 ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0301533,
+          41.0246544
+        ]
+      },
+      "properties": {
+        "id": "10071476",
+        "name": "International Art Center",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "Mektep Sk. SELAMİ ALİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0305767,
+          41.0277328
+        ]
+      },
+      "properties": {
+        "id": "11205043",
+        "name": "Fıstıkağacı",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0572815,
+          41.0681458
+        ]
+      },
+      "properties": {
+        "id": "11205134",
+        "name": "Vaniköy",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0290966,
+          41.0200615
+        ]
+      },
+      "properties": {
+        "id": "10345350",
+        "name": "Çinili Çocuk Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Çinili Hamam Sk. No:1 /3 VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0418396,
+          41.0135803
+        ]
+      },
+      "properties": {
+        "id": "10344995",
+        "name": "Hababam Sınıfı Müzesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Müze",
+        "address": "Tophanelioğlu Cad. No:19 /4 ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0320034,
+          41.0375175
+        ]
+      },
+      "properties": {
+        "id": "10345100",
+        "name": "Eski Marko Paşa Köşkü",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Babanakkaş Sk. No:6 KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0330753,
+          41.019001
+        ]
+      },
+      "properties": {
+        "id": "10595994",
+        "name": "Gök Cam Sanat Galerisi",
+        "category": "Sosyal",
+        "subcategory": "Eğlence Yerleri",
+        "address": "Nuhkuyusu Cad. No:163 B VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0310402,
+          41.037735
+        ]
+      },
+      "properties": {
+        "id": "11062012",
+        "name": "Kalyoncu Yalısı",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Kuzguncuk Çarşı Cad. No:37 2 KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0351028,
+          41.0257874
+        ]
+      },
+      "properties": {
+        "id": "10591868",
+        "name": "Leila Atölye",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "Cumhuriyet Cad. No:143 A İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0749035,
+          41.0078087
+        ]
+      },
+      "properties": {
+        "id": "10095241",
+        "name": "Eoç Sanat Atölyesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "Coşkun Sk. No:11 CUMHURİYET/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0143852,
+          41.0242729
+        ]
+      },
+      "properties": {
+        "id": "10071469",
+        "name": "Üsküdar Belediyesi Mehmet Naci Aköz Uçurtma Müzesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Müze",
+        "address": "Uncular Cad. No:16 B MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.017313,
+          41.0100555
+        ]
+      },
+      "properties": {
+        "id": "11064055",
+        "name": "Selimiye Sanat Müzayede",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "Selimiye Kışla Cad. No:42 A SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0252037,
+          41.0339355
+        ]
+      },
+      "properties": {
+        "id": "11459939",
+        "name": "Arapzadeler Yalısı",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Paşalimanı Cad. No:71 KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0365524,
+          41.016674
+        ]
+      },
+      "properties": {
+        "id": "11459955",
+        "name": "Veysi Paşa Köşkü",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Fikret Mualla Sk. No:9 BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0110359,
+          41.0258369
+        ]
+      },
+      "properties": {
+        "id": "11462292",
+        "name": "Şemsi Paşa Medresesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Bina",
+        "address": "Harem Sahil Yolu Cad. No:6 MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0153198,
+          41.0231819
+        ]
+      },
+      "properties": {
+        "id": "11111129",
+        "name": "Atlantik Müzik ve Sanat Merkezi",
+        "category": "Eğitim",
+        "subcategory": "Eğitim Kursları Diğer",
+        "address": "Eski Mahkeme Sk. No:5 AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0086269,
+          41.0247383
+        ]
+      },
+      "properties": {
+        "id": "11463746",
+        "name": "Basmacızade Yalısı",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Öğdül Sk. No:60 AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0194454,
+          41.0197182
+        ]
+      },
+      "properties": {
+        "id": "12227245",
+        "name": "Çetele Kültür Sanat Iletişim ",
+        "category": "Sosyal",
+        "subcategory": "Lokanta/Restoran",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0322056,
+          41.018364
+        ]
+      },
+      "properties": {
+        "id": "12327726",
+        "name": "Altunizade Amerikan Kültür",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Turizm Diğer",
+        "address": "Nuhkuyusu Cad. No:137 VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0318146,
+          41.0217857
+        ]
+      },
+      "properties": {
+        "id": "12364699",
+        "name": "S.Cemeran Kültür",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Turizm Diğer",
+        "address": "Muradiye Mektebi Sk. No:17/2 MURATREİS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0452633,
+          41.0357895
+        ]
+      },
+      "properties": {
+        "id": "12336682",
+        "name": "Trabzonlular Kültür",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Turizm Diğer",
+        "address": "Fıstıklı Mescit Sk. No:5 BURHANİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0751247,
+          41.0291023
+        ]
+      },
+      "properties": {
+        "id": "12460908",
+        "name": "Prof. Dr. Raşit Küçük Çocuk Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Bağ Sk. No:2 FERAH/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0166855,
+          41.020546
+        ]
+      },
+      "properties": {
+        "id": "11458824",
+        "name": "Ahmediye Camii Köşe Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Gündoğumu Cad. AHMEDİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0222263,
+          41.0313988
+        ]
+      },
+      "properties": {
+        "id": "11462332",
+        "name": "Nuri Tavas Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Paşalimanı Cad. SULTANTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0235634,
+          41.0185432
+        ]
+      },
+      "properties": {
+        "id": "11458880",
+        "name": "Atik Valide Külliyesi Üç Çeşmeler",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Kartalbaba Cad. VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0254765,
+          41.017849
+        ]
+      },
+      "properties": {
+        "id": "11460747",
+        "name": "Kasım Ağa Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Kartalbaba Cad. VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0524349,
+          41.0512886
+        ]
+      },
+      "properties": {
+        "id": "10479719",
+        "name": "Aya Yorgi Kilisesi Duvar Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Tanrıverdi Sk. ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0697975,
+          41.0153847
+        ]
+      },
+      "properties": {
+        "id": "10345427",
+        "name": "Aziz Mahmud Hüdai Vakfı Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Çilehane Yolu Cad. No:12 /1 KÜÇÜKÇAMLICA/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0549049,
+          41.0120392
+        ]
+      },
+      "properties": {
+        "id": "10345106",
+        "name": "Tarihi Sütun",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Anıt, Sütun ve Kuleler",
+        "address": "Doğancı Sk. No:8 ACIBADEM/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0386753,
+          41.0408707
+        ]
+      },
+      "properties": {
+        "id": "11315768",
+        "name": "Ahır Köşkü",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Abdullahağa Cad. No:16 C BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0629425,
+          41.076149
+        ]
+      },
+      "properties": {
+        "id": "11315766",
+        "name": "Kıbrıslı Yalısı",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Kandilli Göksu Cad. No:25 KANDİLLİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0520344,
+          41.0271339
+        ]
+      },
+      "properties": {
+        "id": "10501994",
+        "name": "Tarihi Hamam",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Hamam",
+        "address": "Neşetbey Sk. No:19 BURHANİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0549889,
+          41.0537491
+        ]
+      },
+      "properties": {
+        "id": "10345045",
+        "name": "Vahidettin Köşkü",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Kemalettin Tuğcu Sk. No:47 /3 ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.052,
+          41.0527992
+        ]
+      },
+      "properties": {
+        "id": "10456339",
+        "name": "Hatice Sultan Yalısı",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Kuleli Cad. No:37 /1 ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0347576,
+          41.0236244
+        ]
+      },
+      "properties": {
+        "id": "11205319",
+        "name": "Bağlarbaşı",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0220013,
+          41.0101318
+        ]
+      },
+      "properties": {
+        "id": "11204996",
+        "name": "Karacaahmet",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0673008,
+          41.0628815
+        ]
+      },
+      "properties": {
+        "id": "10345431",
+        "name": "Üsküdar Belediyesi Rasathane Küçüksu Kültür Merkezi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Merkezi",
+        "address": "Asma Sk. No:6 KÜÇÜKSU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0582275,
+          41.072052
+        ]
+      },
+      "properties": {
+        "id": "10345383",
+        "name": "Sakıp Sabancı Kandilli Eğitim ve Kültür Merkezi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Merkezi",
+        "address": "Sıraevler Sk. No:12 KANDİLLİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0442009,
+          41.0429077
+        ]
+      },
+      "properties": {
+        "id": "10136095",
+        "name": "Seramik Sanat Atölyesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "Eskiçınar Sk. No:13 /1 BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.016428,
+          41.0106125
+        ]
+      },
+      "properties": {
+        "id": "11064025",
+        "name": "Üsküdar Müftüğü Büyük Selimiye Eğitim Merkezi",
+        "category": "Eğitim",
+        "subcategory": "Özel Etüd Eğitim Merkezi",
+        "address": "Selimiye Cami Cad. No:30 SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0287094,
+          41.0126457
+        ]
+      },
+      "properties": {
+        "id": "10490660",
+        "name": "Türkan Sabancı Özel Eğitim Mesleki Eğitim Merkezi (Okulu)",
+        "category": "Eğitim",
+        "subcategory": "Özel Eğitim ve Rehabilitasyon Merkezi",
+        "address": "Seyit Ahmet Deresi Sk. No:4 /27 BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0387592,
+          41.0182953
+        ]
+      },
+      "properties": {
+        "id": "10345277",
+        "name": "Altunizade Kültür ve Sanat Merkezi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Merkezi",
+        "address": "Sırmaperde Sk. No:11 ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0619602,
+          41.07584
+        ]
+      },
+      "properties": {
+        "id": "10071925",
+        "name": "Count Ostrorog Mansion",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Kandilli Göksu Cad. No:19 /2 KANDİLLİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0443573,
+          41.0169754
+        ]
+      },
+      "properties": {
+        "id": "11459922",
+        "name": "Abdülaziz Av Köşkü",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Tophanelioğlu Cad. No:17 ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0295162,
+          41.0200081
+        ]
+      },
+      "properties": {
+        "id": "11458796",
+        "name": "Çinili Medresesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Bina",
+        "address": "Çinili Hamam Sk. No:1 /1 VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0347328,
+          41.0261765
+        ]
+      },
+      "properties": {
+        "id": "11426745",
+        "name": "İstanbul Güzellik Uzmanları ve Güzellik Salonu İşletmecileri Esnaf ve Sanatkarlar Odası",
+        "category": "Kamu",
+        "subcategory": "Meslek Odaları",
+        "address": "Cumhuriyet Cad. No:131 İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.050663,
+          41.0392113
+        ]
+      },
+      "properties": {
+        "id": "11463453",
+        "name": "Beylerbeyi",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0169106,
+          41.006649
+        ]
+      },
+      "properties": {
+        "id": "11464258",
+        "name": "Selimiye",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0716133,
+          41.0727043
+        ]
+      },
+      "properties": {
+        "id": "11464293",
+        "name": "Küçüksu",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0440006,
+          41.0149002
+        ]
+      },
+      "properties": {
+        "id": "12006870",
+        "name": "Validebağ Korusu Açık Hava Spor Etkinlik Alanı",
+        "category": "Kültür Turizm",
+        "subcategory": "Festival/Fuar Alanı",
+        "address": "ALTUNİZADE MAH. TOPHANELİOĞLU CD. / ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0717468,
+          41.003624
+        ]
+      },
+      "properties": {
+        "id": "10554914",
+        "name": "Cinemaximum",
+        "category": "Kültür Turizm",
+        "subcategory": "Sinema",
+        "address": "Libadiye Cad. No:80 ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0291443,
+          41.0209846
+        ]
+      },
+      "properties": {
+        "id": "12368523",
+        "name": "Aktiffelsefe Kültür",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Turizm Diğer",
+        "address": "Binbaşı Sk. No:2 MURATREİS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0573769,
+          41.0279045
+        ]
+      },
+      "properties": {
+        "id": "12460904",
+        "name": "Mehmet Genç Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Gençosman Sk. NO:13 BURHANİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0180206,
+          41.0267715
+        ]
+      },
+      "properties": {
+        "id": "11458875",
+        "name": "Arslan Ağa Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Selvilik Cad. SULTANTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0337067,
+          41.023407
+        ]
+      },
+      "properties": {
+        "id": "11061459",
+        "name": "Sanat Mezat Online Müzayede",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "Yeniocak Sk. No:26 A MURATREİS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0324459,
+          41.0298309
+        ]
+      },
+      "properties": {
+        "id": "10555784",
+        "name": "Kemalettin Eröğe Polis Eğitim Merkezi Müdürlüğü",
+        "category": "Kamu",
+        "subcategory": "Emniyet Birimleri",
+        "address": "Türk Kız Koleji Sk. No:1 /1 İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0654278,
+          41.0038795
+        ]
+      },
+      "properties": {
+        "id": "10345099",
+        "name": "İmago İstanbul Grafik Sanat Müzesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Müze",
+        "address": "Güzelce Sk. No:16 A ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0150089,
+          41.0167084
+        ]
+      },
+      "properties": {
+        "id": "10379868",
+        "name": "Aktaş Art Resim Galerisi",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "Tunusbağı Cad. No:45 AHMEDİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0042744,
+          41.0211678
+        ]
+      },
+      "properties": {
+        "id": "10563816",
+        "name": "Kız Kulesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Anıt, Sütun ve Kuleler",
+        "address": "Harem Sahil Yolu Cad. No:22 SALACAK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0485306,
+          41.0076599
+        ]
+      },
+      "properties": {
+        "id": "10344969",
+        "name": "Ahmet Ratıp Paşa Köşkü",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Acıbadem Cad. No:131 /18 ACIBADEM/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0133419,
+          41.0147743
+        ]
+      },
+      "properties": {
+        "id": "10071473",
+        "name": "Private İstanbul Guide Serhat Basaran",
+        "category": "Kültür Turizm",
+        "subcategory": "Turizm Danışma Bürosu",
+        "address": "Neyzenbaşı Halil Can Sk. No:37 SALACAK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0306416,
+          41.0184975
+        ]
+      },
+      "properties": {
+        "id": "11205321",
+        "name": "Pazarbaşı",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0424042,
+          41.0218887
+        ]
+      },
+      "properties": {
+        "id": "11205318",
+        "name": "Altunizade",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0660133,
+          41.0251198
+        ]
+      },
+      "properties": {
+        "id": "11205320",
+        "name": "Çamlıca",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0588417,
+          41.0738258
+        ]
+      },
+      "properties": {
+        "id": "11205114",
+        "name": "Kandilli",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0698605,
+          41.0544281
+        ]
+      },
+      "properties": {
+        "id": "10345600",
+        "name": "Üsküdar Belediyesi Çengelköy Mehmet Çakır Kültür Merkezi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Merkezi",
+        "address": "Engin Cad. No:5 /1 ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0217361,
+          41.0316696
+        ]
+      },
+      "properties": {
+        "id": "10589872",
+        "name": "İstanbul Devlet Tiyatrosu Üsküdar Tekel Sahneleri",
+        "category": "Kültür Turizm",
+        "subcategory": "Tiyatro",
+        "address": "Paşalimanı Cad. No:66 A SULTANTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0359344,
+          41.0180664
+        ]
+      },
+      "properties": {
+        "id": "10071470",
+        "name": "Altunizade Kültür ve Sanat Merkezi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Merkezi",
+        "address": "Sırmaperde Sk. No:2 D/C BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0728321,
+          41.0171204
+        ]
+      },
+      "properties": {
+        "id": "10564375",
+        "name": "Tuğra Sanat Galerisi",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "Bulgurlu Cad. No:79 A BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0526104,
+          41.0500259
+        ]
+      },
+      "properties": {
+        "id": "10292843",
+        "name": "Abdullah Ağa Yalısı",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Albay Hüsamettin Ertürk Sk. No:12 ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0302505,
+          41.0352097
+        ]
+      },
+      "properties": {
+        "id": "10513714",
+        "name": "Harmony Sanat Galerisi",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "İcadiye Cad. No:42 A KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0459518,
+          41.0446434
+        ]
+      },
+      "properties": {
+        "id": "10345347",
+        "name": "Akbank Beylerbeyi Sanat Galerisi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Merkezi",
+        "address": "Beylerbeyi Çamlıca Cad. No:9 BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0161819,
+          41.0226936
+        ]
+      },
+      "properties": {
+        "id": "10514572",
+        "name": "Sürekli Eğitim Merkezi",
+        "category": "Eğitim",
+        "subcategory": "Özel Etüd Eğitim Merkezi",
+        "address": "Hakimiyeti Milliye Cad. No:47 MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0415325,
+          41.0282326
+        ]
+      },
+      "properties": {
+        "id": "10345064",
+        "name": "Abdülmecid Efendi Köşkü",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Kuşbakışı Cad. No:18 KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0605659,
+          41.0739403
+        ]
+      },
+      "properties": {
+        "id": "10293223",
+        "name": "Cemile Sultan Korusu Hünkar Köşk",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Kandilli Göksu Cad. No:8 /1 KANDİLLİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0255013,
+          41.0340614
+        ]
+      },
+      "properties": {
+        "id": "11459938",
+        "name": "İhsan Bey Yalısı",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Paşalimanı Cad. No:75 KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0720673,
+          41.0234795
+        ]
+      },
+      "properties": {
+        "id": "10345340",
+        "name": "İslam Berksan Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Ferah Cad. No:15 /1 KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071022,
+          41.0186539
+        ]
+      },
+      "properties": {
+        "id": "11433060",
+        "name": "Tarihi Bulgurlu Hamamı",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Hamam",
+        "address": "Bulgurlu Cad. No:47 C BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0441093,
+          41.0430031
+        ]
+      },
+      "properties": {
+        "id": "10136101",
+        "name": "Disey Art Sanat Atölyesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "Eskiçınar Sk. No:13 B BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0773048,
+          41.0413055
+        ]
+      },
+      "properties": {
+        "id": "10427152",
+        "name": "Fırın Sanatı Pasta Cafe",
+        "category": "Sosyal",
+        "subcategory": "Pastane",
+        "address": "Özçelik Sk. MEHMET AKİF ERSOY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0553055,
+          41.0024719
+        ]
+      },
+      "properties": {
+        "id": "10574348",
+        "name": "Cinemaximum",
+        "category": "Kültür Turizm",
+        "subcategory": "Sinema",
+        "address": "Çeçen Sk. No:25 ACIBADEM/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0296803,
+          41.0362091
+        ]
+      },
+      "properties": {
+        "id": "10510745",
+        "name": "Harmony Sanat Galerisi",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "İcadiye Cad. No:9 KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0230007,
+          41.0056992
+        ]
+      },
+      "properties": {
+        "id": "12069358",
+        "name": "Kahraman Tıbbiyeliler Anıtı",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Anıt, Sütun ve Kuleler",
+        "address": "Avrasya Tüneli SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0651894,
+          41.0671577
+        ]
+      },
+      "properties": {
+        "id": "12076494",
+        "name": "Fatih Sultan Mehmet Vakıf Üniversitesi Güzel Sanatlar Fakültesi Kandilli Yerleşkesi",
+        "category": "Eğitim",
+        "subcategory": "Üniversite Özel/Vakıf",
+        "address": "Kandilli Mah., Rasathane Cd., Hıdrellez Sk.",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0691299,
+          41.0545692
+        ]
+      },
+      "properties": {
+        "id": "12077651",
+        "name": "Enstitü İstanbul Üsküdar Çengelköy Yaşam Merkezi Eğitim Merkezi",
+        "category": "Eğitim",
+        "subcategory": "İSMEK",
+        "address": "İmamı Azam Camii Sk. ÇENGELKÖY/ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0256767,
+          41.0034943
+        ]
+      },
+      "properties": {
+        "id": "12252051",
+        "name": "Ahmet Ratıp Paşa Güzel Sanatlar Lisesi",
+        "category": "Eğitim",
+        "subcategory": "Lise Devlet",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0664692,
+          41.0071373
+        ]
+      },
+      "properties": {
+        "id": "12241286",
+        "name": "Özel Deha Bilim Sanat İlkokulu",
+        "category": "Eğitim",
+        "subcategory": "İlkokul Özel",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0800838,
+          41.0295181
+        ]
+      },
+      "properties": {
+        "id": "12275688",
+        "name": "Major Sanat",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "Şehit Yüksel Batır Sk. No:27 FERAH/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0723343,
+          41.0470085
+        ]
+      },
+      "properties": {
+        "id": "12337060",
+        "name": "Mk Sinema",
+        "category": "Kültür Turizm",
+        "subcategory": "Sinema",
+        "address": "Sarı Papatya Sk. No:4 GÜZELTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0285282,
+          41.0235519
+        ]
+      },
+      "properties": {
+        "id": "12358339",
+        "name": "Nordmann, Rassmann Turkey",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Turizm Diğer",
+        "address": "Gazi Cad. No:88 SELAMİ ALİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0196819,
+          41.0208549
+        ]
+      },
+      "properties": {
+        "id": "12460900",
+        "name": "Haluk Dursun Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0124645,
+          41.0244675
+        ]
+      },
+      "properties": {
+        "id": "11462330",
+        "name": "Nevşehirli Damat İbrahim Paşa Çeşmesi - Mimar Sinan",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Rumi Mehmet Paşa Sk. MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0570297,
+          41.0703468
+        ]
+      },
+      "properties": {
+        "id": "10345058",
+        "name": "Adile Sultan Sarayı",
+        "category": "Kültür Turizm",
+        "subcategory": "Saray ve Kasırlar",
+        "address": "Kandilli Cad. No:29 KANDİLLİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0461369,
+          41.0099373
+        ]
+      },
+      "properties": {
+        "id": "10345532",
+        "name": "Faik Bey Şadiye Şakir 70. Yıl Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Faikbey Mescidi Sk. No:7 ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0129833,
+          41.0150909
+        ]
+      },
+      "properties": {
+        "id": "10345587",
+        "name": "Mustafa Nevzat Kültür Evi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Merkezi",
+        "address": "Hafız Mehmet Bey Sk. No:2 SALACAK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0390549,
+          41.0253563
+        ]
+      },
+      "properties": {
+        "id": "10345382",
+        "name": "İslam Araştırmaları Merkezi (İsam) Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Kütüphane",
+        "address": "İcadiye Bağlarbaşı Cad. No:38 /1 ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0712261,
+          41.045742
+        ]
+      },
+      "properties": {
+        "id": "10345384",
+        "name": "İBB Güzeltepe Kültür Merkezi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Merkezi",
+        "address": "Namazgah Cad. No:16 MEHMET AKİF ERSOY/ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0323277,
+          41.0184631
+        ]
+      },
+      "properties": {
+        "id": "10530735",
+        "name": "Gürcü Sanat Evi",
+        "category": "Sosyal",
+        "subcategory": "Eğlence Yerleri",
+        "address": "Nuhkuyusu Cad. No:141 A VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0261555,
+          41.0325966
+        ]
+      },
+      "properties": {
+        "id": "10345151",
+        "name": "Fethi Paşa Köşkü",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Fethipaşa Korusu No:14 /2 KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0345592,
+          41.0264244
+        ]
+      },
+      "properties": {
+        "id": "11057114",
+        "name": "Çelebizade Köşkü",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Akdarı Sk. No:3 İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0217571,
+          41.0182877
+        ]
+      },
+      "properties": {
+        "id": "11205048",
+        "name": "Toptaşı",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0299377,
+          41.0357475
+        ]
+      },
+      "properties": {
+        "id": "11205142",
+        "name": "Kuzguncuk",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0161705,
+          41.0095139
+        ]
+      },
+      "properties": {
+        "id": "10345362",
+        "name": "İbrahim Hakkı Konyalı Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Selimiye Cami Cad. No:51 /2 SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07304,
+          41.0325775
+        ]
+      },
+      "properties": {
+        "id": "11316936",
+        "name": "Yıldız Holding Sergi Salonu",
+        "category": "Kültür Turizm",
+        "subcategory": "Sergi Salonu",
+        "address": "Ferah Cad. No:145 D FERAH/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0132809,
+          41.0239258
+        ]
+      },
+      "properties": {
+        "id": "10344922",
+        "name": "Üsküdar Belediyesi Mehmet Naci Aköz Uçurtma Müzesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Müze",
+        "address": "Bakıcı Sk. No:12 D AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.010643,
+          41.021534
+        ]
+      },
+      "properties": {
+        "id": "10578227",
+        "name": "Rüstem Paşa Sıbyan Mektebi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Bina",
+        "address": "Doğancılar Cad. No:77 AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0741234,
+          41.0563927
+        ]
+      },
+      "properties": {
+        "id": "11021439",
+        "name": "Düğme Hobi Atölyesi",
+        "category": "Eğitim",
+        "subcategory": "Eğitim Kursları Diğer",
+        "address": "Zübeyde Hanım Cad. No:58 A BAHÇELİEVLER/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0333538,
+          41.0192566
+        ]
+      },
+      "properties": {
+        "id": "10586466",
+        "name": "Sanat Köşkü Galeri Atölye",
+        "category": "Sosyal",
+        "subcategory": "Eğlence Yerleri",
+        "address": "Nuhkuyusu Cad. No:175 A VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.014801,
+          41.0240746
+        ]
+      },
+      "properties": {
+        "id": "10566119",
+        "name": "Tabi Tasarım Dükkan Atölye Kafe",
+        "category": "Sosyal",
+        "subcategory": "Kafe",
+        "address": "Gülfem Sk. No:4 AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0139427,
+          41.0186043
+        ]
+      },
+      "properties": {
+        "id": "11459937",
+        "name": "İbrahim Paşa Köşkü",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Kefçedede Sk. No:23 AHMEDİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0170383,
+          41.0104675
+        ]
+      },
+      "properties": {
+        "id": "11458869",
+        "name": "Selimiye Hamamı Üsküdar",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Hamam",
+        "address": "Selimiye Hamamı Sk. No:50 SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0401821,
+          41.0408516
+        ]
+      },
+      "properties": {
+        "id": "10345084",
+        "name": "Mermer Köşk",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Abdullahağa Cad. BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.015007,
+          41.0256233
+        ]
+      },
+      "properties": {
+        "id": "11464288",
+        "name": "Üsküdar",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0741806,
+          41.0162735
+        ]
+      },
+      "properties": {
+        "id": "11464271",
+        "name": "Bulgurlu",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0853977,
+          41.0448837
+        ]
+      },
+      "properties": {
+        "id": "10136218",
+        "name": "Angel Mozaik Sanat Atölyesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "Tarih Cad. No:58 G YAVUZTÜRK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0119991,
+          41.0219002
+        ]
+      },
+      "properties": {
+        "id": "12069284",
+        "name": "Atatürk Büstü",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Anıt, Sütun ve Kuleler",
+        "address": "Davutoğlu Sk. AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0177002,
+          41.0057983
+        ]
+      },
+      "properties": {
+        "id": "12069366",
+        "name": "Zafer Anıtı",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Anıt, Sütun ve Kuleler",
+        "address": "Kavak İskele Cad. SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0655251,
+          41.0163422
+        ]
+      },
+      "properties": {
+        "id": "12075281",
+        "name": "Çamlıca Kulesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Turizm Diğer",
+        "address": "Oyma Sk. KÜÇÜKÇAMLICA/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0419464,
+          41.0136337
+        ]
+      },
+      "properties": {
+        "id": "12252086",
+        "name": "Adile Sultan Kasrı Öğretmenevi ve Akşam Sanat Okulu",
+        "category": "Eğitim",
+        "subcategory": "Akşam Sanat Okulu",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0666027,
+          40.9994736
+        ]
+      },
+      "properties": {
+        "id": "12291710",
+        "name": "Ünalan Kültür",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Turizm Diğer",
+        "address": "Rahmet Sk. No:2A ÜNALAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0398293,
+          41.0271759
+        ]
+      },
+      "properties": {
+        "id": "12335931",
+        "name": "Uğurlu Kültür",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Turizm Diğer",
+        "address": "Arzu Ayaktar Sk. No:51 İCADİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.034029,
+          41.0239067
+        ]
+      },
+      "properties": {
+        "id": "12460899",
+        "name": "Nevmekan Bağlarbaşı Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Gazi Cad. NO:12 SELAMİ ALİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0463009,
+          41.0440979
+        ]
+      },
+      "properties": {
+        "id": "11458806",
+        "name": "Abdulhamid Han I Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Beylerbeyi Çamlıca Cad. BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0229149,
+          41.0093803
+        ]
+      },
+      "properties": {
+        "id": "11462694",
+        "name": "Hafız İsa Ağa Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Dr. Eyüp Aksoy Cad. BARBAROS/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0124035,
+          41.0225983
+        ]
+      },
+      "properties": {
+        "id": "11462320",
+        "name": "Mustafa Paşa Çeşmesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Çeşme",
+        "address": "Kaptanpaşa Camii Sk. AZİZ MAHMUT HÜDAYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0397301,
+          41.011879
+        ]
+      },
+      "properties": {
+        "id": "10438214",
+        "name": "Adile Sultan Kasrı Öğretmen Evi Öğretmen Huzurevi Kültür Merkezi Konaklama Ünitesi Otoparkı",
+        "category": "Ulaşım",
+        "subcategory": "Otopark Açık",
+        "address": "Kalfa Çeşmesi Sk. ALTUNİZADE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0501022,
+          41.0461159
+        ]
+      },
+      "properties": {
+        "id": "10345338",
+        "name": "Urart Sanat Merkezi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Merkezi",
+        "address": "Yalıboyu Cad. No:23 BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0541039,
+          41.0506096
+        ]
+      },
+      "properties": {
+        "id": "10427736",
+        "name": "Müzelik Pasta Cafe",
+        "category": "Sosyal",
+        "subcategory": "Pastane",
+        "address": "Kerime Hatun Camii Sk. No:9 ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0143204,
+          41.0080147
+        ]
+      },
+      "properties": {
+        "id": "10345087",
+        "name": "Florence Nightingale Müzesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Müze",
+        "address": "Kavak İskele Cad. No:46 SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0181503,
+          41.0299606
+        ]
+      },
+      "properties": {
+        "id": "10290577",
+        "name": "SGK Üsküdar Sosyal Tesisi ve Eğitim Merkezi Restoran & Kafe",
+        "category": "Sosyal",
+        "subcategory": "Kafe",
+        "address": "Paşalimanı Cad. No:19 SULTANTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0252132,
+          41.0335274
+        ]
+      },
+      "properties": {
+        "id": "11204998",
+        "name": "Paşalimanı",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0172272,
+          41.0111046
+        ]
+      },
+      "properties": {
+        "id": "11053305",
+        "name": "Samimi Tiyatro",
+        "category": "Kültür Turizm",
+        "subcategory": "Tiyatro",
+        "address": "Dayekadın Sk. No:38 A SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0340862,
+          41.0240326
+        ]
+      },
+      "properties": {
+        "id": "10344996",
+        "name": "İETT Ulaşım Müzesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Müze",
+        "address": "Gazi Cad. No:12 SELAMİ ALİ/ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0419121,
+          41.0434952
+        ]
+      },
+      "properties": {
+        "id": "10345050",
+        "name": "Beylerbeyi Sabancı Olgunlaşma Enstitüsü Müzesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Müze",
+        "address": "Abdullahağa Cad. No:10 BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0144081,
+          41.0190086
+        ]
+      },
+      "properties": {
+        "id": "10380217",
+        "name": "Zeki Çağlayan Namlı Sanat Evi",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "Şair Naili Sk. No:1 AHMEDİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0787888,
+          41.0407524
+        ]
+      },
+      "properties": {
+        "id": "10071298",
+        "name": "Sav Otomobil Müzesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Müze",
+        "address": "Bosna Bulvarı No:104 AD BAHÇELİEVLER/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0780525,
+          41.0169144
+        ]
+      },
+      "properties": {
+        "id": "10106508",
+        "name": "Gusto Resim Sanat Atölyesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "İskender Sk. No:5 A BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0238533,
+          41.0170288
+        ]
+      },
+      "properties": {
+        "id": "10521873",
+        "name": "İBB Şehir Tiyatroları Üsküdar Kerem Yılmazer Sahnesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tiyatro",
+        "address": "Dr. Fahri Atabey Cad. No:79 VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0286236,
+          41.0362282
+        ]
+      },
+      "properties": {
+        "id": "11459946",
+        "name": "Madam Agevni Yalısı",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Paşalimanı Cad. No:103 KUZGUNCUK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0161743,
+          41.0273056
+        ]
+      },
+      "properties": {
+        "id": "11462304",
+        "name": "Mihrimah Sultan Medresesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Bina",
+        "address": "Paşalimanı Cad. No:4 MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.02318,
+          41.018856
+        ]
+      },
+      "properties": {
+        "id": "11458786",
+        "name": "Atik Valide Medresesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Bina",
+        "address": "Kartalbaba Cad. No:45 VALİDE-İ ATİK/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0172615,
+          41.027607
+        ]
+      },
+      "properties": {
+        "id": "11465335",
+        "name": "Fethi Paşa Yalısı",
+        "category": "Kültür Turizm",
+        "subcategory": "Tarihi Yalı, Köşk ve Konaklar",
+        "address": "Yenidünya Sk. No:17 SULTANTEPE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0169563,
+          41.0206871
+        ]
+      },
+      "properties": {
+        "id": "12000477",
+        "name": "Enstitü İstanbul Üsküdar Ahmediye Eğitim Merkezi",
+        "category": "Eğitim",
+        "subcategory": "İSMEK",
+        "address": "Kefçedede Mektebi Sk. No:5 AHMEDİYE/ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0761833,
+          41.0207901
+        ]
+      },
+      "properties": {
+        "id": "12000481",
+        "name": "Enstitü İstanbul Üsküdar Bulgurlu Eğitim Merkezi",
+        "category": "Eğitim",
+        "subcategory": "İSMEK",
+        "address": "Huzurevler Sk. No:2 -4 BULGURLU/ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0757942,
+          41.0469666
+        ]
+      },
+      "properties": {
+        "id": "12000482",
+        "name": "Enstitü İstanbul Üsküdar Çengelköy Eğitim Merkezi",
+        "category": "Eğitim",
+        "subcategory": "İSMEK",
+        "address": "Bosna Bulvarı No:127 A GÜZELTEPE/ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.007,
+          41.0214005
+        ]
+      },
+      "properties": {
+        "id": "12006977",
+        "name": "Üsküdar Sahil Açık Hava Spor Etkinlik Alanı",
+        "category": "Kültür Turizm",
+        "subcategory": "Festival/Fuar Alanı",
+        "address": "SALACAK MAH. HAREM SAHİL YOLU CD. / ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0435276,
+          41.0432587
+        ]
+      },
+      "properties": {
+        "id": "10136111",
+        "name": "Ayşıl Sanat Atölyesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "Abdullahağa Cad. No:15 A BEYLERBEYİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0185738,
+          41.0241547
+        ]
+      },
+      "properties": {
+        "id": "10519221",
+        "name": "Özel Üsküdar Rekorsanat Kursu",
+        "category": "Eğitim",
+        "subcategory": "Eğitim Kursları Diğer",
+        "address": "Selamiali Efendi Cad. No:41 MİMAR SİNAN/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0682545,
+          41.0579414
+        ]
+      },
+      "properties": {
+        "id": "12069426",
+        "name": "Talimhane",
+        "category": "Kültür Turizm",
+        "subcategory": "Semt",
+        "address": "Kaldırım Cad. ÇENGELKÖY/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0799999,
+          41.0291595
+        ]
+      },
+      "properties": {
+        "id": "12235845",
+        "name": "İBB Salah Birsel Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Bosna Bulvarı No:39 KISIKLI/ÜSKÜDAR",
+        "description": "İBB",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0182362,
+          41.0119591
+        ]
+      },
+      "properties": {
+        "id": "12300053",
+        "name": "Hekimhan Kültür",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Turizm Diğer",
+        "address": "İmam Nasır Sk. No:10A SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0170288,
+          41.0098877
+        ]
+      },
+      "properties": {
+        "id": "12319241",
+        "name": "ist.Vak.Böl.Müd. Kütüphane",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Şerif Kuyusu Sk. No:54 SELİMİYE/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0731564,
+          41.0623245
+        ]
+      },
+      "properties": {
+        "id": "12335578",
+        "name": "Milim Sanat",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "Tüylüoğlu Sk. No:11 KÜÇÜKSU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0791969,
+          41.0158958
+        ]
+      },
+      "properties": {
+        "id": "12366594",
+        "name": "idealart Sanat",
+        "category": "Kültür Turizm",
+        "subcategory": "Sanat Galerisi",
+        "address": "Karlıdere Cad. No:19/2 BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0719986,
+          41.0219574
+        ]
+      },
+      "properties": {
+        "id": "12338203",
+        "name": "Redington Turkey",
+        "category": "Kültür Turizm",
+        "subcategory": "Kültür Turizm Diğer",
+        "address": "Hanımseti Sk. No:46 KISIKLI/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0771198,
+          41.0141106
+        ]
+      },
+      "properties": {
+        "id": "12460911",
+        "name": "İsmet Uçma Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Uzundere Sk. BULGURLU/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0608501,
+          41.0697136
+        ]
+      },
+      "properties": {
+        "id": "12460909",
+        "name": "Nevmekan Kandilli Kütüphanesi",
+        "category": "Kültür Turizm",
+        "subcategory": "Kütüphane",
+        "address": "Hanımoğlu Yokuşu Sk. NO:7 KANDİLLİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0320511,
+          41.0240669
+        ]
+      },
+      "properties": {
+        "id": "12466186",
+        "name": "Enstitü İstanbul Üsküdar Selami Ali Eğitim Merkezi ",
+        "category": "Eğitim",
+        "subcategory": "İSMEK",
+        "address": "Gazi Cad. No:22 SELAMİ ALİ/ÜSKÜDAR",
+        "description": "",
+        "source": "poi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0062688,
+          29.0743683
+        ]
+      },
+      "properties": {
+        "id": "ChIJ-zEwucTJyhQRDZNBWl4sYgI",
+        "name": "Oyku Sanat Merkezi",
+        "category": "Egitim Kurumu",
+        "subcategory": "",
+        "address": "Cumhuriyet, Kani Karaca Sk. 21-1, 34699 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence_json",
+        "phone": "0533 779 31 46",
+        "website": "http://www.oykusanat.com/",
+        "rating": 4.7,
+        "reviews_count": 17,
+        "images": [
+          "https://lh3.googleusercontent.com/p/AF1QipMk8-6esfoPVsovLIiZMMlQoC4qsyItyGjtf19H=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipODfdb6nZ_m1oyy3f7z_poor8cUCif_iYzhmRZH=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipNJvaZ57tQSFsFZ4guOANIREerUJS4c2n86lbs4=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipNJvaZ57tQSFsFZ4guOANIREerUJS4c2n86lbs4=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_TFgGrGWA6Ol_1ElKRkglw&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=52.190525&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "09:00-20:00",
+        "closed_on": [
+          "Pazartesi",
+          "Pazar"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0163192,
+          29.03899
+        ]
+      },
+      "properties": {
+        "id": "ChIJt-4_YwK4yhQRn5Sy6ZMEAl4",
+        "name": "Uskudar Fikir Sanat Merkezi",
+        "category": "Konferans Merkezi",
+        "subcategory": "",
+        "address": "No:, Barbaros, Veysi Pasa Sk. No:14, 34662 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence_json",
+        "phone": "(0216) 341 05 14",
+        "website": "http://usgem.org/fikir-sanat-merkezi/",
+        "rating": 4.7,
+        "reviews_count": 191,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqv3LSOwtJhsZmf-mvhlP1j28_jRejED-9lOKZPXtKYA-KwK8yi3DQTnI28UzBQTDaZl0DHA3CogTDpVUQnLk10mo6opPoQNJiYgD6HNZyqALb7Fv7KmB4bSvambX72YVsXrHoSbH2k2YqV=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqljvGdy4BFWsNuOcQLJzxQyfWV4DMI-g_swEAVDK9TLAN4km3agH9Q9Mhb1CgpM0mo6rReb3vNE16zR6iPpZQNKspw7fQs9RcAXMs8MURZoxlTy32BZANmG6XxZ1lW2LPqZ_wFE-C5RGE2=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npbicsVpv1Bt2LagGuUFgjTzoi0YaMqtYjI7jFdLnU8zRyaEEFDn-QVIl9LRaLez-agUgVyTN6KKzkR2J6MGXiaqJhHr9dLhbemt9oQKVMB6fyCu1wrtQymBi0FLARF2ZJeg6ix=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqZF5pEButB2FNYURZGZDSSMAffzHifFuYtUIZlmIY5K4Gh6FcujGKlLX7_-MW841SdKQB1blrh6L8-Bka-FlIu52kJa_7qaXaQliuZjZaRszJAoeyDlmqtE_a2cCZ4pKTlGdJn=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noYI4Ob8cN1lqkQ9eVhM6Ki98G8g4-F4-iQfd9I8KA9Ts_4jz_isiR5OyLfCxH7s3ateX4bevWFJtN10-s57sCXLaPBFXPVWIR5-LYr_FchyxOEO_nJ_TaCqlSOiwrYKWG5bOCw=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.046163,
+          29.071827
+        ]
+      },
+      "properties": {
+        "id": "ChIJ8yPUtbXJyhQRytPT6w5zP9k",
+        "name": "Guzeltepe Kultur Mer.",
+        "category": "Konferans Merkezi",
+        "subcategory": "",
+        "address": "Mehmet Akif Ersoy, Namazgah Cd. No:18 D:B, 34682 Uskudar/Istanbul",
+        "description": "",
+        "source": "eglence_json",
+        "rating": 4,
+        "reviews_count": 120,
+        "images": [
+          "https://sporenvanteri.ibb.istanbul/images/facilityImage/1920x1024/65416-5054.jpg",
+          "https://sporenvanteri.ibb.istanbul/images/facilityImage/1920x1024/65416-5054.jpg",
+          "https://sporenvanteri.ibb.istanbul/images/facilityImage/1920x1024/65134-1384.jpg",
+          "https://sporenvanteri.ibb.istanbul/images/facilityImage/1920x1024/651514-4743.jpg",
+          "https://sporenvanteri.ibb.istanbul/images/facilityImage/1920x1024/65265-7907.jpg"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.023911999999996,
+          29.013206999999998
+        ]
+      },
+      "properties": {
+        "id": "ChIJraLiWYi3yhQRD5PNzFYOgPw",
+        "name": "Ucurtma Muzesi",
+        "category": "Muze",
+        "subcategory": "",
+        "address": "Aziz Mahmut Hudayi Mahallesi Uncular Cad, Bakici Sk. No:12, 34672 Uskudar/Istanbul",
+        "description": "Muze ve Atolye",
+        "source": "kultur_sanat_json",
+        "phone": "(0216) 553 23 37",
+        "website": "http://www.ucurtmamuzesi.net/",
+        "rating": 4.5,
+        "reviews_count": 810,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrh9YrHUrBRi4NzFQ3hxgIEyBZPIklR1-XkN1nRCHDkGRwvYdyo57yiGyuCtiizBdiuE825hsn6tc1ok8saJxtpJDVuP7RacnOMrnqdAzFeC4Fj8Yq1ed3IZwSGIgZctTBgS4H0aA=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npna_yOcU2xa2lHbGI466yDExNElfZ8OATVBLUwTIcFaJJp3JPpxU8hvYB1U_PFAROD3DSHZ_dSqLXGwU4UNA5_wRybXO4XVrN7z8KmHYgeEORyZLP4Bf8ZtFQadC2amsQWaS7Hwndte43k=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq_tGtRvIng0N_5O_I7x-kVXgJOXyot4xoC6tFPIvOxwOc-jUdVOGuwTvSOOjBteza_aNFwxYqbiXOFzyIuBfnRU6drwPddi94CGGMVw5D_MHkb_tP_cL9S49aGE0fIqwzuKw8Z=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipNL59hB36bMRkU8YxoR1Ia1MS8Z3oRuXBa59it4=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=A3cj5ymo7250dNdG-iItoQ&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=260.89755&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "09:00-17:00",
+        "closed_on": [
+          "Pazar"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.003955999999995,
+          29.065258
+        ]
+      },
+      "properties": {
+        "id": "ChIJEdaiquHHyhQRRa5TNftsPzk",
+        "name": "IMOGA Istanbul Grafik Sanatlar Muzesi",
+        "category": "Sanat muzesi",
+        "subcategory": "",
+        "address": "Unalan, Keban Cd. No:20, 34700 Uskudar/Istanbul",
+        "description": "",
+        "source": "kultur_sanat_json",
+        "phone": "(0216) 472 92 96",
+        "website": "https://www.imoga.org/",
+        "rating": 4.5,
+        "reviews_count": 219,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrrGhYke0Z08ZaydvglQqvZbcnujJqhQwSzx9qy61KeQ8H8_OiiOp45GIgqTjBOkPHqPfXZVpVPD5RrR1hCMaiz2X4DsLRSkJlkfkXNwu7qAyhsQdSrPrDj1DR17mpHY4gGzRw4=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipM6PwF6rVZrKFFioOSVRQHp5lu7jn_gXBWKgksU=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npo50xXDLleUN2qvFxKfJ-FiWDgVKsf3sD3rhNqLwyT6BpYC1EHe3nUwXn2Kyp4sltv1YO40yzbqt_DaLpCtHPI7VaLf8dtEC1j5BHRf5hEncODphL2U_x5GMzyCZagNkpqiDPoUlbKSHc=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrWZ_KU3ueBa0DY2hDGx448rmeKKLXVm009PnY25uZof0pcS346PmQl602z9J94nwMUEVj9kAzJqWYfG7vhSf7vhNpqxc1sCjzfo7H4IUBXTRcAG_qgainow_9hXG-Ts_sm0TrW=s1024"
+        ],
+        "workday_timing": "10:00-17:00",
+        "closed_on": [
+          "Pazartesi",
+          "Pazar"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0136375,
+          29.041989599999997
+        ]
+      },
+      "properties": {
+        "id": "ChIJFzAE3AG4yhQRVdTYJObAYC4",
+        "name": "Hababam Sinifi Muzesi",
+        "category": "Muze",
+        "subcategory": "",
+        "address": "Altunizade, Tophanelioglu Cd. No:19, 34662 Uskudar/Istanbul",
+        "description": "Hababam Sinifi Giris Ucreti 20 TL' dir.",
+        "source": "kultur_sanat_json",
+        "phone": "0553 406 43 42",
+        "website": "http://adilesultankasriogretmenevi.meb.k12.tr/",
+        "rating": 3.9,
+        "reviews_count": 10504,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npFiYGa8GliDeJ4NkgwlCsYgnTcIyOPcbxlCC7hsEB7RlD2WrZ-vGiwiWZV532M3lSiYVK26cbTMEwvoixQrdqgoSmr3Yix7l_Ms286uZEBTnLo8xyZtUCNVJdU9tsXKCiQtVS2=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrf-xoCS4YZhQgp5DRRkvU2QMt3XVySEFLcv_92B5Oq6VJYp4xBp5OkK_4grLBau4fLshhfTrsiLkn2wZfuyYqiER4re9yr51D-s7vXmTG3647glFY4eHQHnm-njfYby5tb9ZIwWSzLRV7o=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nptVarxw_KPltfW0s5E4X43RaUcHrtTIeuq4SPCW5KADl_seT2K0v5MTFTukOY_WCyNsbjyr2TnGlu4EnoFnmIB0KX6AOjw22IXvB-60jwQ66H9ji1t7SWm2ZWmhiHLQUegUto=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipPbO5QAiCIYOmZyPbYtqf7CMxV3fZf-b8l-Kx9O=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nowSsR-1YqH_vIA_IuLLy6VFIBX-Us3sOIn6oge7-eNGpDAxBmhxs2FHTpvl5kDp_BFinzqZkfJAw5DTQiI7Y6Hp6U8yNo_OVXndVGoyxfqojSCCNTtajyvj4y9olo1ONlfAagV6w=s1024"
+        ],
+        "workday_timing": "09:00-17:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0251096,
+          29.0101342
+        ]
+      },
+      "properties": {
+        "id": "ChIJM2zJt363yhQRJcVUQsYzgrI",
+        "name": "Uskudar Hanim Sultanlar Muzesi",
+        "category": "Muze",
+        "subcategory": "",
+        "address": "Aziz Mahmut Hudai Mahallesi Semsipasa Caddesi No:2 Nevmekan, Sahil, 34660 Uskudar",
+        "description": "",
+        "source": "kultur_sanat_json",
+        "phone": "444 0 875",
+        "website": "https://mobile.twitter.com/nev_mekan?lang=en",
+        "rating": 4.5,
+        "reviews_count": 2839,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nogvttLLYX2ML1VcZotqqGc448U5ufYPh_aVsmUMFqAgPAisbKOr693wAr02-cuKW_kMvjTHsbeGvB1qDuPn34dTiYPVpHPbMSVtj9aUdPjVetfSWTWbYONVnyM-iZn9lFINeE=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrJwCA45_Psuwo4kX3dmZhcgFhsNuhAC6CA1C04Yjh4Wwds0fOq471LFrr3W41VTGOeXSEALkDMTtqvgASRoeQwfplhGW4GC8maP4TiPOcJ0dCCJwE2fxAQ8FVjC2XXBZSuFcxHf71dnjU=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npwLU7bs_uJRn8F0sZtfLaNwIYgV6Azwpkrl8qF0-OXmIWtkI2DG7J7GThbLoRnp-qBsEoIVV2IA1i3PviUNh7cRXawMEgW0aIB8xQgRHdEy4dOzmRh4fduzrJ3KPRwfFnforQI=s1024"
+        ],
+        "workday_timing": "10:00-19:00",
+        "closed_on": [
+          "Pazartesi"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0426451,
+          29.039904999999997
+        ]
+      },
+      "properties": {
+        "id": "ChIJDwwhAtq3yhQRCucO58KmTqo",
+        "name": "Beylerbeyi Sarayi",
+        "category": "Tarihi Yer Muzesi",
+        "subcategory": "",
+        "address": "Beylerbeyi, Abdullahaga Cd., 34676 Uskudar/Istanbul",
+        "description": "Bu bahceli 19. yuzyil sarayi bir zamanlar Osmanli padisahlarinin yazlik konutuydu.",
+        "source": "kultur_sanat_json",
+        "phone": "(0216) 321 93 20",
+        "website": "http://millisaraylar.gov.tr/",
+        "rating": 4.7,
+        "reviews_count": 18879,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npjDClTTAKoJTlFGJIfJPPYQRQEVGQLqpv8b7KGSBCDimQKU5UpKv7K4ZZ6PUGTr_YIR5hCY1-YX8JtXSt_GIDh5UjgTgMyRv5saKmm22lOlvZRLAWQGZfFkqAxTX15HM9SV3h2=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrpLGPpW_lnkSRSA5pT5ES_hG2tdipUrL0Fi8P-F1kkFQEKoHICzdKv2eWIikowatlumTfYpg6SDemhp6Gxzq2lX5XGHBf42trTuTUoL2tYNxAtXssKFk4fNYJwFHFKguS1pjPqoxGHfXk0=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqu1OEZgZ2DUWA_VToEq75_gcKaAkahOo_XJ_M0wmi3e4PPyBaMhV6VelnlqxJIPhcjgLgg7RTYpYCzrTZS_Rhu_s0DuvDrLJA6_0o7WsTZ3zRSdVevLuemg45yvMNIR-7D7Sw=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipORxMeq0kH5cG07CvU31InNULOe5vqCot0ln7Od=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npYTohqPeFxbXjeAHqM1p2nAsFzMWWxV1aPB8Ub57mJPowQejbjCimu8_ubZNutgOI81NZThFgwaD8H7UN26RRNV88MuvHYwGQ8CKd1-Mca8b-NpqeCLIxJN2OzQpEepxgmD2EqUA=s1024"
+        ],
+        "workday_timing": "09:00-17:30",
+        "closed_on": [
+          "Pazartesi"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0069533,
+          29.0167853
+        ]
+      },
+      "properties": {
+        "id": "ChIJxZfAJTm4yhQRKDZ6k36_UKg",
+        "name": "Florence Nightingale Muzesi",
+        "category": "Muze",
+        "subcategory": "",
+        "address": "Selimiye, 34668 Uskudar/Istanbul",
+        "description": "",
+        "source": "kultur_sanat_json",
+        "phone": "(0216) 343 73 10",
+        "website": "https://istanbul.ktb.gov.tr/TR-165612/florence-nightingale-muzesi.html",
+        "rating": 4,
+        "reviews_count": 40,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no2zMqwntlBDMJCqF0yRxWuWaMg6WuGYaBVRNB_3tpIzlwyAX-ir_EdTbDOWLkTqwXY7rjCDtuRifaF1GnY6UARhjrI5t-Mml4iqFbL_ifDI9n4eOqa7dW3oHLJI1NPItv6527X=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqkM8oRSuE2Gzk5sm2rVWwe3VdUWAVrt6Z5IMP6e_t4GZSnQRqb6QroBqQfnJfEHxck5rHwgk62Cd_LpIzsmsdfV20UuKpM1g3Kv265DeB1zeQxJwF6OQPV7bRw3lFC5eYeEUxE10uH-Tg3=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noenurcKZEZ2nAy-C6LdRg9_rHcPbDdke3WqsxXVw_ia9Y8Fb9m8ZmSkAB6sNKDienCrj6wam46IaNKV375MevLRdW55Tk_g5Je0CP5JCGmDhH_EeEP3FYj1uQq_mB14IyAQ96tKg=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.037050799999996,
+          29.041670399999997
+        ]
+      },
+      "properties": {
+        "id": "ChIJVQNN-1i3yhQRw1sE_erPFaY",
+        "name": "HAFIZA 15 TEMMUZ MUZESI",
+        "category": "Muze",
+        "subcategory": "",
+        "address": "Beylerbeyi, Nevnihal Sk. No:12, 34674 Uskudar/Istanbul",
+        "description": "Hafiza 15 Temmuz, 1500 metrekare alanda kurulu olup ziyaretcilerine 15 Temmuz gecesi yasanan vahsetin yani sira, kolonyalizm, somurgecilik, emperyalizm ve dunya darbeler tarihini de detayli sekilde sunmaktadir.\n\nKultur ve Turizm Bakanligina bunyesinde olan merkezi, 15 Temmuz Dernegi isletmektedir.\n\nHafiza 15 Temmuz'u ucretsiz ziyaret edebilirsiniz.",
+        "source": "kultur_sanat_json",
+        "phone": "(0216) 553 15 07",
+        "rating": 4.9,
+        "reviews_count": 1724,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npYUx-yHSzfDfgYdK6W6iPLfv0TUAUDgPbujRvsiKnf_LA3a4Kw0I4vdpN40Cvw0PIKuaZakVSlqERfwHdHxr1psqIAzLJsDg-RdYnUtSAe__AxWEwxoNJBi3_X1kLIbFo0M8mE=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no_b-ObxuDy0elkDsekR5TiB9TarbS9VKcL6fL7Fu1crDhYlxKns9o8H4JmYVqk2Tu1Vp5icXOXk-rO7-k031w2AxZX8oN6ftlfYgrt9m0bONvOUmyKaBf4y1XijO7X0doZOLt4lViGB4WI=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nogz83TPk_psx7fp0bzfgBcWYuyGElM8WHi-vRa8scJ0O3XilxfiUszbVurpdK2_JDk-CSvdaOZgAMcLfcqUuyTVrrOAJnoAHKnWPMY5avMnvs0STSN7Iktmbu6YGA_iZMpXghJwUstZjzE=s1024"
+        ],
+        "workday_timing": "09:00-19:00",
+        "closed_on": [
+          "Pazartesi"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.024523699999996,
+          29.0337076
+        ]
+      },
+      "properties": {
+        "id": "ChIJK_X6d_C3yhQRLq54jU_JEY8",
+        "name": "Uskudar Belediyesi Baglarbasi Kongre ve Kultur Merkezi",
+        "category": "Kultur merkezi",
+        "subcategory": "",
+        "address": "Selami Ali Mh., Gazi Cd. No:22, 34000 Uskudar/Istanbul",
+        "description": "",
+        "source": "kultur_sanat_json",
+        "phone": "(0216) 531 30 00",
+        "website": "http://www.uskudar.bel.tr/",
+        "rating": 4.4,
+        "reviews_count": 4577,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noDKCCq36G4mDqGtS-Wl6kI6qolc1dRzzj4j6plq1qo8_VBOjoraSpNTCXE3QJD-VZb-_EgZjkqG-tbx-XftAIVVwmUGnBv0FU0I6qB-i4pVuJ5fQ0M2WQk6gPX3VDqzpi8Ecz9cQ=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipPKYfoOUTFqE2slkRVDuB7Yp9N__sKBiQA3ZjcP=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr7ri5--S79eCjGqzlAcSAzNj30Gq8gL96xbP4x02lcqitYhJlXAVespwICekNwXifxNdiUSxs0nMIrUwf8ff-g-LH3bXFqLMUG5hqDTR0w0hF9jVhjkG8u8-Bq5dTR_gEJkVD_=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ydKETX1euFR6AH5kB7XneA&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=0.13667794&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "08:30-22:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0183555,
+          29.0388125
+        ]
+      },
+      "properties": {
+        "id": "ChIJ0_byP_m3yhQR966YCSf2G3g",
+        "name": "T.C.USKUDAR BELEDIYE BASKANLIGI ALTUNIZADE KULTUR ve SANAT MERKEZI",
+        "category": "Kultur Merkezi",
+        "subcategory": "",
+        "address": "Altunizade, Sirma Perde Sk. No:11 No:11, 34662 Uskudar/Istanbul",
+        "description": "",
+        "source": "kultur_sanat_json",
+        "phone": "(0216) 531 30 00",
+        "website": "http://www.ibb.gov.tr/sites/kultur/kulturel_mekanlar/Pages/AltunizadeKulturMerkezi.aspx",
+        "rating": 4.3,
+        "reviews_count": 84,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np7Eh8uODXSfmXO2fF3SFYJ9MfxkBdvXIbmaGXWL_8yCuA6PczQPzk1HAJvfbtAmEWxiBkj3n9QzkMKT3Wgt5sP8bcRje5l5WcfQB70T-0oXbJ_leu_Lh7L-4ROos-YRNBA1CMz=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr2lyY7eXlEnNUWkzMG8sfwhlmpYneFzOdebTBz__svDAhgTsvsFzvbFPimEs4Ig5PnMXgKBAEB7J7mKcC0ofM5Mvdz558GVkSUZMbqoVwa4HS4tyZsMn_qAOB-IMKMGF8wZZyv=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npfzHeE3j4bWDsLhA03fnKMBFyO5ccYmsnzGJ5_lQB_lXCyVQYtF8-rd6LFdVIvGD4Rdnv7Z32BqdTjHrnaPHtMmdjNubd-xzxbCCMm12PFR5LzlJqGQ1xEd3pFNnalxnUGpXg=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrjH7PIQ8nPfSuqq2PYh_9Xjh-bnx0JKP9HNOH6rvjof4ZlLyyeOBlvphByA7dNXS8EveS8e3t0sl1ivJNEfKjeynQE0bmYChzDHwGDyTuZefrl2dAUft5qLU1JkjQOj0Limr9lug=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VJHpczqFHE941lu28jFRzw&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=9.92149&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "08:30-19:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0523066,
+          29.0639123
+        ]
+      },
+      "properties": {
+        "id": "ChIJrddE0cjJyhQRyVsrBoAlEKw",
+        "name": "Cengelkoy Film Studyosu",
+        "category": "Sanat Merkezi",
+        "subcategory": "",
+        "address": "Cengelkoy, Kasim Sk. No:29, 34680 Uskudar/Istanbul",
+        "description": "Sahne Sanatlari, Dizi Film, Sinema, Oyuncu Koclugu , Senaryo, Yemek program platosu",
+        "source": "kultur_sanat_json",
+        "phone": "(0216) 332 14 15",
+        "rating": 4.6,
+        "reviews_count": 13,
+        "images": [
+          "https://lh3.googleusercontent.com/p/AF1QipObA3Z2v8zh2etmVd4FTHtZ8X6zkpODBv1c_qc4=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipOQjt-hKfRlou277vuwA6jafcj2aPL-TWj-TkA_=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=5fh5VanBRo-HuvDp7zRoDA&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=7.406892&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "24 saat acik",
+        "closed_on": [
+          "Cumartesi",
+          "Pazar"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.031436,
+          29.0216139
+        ]
+      },
+      "properties": {
+        "id": "ChIJVUEGJZO3yhQRRK7rIE9R0ow",
+        "name": "Istanbul Devlet Tiyatrosu Uskudar Tekel Sahneleri",
+        "category": "Sanat Merkezi",
+        "subcategory": "",
+        "address": "Sultantepe, Pasa Limani Cd. No:66, 34674 Uskudar/Istanbul",
+        "description": "Istanbul Bogazi'na bakan bu donusturulmus endustriyel binada modern ve klasik oyunlar sahnelenir.",
+        "source": "kultur_sanat_json",
+        "phone": "(0216) 532 02 03",
+        "rating": 4.6,
+        "reviews_count": 2597,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqp7yHGXv416XnWIj7KIGn7TpaCI6q8jfS5bt87zvqR_7h8Gwwtgyh8Jh03VIrjsTHkA7YHhKYspkScleB31Ab6VessK7VsotECn6Z7shKRpfd685c2_5Cz56AJKkTeNo-zrAY=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noBxaOzuVp50rd-ZWPZSomjTCwMfLcdGL1bDT6EUm6HHj9BCxQjh9w0itLH65Y9MK51iOXZlnFBy5hJ1m5n8Edzn_EwPX5tpDwhlv-TgQ0_jy8njHZr5R09lgNn9Rm1wsFMKbwpcIl588i0=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nositGnQuQ714fz4M61_KyW-j2bpcEjDCBTHNxBsoD9yDFYCgIoZITocGFIvJIcfR1igSVO9Sn1ubr8YpkksWREazGQC3-zRHZrkrLkm2ckSYFJsH0WA4RkXDpteNk_vIH8Uru7Iw=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrxJttjExO-fOW4q8TdHyYulT-GnTOuqyUelAdk5xfxEuf6Q7-2-IvfzO2AusZ1rYf7bDl0DiWTxtB2b--enBCX9B7SZkmB5UqZMfcGjR-8jP4J22iTnfGQA9D9JX7co5lMbonO=s1024"
+        ],
+        "workday_timing": "24 saat acik",
+        "closed_on": [
+          "Pazartesi"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0014977,
+          29.0541023
+        ]
+      },
+      "properties": {
+        "id": "ChIJ7U2qgPDHyhQRhy0vjBMDzy0",
+        "name": "Akasya Kultur Sanat",
+        "category": "Sanat Merkezi",
+        "subcategory": "",
+        "address": "Acibadem, Cecen Sok. No:2, 34660 Uskudar/Istanbul",
+        "description": "",
+        "source": "kultur_sanat_json",
+        "phone": "(0216) 325 03 72",
+        "rating": 3.8,
+        "reviews_count": 295,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqhgcxFYhGElFW5hCU5gF4628l8dt_cW-nN1nCCxLOmzhFV-QukUbTM0KcuusO6IMfcdLs7o__CRw3TiUYPkxpoOBk2uS2YET0FnXVp5F-oppR0SW7jbOqIuKhlikBrqWsCkbnz=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipO-3dkf9fe5f67Ru_-S7MFRWuf8bI8-KP7_-rH0=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4notN30pFISMpZ_riXJeP8vz7kZCFzewB73c-pXjcvevvXbhYvvoxqPBO74uuYX2q4kO4h780mLd9EVZK7nmzzFS5Fcllb1wLrrLipq2lCMMz6nLPNWxjxcQjdYG_7vdGQpVfG5Tpg=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=rJB8yod6FamujwObfSjbOg&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=89.70224&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "10:00-22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0184984,
+          29.0387341
+        ]
+      },
+      "properties": {
+        "id": "ChIJ94H4uf63yhQR2nX3F21x1gI",
+        "name": "Altunizade Kultur Merkezi",
+        "category": "Kultur merkezi",
+        "subcategory": "",
+        "address": "Altunizade, Sirma Perde Sk. No:23, 34662 Uskudar/Istanbul",
+        "description": "",
+        "source": "kultur_sanat_json",
+        "website": "https://www.uskudar.bel.tr/tr/main/pages/altunizade-kultur-ve-sanat-merkezi/85",
+        "rating": 4.5,
+        "reviews_count": 351,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq0fkMHZUUewLoXgdZbwifGO-lmyr4Ik9IuuJMICdmFRGtpUjZJSvUHlGDkji6miu6cQHrW60hv-XMvO9hB13Royg6578NK5A5CaQ_qV4xvOgCTJbdGW7LJNfY-gViuqYilUEc=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=aTTe4bWuobKmAU9P3ADstw&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=26.158733&pitch=0&thumbfov=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrCGsn2_LdoRGNnZyJydZIvdzvp9ZfqLIA78NqyndFqXXsT2DIUzZWLZp3s2PEXFv8hvw2AMSQv6F1WyipdKCanwoyYTx7MVtTWP3tJn0XO9FuEr4N4P2SXrA5W1mAYXNtGYr1r=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0312238,
+          29.0528856
+        ]
+      },
+      "properties": {
+        "id": "ChIJww38IhTJyhQRN7A-aNdhDYU",
+        "name": "Volkan Tan Danismaz Tiyatrosu",
+        "category": "Sanat Merkezi",
+        "subcategory": "",
+        "address": "Burhaniye, Dogu Karadeniz Cd. No: 16 D:2 / 1, 34676 Uskudar/Istanbul",
+        "description": "Sanat toplumun aynasidir. Ayna karsisinda, her daim kendinizi gorursunuz.\nUnutmayin; Hayatta herkesin bir rolu vardir.\n\n\nSahne sanatlarinda kendinizi gosterebilmek icin, iyi bir egitim ve oncesinde mukemmel bir istek olmali.\nSahne sanatlari, meshur olmak icin degil, sanati el ustunde tutabilmek icindir.\n\n\nTiyatro / drama / sahne bilgisi egitimleri.\nYasam koclugu.\n\nUnutmayin, ben her yerdeyim.\nAykiri Sanatci Volkan Tan Danismaz\n\n#yesilcam #Hollywood #bollywood\n#oyuncu #aktor #aksiyon\n#yazar #tiyatro #sinema #sanat #komedi #yasamkocu\n#volkan #volkantan #volkantandanismaz\n#hayvan #hayvansever\n#sporcu #futbolcu #walking\n#hakem #turnuva #futbolturnuvasi\n#gezgin #turizm #kesfet #fantastic\n#egzotik #tarih #benheryerdeyim",
+        "source": "kultur_sanat_json",
+        "phone": "0535 744 48 33",
+        "website": "http://www.klasslig.com/",
+        "rating": 5,
+        "reviews_count": 258,
+        "images": [
+          "https://lh3.googleusercontent.com/p/AF1QipM2dF0TcueUUPYJFjxZYx_GfzKqNLUXqsu4hqV9=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipM1RO3rvmsA1VdvcB4Ww0JGi70mzv5EU45wG1d_=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipOADsih2UC_Sw7FEUQqjCFZZFE5_TIEKsyBRII2=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=2SXy8cxzeJua6VoAIduXXQ&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=54.945927&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "24 saat acik"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.039107,
+          29.059095
+        ]
+      },
+      "properties": {
+        "id": "ChIJ2xlnSDDIyhQRplEwFgm7U1Q",
+        "name": "Uskudar Belediyesi Bogazici Yasam Merkezi",
+        "category": "Kultur Merkezi",
+        "subcategory": "",
+        "address": "Kirazlitepe, Fistikli Bayir Sk. No:70, 34682 Uskudar/Istanbul",
+        "description": "",
+        "source": "kultur_sanat_json",
+        "phone": "(0216) 531 30 00",
+        "website": "http://www.uskudar.bel.tr/",
+        "rating": 4.2,
+        "reviews_count": 373,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrWFjyfgiOYFpOIAmjy_3NrfSUogf7W73s21eY8a7FnmY5uPTKsF7UtlHdHFDgUaiUFb742J2awCBCNHDqqWFmlyE475603zbmW7WK2C3XjrXm_yvZZPXOVTu9bKFRXWHH_A8Y_=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noerOzUR9gHyBAimXwjf1CG9eBmTAWVk5HxwnLglGg_YU2k6Hx-7Q3ITOuUSkU-R3TQv4QCRa2SlpCVNMMDI3jOuIW1QVYqbF6zo8P1-DmLnVT1wpc81-lyToc05CH6aiBcAXss3P1s7Wr-=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npN7_DoUFmA5u44g7dsytgh9CuhcoibpEkMrPJYSRm8kjoytQz1D1ffRP5sk516G3dUnCaWkWoBdGjL10JxaOa5r6ugHrxYq81dXylb3aRTVlRANmxzAEGJeh0v159pA4lHJGe_zFmgHzo=s1024"
+        ],
+        "workday_timing": "09:00-22:00",
+        "closed_on": [
+          "Pazartesi"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0347854,
+          29.083399999999997
+        ]
+      },
+      "properties": {
+        "id": "ChIJWVLshFHIyhQRDNnOiiRL86k",
+        "name": "Niyazi Sayin Egitim Ve Kultur Merkezi",
+        "category": "Kultur Merkezi",
+        "subcategory": "",
+        "address": "Yavuzturk, 34692 Uskudar/Istanbul",
+        "description": "",
+        "source": "kultur_sanat_json",
+        "rating": 4.5,
+        "reviews_count": 23,
+        "images": [
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqybgycFzyvzGXYN3r1j-pq581uVGtvKYkLGqJodS1aZ0gNEl_71Zj5DHl3TnXkeTwsUEzADKYer_vw7YOQLUisVl5VHiJQxziTAET3W4bceninQvkU_t1MUiIxa6A8foRdH7VJ=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=zY30hwfqdF6QAbAwWjfoPg&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=273.10068&pitch=0&thumbfov=s1024"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0328672,
+          29.035525999999997
+        ]
+      },
+      "properties": {
+        "id": "ChIJCyw1Id23yhQRDMGYm1uLg7w",
+        "name": "Bridge Nakkastepe",
+        "category": "Topluluk merkezi",
+        "subcategory": "",
+        "address": "Kuzguncuk, Nakkastepe Yolu No:56, 34632 Uskudar/Istanbul",
+        "description": "Bridge Nakkastepe buyuyerek Istanbul'un yeni merkezi haline geldi. Icinde Dafni Atesbasi, davet ve etkinlik alanlari yer almaktadir.",
+        "source": "yemek_json",
+        "phone": "(0216) 391 95 85",
+        "website": "https://www.bridgenakkastepe.com/",
+        "rating": 4.3,
+        "reviews_count": 2259,
+        "images": [
+          "https://lh3.googleusercontent.com/p/AF1QipN5X_rwbLBUmcv2RpwQqEh6rb3Gt17VP1Yync9t=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqEzXV7PZn_TPH0ActphcFZXD-8AO_PG5vFaCzrIZVJ6WkrWMOvR4Fq8UQw2a5NUDMhCnTG8kRIc4dTagIWQO98Ir6I11EPObQCT81tIkXYcBtsdaYY5U_mMveJeKNO8I9j0gLuOLcsEVi4=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr64APJfkJ4YQY2PJE0iMFLM4gJYzLhuY2qUK-zASWeyWM25EIOGcKZJRzW7cW_okbpqSWhb9FW1uAaddwQv53AoUeTO_BE7lMfU4AtKTNmJPO8cRI7TPz2b73RqGAZRLkiYt-sLA=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noZMrwLOVgzZIl7aGR5lwRedMNsj8dSC6iRA2o138uC85_CHmeTU4coaDaCeQOoyJ2sRuKSh1cqmobCXZr0HNL62k1COa_4Cyhhv5nmbeCVKRoQ0KRaowmjHaQCWe8E8bszpmu1cQ=s1024"
+        ],
+        "workday_timing": "12:00-00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0232684,
+          29.033604099999998
+        ]
+      },
+      "properties": {
+        "id": "ChIJrXb7api3yhQRkW2PDZ0dDcE",
+        "name": "Uskudar Kooperatif",
+        "category": "Sanat Kafe",
+        "subcategory": "",
+        "address": "Murat Reis, Yeni Ocak Sk. No:24/B, 34000 Uskudar/Istanbul",
+        "description": "Il-Ilce sinirlari ve yakin cevrelerde uretim/tuketim faaliyetlerinde farkindalik olusturmayi, \"Temiz, Adil, Helal\" gidaya ulasilabilirligi, cogaltmayi ve\npaylasmayi ilke edinmis bir Kolektifiz. 2018 yilinda sahada calismalarina baslamis olup, gunumuze (2025) kadar nitelikli olarak buyuduk. Kolektif olarak; Zeytinyagi, Badem, Bugday (atalik) uretimi yaparak yardimlasma ekonomisine katkida bulunmaktayiz.",
+        "source": "yemek_json",
+        "phone": "0537 650 54 67",
+        "website": "https://www.google.com/maps/place/%C3%9Csk%C3%BCdar+Kooperatif/data=!4m7!3m6!1s0x14cab7986afb76ad:0xc10d1d9d0d8f6d91!8m2!3d41.0232684!4d29.0336041!16s%2Fg%2F11sc3s70gd!19sChIJrXb7api3yhQRkW2PDZ0dDcE?authuser=0&hl=tr&rclk=1",
+        "rating": 4.9,
+        "reviews_count": 116,
+        "images": [
+          "https://lh3.googleusercontent.com/p/AF1QipPTDE4_efipyzMeVOhKZe5orOv5GBwxZby41Ya1=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npCW4IpH9d4BfYMlzkkTVeiQLzsvvlFsPu4zgKc4hqIU8aykdKQHbq6PzXYsedaRNSySKZD3Y6nyG1QUC73U7UcM9VqjCUzk_LkOibxSQai8lgF-Rqm2YvlOaq4davHcGn0zyYe=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipNH2ucJ6BEzbImACpwa_bhMNgP1J-0-VboU3epc=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipMwE5AhI_jcdnS3NPNw14pVdcf9fNH2SlBDoQaU=s1024",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np2BBa8XJq4dYGvY9r1SchoDw5yriohnmTMJbGWelEVdAdKijRNFhvZq9QqVELWO7CdUVSF4KCdbMd21iafLdP45NkRVU_aha6gSUARqsXkdJJvrGkb1vGUn3t4laOyHnTtBUcC=s1024",
+          "https://lh3.googleusercontent.com/p/AF1QipMMIqivcPySf9QVlydjrkQxVPNDqr53X1LYgOHE=s1024",
+          "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=OWDd-TXAk3b8Zp8Q6k2KSA&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=139.19112&pitch=0&thumbfov=s1024"
+        ],
+        "workday_timing": "10:00-21:30"
+      }
+    }
+  ]
+}

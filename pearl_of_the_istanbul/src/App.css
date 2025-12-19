@@ -1,0 +1,150 @@
+/* ===================================
+   CSS Değişkenleri - DRY Prensibi
+   =================================== */
+:root {
+  /* Z-Index Hiyerarşisi - Merkezi Yönetim */
+  --z-map: 1;                    /* Harita katmanı */
+  --z-sidebar-backdrop: 999;     /* Sidebar arkaplan */
+  --z-sidebar: 1000;             /* Sidebar panel */
+  --z-toggle-btn: 1001;          /* Toggle butonları */
+  --z-poi-popup: 2000;           /* POI popup */
+  --z-mini-games: 2500;          /* Mini oyunlar */
+  --z-image-modal: 3000;         /* Resim modal */
+  --z-walking-nav: 3500;         /* Yürüyüş navigasyonu */
+  --z-walking-loading: 4000;     /* Yürüyüş loading */
+  --z-directions-modal: 5000;    /* Yol tarifi popup - Sidebar üstünde */
+  --z-loading-popup: 9999;       /* Genel loading popup - En üst */
+  
+  /* Safe Area - Responsive */
+  --safe-area-inset-top: env(safe-area-inset-top, 0px);
+  --safe-area-inset-right: env(safe-area-inset-right, 0px);
+  --safe-area-inset-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-area-inset-left: env(safe-area-inset-left, 0px);
+  
+  /* Popup Spacing */
+  --popup-padding-mobile: 16px;
+  --popup-padding-desktop: 20px;
+  --popup-border-radius: 20px;
+  --popup-border-radius-mobile: 20px 20px 0 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Desktop Sidebar Toggle Button */
+.sidebar-toggle-btn {
+  display: none; /* Mobilde gizli */
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: var(--z-sidebar-toggle);
+  background: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  cursor: pointer;
+  color: #6366F1;
+  transition: all 0.2s ease;
+}
+
+.sidebar-toggle-btn svg {
+  stroke-width: 2.5;
+}
+
+.sidebar-toggle-btn:hover {
+  background: #6366F1;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.3);
+}
+
+.sidebar-toggle-btn:active {
+  transform: scale(0.98);
+}
+
+/* Desktop'ta göster */
+@media (min-width: 769px) {
+  .sidebar-toggle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+/* Bayrak emoji desteği */
+.flag-emoji {
+  font-family: 'Segoe UI Emoji', 'Segoe UI Symbol', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+  font-size: 28px;
+  line-height: 1;
+}
+
+/* Stil seçici popup - PC'de sola açılır */
+.style-picker-popup,
+.language-picker-popup {
+  animation: slideIn 0.2s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobil cihazlarda (768px ve altı) */
+@media (max-width: 768px) {
+  .style-picker-popup,
+  .language-picker-popup {
+    top: 60px !important;
+    right: 0 !important;
+    left: auto !important;
+    flex-direction: column !important;
+  }
+}
+
+/* PC'de (769px ve üzeri) - Popup sola açılır */
+@media (min-width: 769px) {
+  .style-picker-popup,
+  .language-picker-popup {
+    top: 0 !important;
+    right: 60px !important;
+    flex-direction: row !important;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+

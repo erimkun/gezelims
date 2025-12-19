@@ -1,0 +1,276 @@
+/* Walking Navigation Styles */
+
+.walking-nav-loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: var(--z-walking-loading);
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.walking-nav-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #6366F1;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 15px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.walking-nav-container {
+  position: fixed;
+  bottom: calc(20px + var(--safe-area-inset-bottom));
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: var(--z-walking-nav);
+  width: 90%;
+  max-width: 400px;
+}
+
+.walking-nav-box {
+  background: linear-gradient(135deg, #6366F1dd 0%, #6366F1aa 100%);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  border: 3px solid;
+  backdrop-filter: blur(10px);
+  color: white;
+  animation: slideUp 0.4s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Header */
+.walking-nav-header {
+  margin-bottom: 15px;
+}
+
+.walking-nav-destination {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.walking-nav-icon {
+  font-size: 32px;
+  animation: walk 1s ease-in-out infinite;
+}
+
+@keyframes walk {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+
+.walking-nav-destination-name {
+  font-size: 18px;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.walking-nav-destination-info {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-top: 3px;
+}
+
+/* Instruction */
+.walking-nav-instruction {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  backdrop-filter: blur(5px);
+}
+
+.walking-nav-direction-icon {
+  font-size: 48px;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.walking-nav-instruction-text {
+  flex: 1;
+}
+
+.walking-nav-distance {
+  font-size: 28px;
+  font-weight: 900;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 5px;
+}
+
+.walking-nav-action {
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 0.95;
+}
+
+/* Progress Bar */
+.walking-nav-progress-container {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.walking-nav-progress-bar {
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.5s ease-out;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.walking-nav-progress-text {
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+/* Close Button */
+.walking-nav-close-btn {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(5px);
+}
+
+.walking-nav-close-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.6);
+  transform: scale(1.02);
+}
+
+.walking-nav-close-btn:active {
+  transform: scale(0.98);
+}
+
+/* Turn Marker Animation (Dönüş Noktaları) */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.85;
+  }
+}
+
+/* User Location Marker (Yürüyen Adam) */
+.user-location-marker {
+  z-index: var(--z-image-modal);
+}
+
+@keyframes walk {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Turn Marker */
+.turn-marker {
+  z-index: var(--z-mini-games);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .walking-nav-container {
+    bottom: calc(10px + var(--safe-area-inset-bottom));
+    width: 95%;
+  }
+
+  .walking-nav-box {
+    padding: 15px;
+  }
+
+  .walking-nav-destination-name {
+    font-size: 16px;
+  }
+
+  .walking-nav-distance {
+    font-size: 24px;
+  }
+
+  .walking-nav-direction-icon {
+    font-size: 40px;
+  }
+}
+
+/* Desktop için compact görünüm */
+@media (min-width: 769px) {
+  .walking-nav-container {
+    position: static;
+    width: 100%;
+    transform: none;
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.3);
+  }
+
+  .walking-nav-box {
+    padding: 16px;
+  }
+
+  .walking-nav-destination-name {
+    font-size: 15px;
+  }
+
+  .walking-nav-distance {
+    font-size: 22px;
+  }
+
+  .walking-nav-duration {
+    font-size: 13px;
+  }
+
+  .walking-nav-direction-icon {
+    font-size: 36px;
+  }
+
+  .walking-nav-instruction {
+    font-size: 13px;
+  }
+
+  .walking-nav-footer button {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+}

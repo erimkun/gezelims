@@ -1,0 +1,535 @@
+/* POI Popup - Mobil Öncelikli Tasarım */
+
+/* Backdrop - Saydam arka plan */
+.poi-popup-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: var(--z-poi-popup);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--popup-padding-desktop);
+  padding-top: calc(var(--popup-padding-desktop) + var(--safe-area-inset-top));
+  padding-bottom: calc(var(--popup-padding-desktop) + var(--safe-area-inset-bottom));
+  padding-left: calc(var(--popup-padding-desktop) + var(--safe-area-inset-left));
+  padding-right: calc(var(--popup-padding-desktop) + var(--safe-area-inset-right));
+  animation: popupBackdropFadeIn 0.2s ease;
+}
+
+@keyframes popupBackdropFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Popup Container - Ekranın sol alt çeyreğinde */
+.poi-popup-container {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  animation: popupSlideIn 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transform-origin: bottom left;
+  /* GPU Acceleration */
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform, opacity;
+}
+
+@keyframes popupSlideIn {
+  from {
+    transform: translateY(20px) scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+/* Header - Kategori rengine uyumlu */
+.poi-popup-header {
+  padding: 20px 20px 18px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.poi-popup-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  min-width: 0;
+}
+
+.poi-popup-title > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.poi-popup-icon {
+  font-size: 32px;
+  line-height: 1;
+  flex-shrink: 0;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+}
+
+.poi-popup-title h3 {
+  margin: 0 0 4px 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: white;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  word-break: break-word;
+}
+
+/* Kategori badge - başlığın altında küçük */
+.poi-popup-category-small {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 500;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Close Button - Yuvarlak Kare */
+.poi-popup-close {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px; /* Yuvarlak kare için değiştirildi */
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  outline: none;
+  line-height: 1;
+}
+
+.poi-popup-close:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+.poi-popup-close:active {
+  transform: scale(0.95);
+}
+
+/* Content */
+.poi-popup-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+/* Content Scrollbar */
+.poi-popup-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.poi-popup-content::-webkit-scrollbar-track {
+  background: #F3F4F6;
+  border-radius: 3px;
+}
+
+.poi-popup-content::-webkit-scrollbar-thumb {
+  background: #D1D5DB;
+  border-radius: 3px;
+}
+
+.poi-popup-content::-webkit-scrollbar-thumb:hover {
+  background: #9CA3AF;
+}
+
+/* Section */
+.poi-popup-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.poi-popup-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6B7280;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.poi-popup-text {
+  font-size: 15px;
+  color: #1F2937;
+  line-height: 1.6;
+}
+
+.poi-popup-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  align-self: flex-start;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Action Buttons */
+.poi-popup-actions {
+  padding: 16px 20px 20px;
+  display: flex;
+  gap: 10px;
+  background: #F9FAFB;
+  border-top: 1px solid #E5E7EB;
+}
+
+.poi-popup-action-btn {
+  flex: 1;
+  padding: 14px 20px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.poi-popup-action-btn:active {
+  transform: scale(0.97);
+}
+
+.poi-popup-action-btn.primary {
+  background: linear-gradient(135deg, #6366F1 0%, #4F46E5 100%);
+  color: white;
+}
+
+.poi-popup-action-btn.primary:hover {
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+  transform: translateY(-1px);
+}
+
+.poi-popup-action-btn.secondary {
+  background: white;
+  color: #6366F1;
+  border: 2px solid #6366F1;
+}
+
+.poi-popup-action-btn.secondary:hover {
+  background: #EEF2FF;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2);
+}
+
+/* Desktop görünümü */
+@media (min-width: 769px) {
+  /* Desktop'ta backdrop yok - direkt harita üzerinde */
+  .poi-popup-backdrop {
+    position: static;
+    background: none;
+    padding: 0;
+    animation: none;
+  }
+
+  .poi-popup-container {
+    max-width: 400px;
+    animation: popupScaleIn 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.3);
+  }
+
+  @keyframes popupScaleIn {
+    from {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  .poi-popup-title h3 {
+    font-size: 20px;
+  }
+
+  .poi-popup-category-small {
+    font-size: 12px;
+    padding: 4px 12px;
+  }
+
+  .poi-popup-content {
+    max-height: 50vh;
+  }
+
+  .poi-popup-actions {
+    padding: 16px 20px;
+  }
+
+  .poi-popup-action-btn {
+    padding: 14px 20px;
+    font-size: 15px;
+  }
+}
+
+/* Küçük ekranlar için özel düzenleme */
+@media (max-width: 380px) {
+  .poi-popup-container {
+    max-width: 100%;
+  }
+
+  .poi-popup-title h3 {
+    font-size: 18px;
+  }
+
+  .poi-popup-category-small {
+    font-size: 10px;
+    padding: 2px 8px;
+  }
+
+  .poi-popup-icon {
+    font-size: 28px;
+  }
+
+  .poi-popup-action-btn {
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+}
+
+/* Images */
+.poi-popup-images {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.poi-popup-images:hover {
+  transform: scale(1.02);
+}
+
+.poi-popup-main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.poi-popup-image-count {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Rating */
+.poi-popup-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rating-stars {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.rating-value {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1F2937;
+}
+
+.rating-count {
+  font-size: 14px;
+  color: #6B7280;
+}
+
+/* Links */
+.poi-popup-text a {
+  color: #6366F1;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.poi-popup-text a:hover {
+  color: #4F46E5;
+  text-decoration: underline;
+}
+
+/* Expand Button */
+.poi-popup-expand-btn {
+  display: inline-block;
+  margin-left: 8px;
+  color: #6366F1;
+  font-size: 14px;
+  font-weight: 600;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.poi-popup-expand-btn:hover {
+  color: #4F46E5;
+}
+
+/* Image Modal */
+.image-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: var(--z-image-modal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--popup-padding-desktop);
+  padding-top: calc(var(--popup-padding-desktop) + var(--safe-area-inset-top));
+  padding-bottom: calc(var(--popup-padding-desktop) + var(--safe-area-inset-bottom));
+  padding-left: calc(var(--popup-padding-desktop) + var(--safe-area-inset-left));
+  padding-right: calc(var(--popup-padding-desktop) + var(--safe-area-inset-right));
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.image-modal-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image-modal-content > img {
+  max-width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.image-modal-close {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.image-modal-close:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+.image-modal-gallery {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.image-modal-gallery img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  opacity: 0.6;
+}
+
+.image-modal-gallery img:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.image-modal-gallery img.active {
+  opacity: 1;
+  border: 2px solid white;
+}
+
+.image-modal-gallery::-webkit-scrollbar {
+  height: 6px;
+}
+
+.image-modal-gallery::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+.image-modal-gallery::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+}
+
+.image-modal-gallery::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
