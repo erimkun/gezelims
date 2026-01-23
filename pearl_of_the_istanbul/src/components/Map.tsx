@@ -110,9 +110,10 @@ interface MapProps {
   onNavigationStart: (poi: POI) => void; // Navigation başladı
   onNavigationEnd: () => void; // Navigation bitti
   onNavigateToMiniGames?: () => void; // Optional callback to open mini-games
+  onNavigateToRoutes?: () => void; // Optional callback to open routes page
 }
 
-const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCache, onPOIsLoad, sidebarPOIs, onVisiblePOIsChange, isWalkingMode, walkingDestination, onNavigationStart, onNavigationEnd, onNavigateToMiniGames }: MapProps) => {
+const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCache, onPOIsLoad, sidebarPOIs, onVisiblePOIsChange, isWalkingMode, walkingDestination, onNavigationStart, onNavigationEnd, onNavigateToMiniGames, onNavigateToRoutes }: MapProps) => {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<maplibregl.Map | null>(null);
   const markersMapRef = useRef<Record<string, maplibregl.Marker>>({}); // POI ID -> Marker map
@@ -181,7 +182,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
 
     // 1. Rota çizgisini ekle
     const sourceId = routeSourceIdRef.current;
-    
+
     // Eski rota varsa sil
     if (map.current.getSource(sourceId)) {
       if (map.current.getLayer(sourceId + '-line')) {
@@ -356,11 +357,11 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
 
     // Son yükleme merkezini güncelle
     lastLoadCenterRef.current = center;
-    
+
     // Kategori değişimi kontrolü - kategori değiştiyse visiblePOIs'i temizle
     const previousCategory = visiblePOIs.length > 0 ? visiblePOIs[0].category : null;
     const categoryChanged = previousCategory && previousCategory !== category && category !== 'all';
-    
+
     if (categoryChanged) {
       console.log(`🔄 Kategori değişti (${previousCategory} → ${category}), eski POI'ler temizleniyor`);
       setVisiblePOIs([]);
@@ -384,12 +385,12 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
       // "all" kategorisi için tüm dosyaları yükle
       if (category === 'all') {
         console.log('📚 Tüm kategoriler yükleniyor...');
-        
+
         const loadPromises = Object.entries(categoryFiles).map(async ([categoryKey, fileName]) => {
           // Cache'i kontrol et
           const cached = await cacheService.getCachedGeoJSON(fileName);
           let data;
-          
+
           if (cached) {
             console.log(`✅ ${fileName} cache'ten yüklendi`);
             data = cached;
@@ -400,7 +401,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
             // Cache'e kaydet
             await cacheService.setCachedGeoJSON(fileName, data);
           }
-          
+
           return data.features.map((feature: {
             geometry: { coordinates: [number, number] };
             properties: {
@@ -429,7 +430,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
         const results = await Promise.all(loadPromises);
         allPOIs = results.flat();
         console.log(`📊 Tüm kategorilerden toplam ${allPOIs.length} POI yüklendi`);
-        
+
       } else {
         // Tek kategori yükle
         const fileName = categoryFiles[category];
@@ -441,7 +442,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
         // Cache'i kontrol et
         const cached = await cacheService.getCachedGeoJSON(fileName);
         let data;
-        
+
         if (cached) {
           console.log(`✅ ${fileName} cache'ten yüklendi`);
           data = cached;
@@ -452,7 +453,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
           // Cache'e kaydet
           await cacheService.setCachedGeoJSON(fileName, data);
         }
-        
+
         // POI'leri dönüştür ve category'yi normalize et
         allPOIs = data.features.map((feature: {
           geometry: { coordinates: [number, number] };
@@ -506,7 +507,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
       setVisiblePOIs(prev => {
         // Kategori değiştiyse sadece yeni POI'leri göster (eski POI'leri atla)
         const basePOIs = categoryChanged ? [] : prev;
-        
+
         // Yeni POI'lerle birleştir ve duplicate'leri kaldır
         const combined = [...basePOIs, ...nearbyPOIs];
         const uniqueMap: { [key: string]: POI } = {};
@@ -514,9 +515,9 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
           uniqueMap[poi.id] = poi;
         });
         const unique = Object.values(uniqueMap);
-        
+
         console.log(`🗺️ Görünür POI sayısı: ${prev.length} → ${unique.length} (${nearbyPOIs.length} yeni eklendi, kategori değişimi: ${categoryChanged})`);
-        
+
         return unique;
       });
 
@@ -650,7 +651,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
 
         // GeoJSON verisini EPSG:5254'ten WGS84'e dönüştür
         const transformedData = transformGeoJSON(uskudarData);
-        
+
         console.log('Harita yüklendi!');
         console.log('Orijinal GeoJSON:', uskudarData);
         console.log('Dönüştürülmüş GeoJSON:', transformedData);
@@ -691,7 +692,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
                 position.coords.longitude,
                 position.coords.latitude
               ];
-              
+
               console.log('📍 Kullanıcı konumu:', userCoords);
 
               // Kullanıcı Üsküdar sınırları içinde mi?
@@ -741,31 +742,6 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
           loadPOIsInViewport(DEFAULT_CENTER, selectedCategory);
         }
 
-        // Harita sınırlara fit et (arka planda)
-        if (transformedData.features && transformedData.features.length > 0) {
-          const bounds = new maplibregl.LngLatBounds();
-          
-          // Tüm koordinatları boundaries'e ekle
-          const addCoordinatesToBounds = (coords: unknown) => {
-            if (Array.isArray(coords)) {
-              if (typeof coords[0] === 'number') {
-                bounds.extend([coords[0], coords[1]]);
-              } else {
-                coords.forEach(coord => addCoordinatesToBounds(coord));
-              }
-            }
-          };
-
-          transformedData.features.forEach((feature: { geometry: { coordinates: unknown } }) => {
-            addCoordinatesToBounds(feature.geometry.coordinates);
-          });
-
-          // Önce tüm Üsküdar'ı göster (hızlıca)
-          map.current?.fitBounds(bounds, { 
-            padding: 50,
-            duration: 0 // Hemen göster
-          });
-        }
       } catch (error) {
         console.error('GeoJSON yükleme hatası:', error);
       }
@@ -775,25 +751,25 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
     // Throttle ile optimize edildi - 300ms'de bir çalışır
     const handleMapMove = throttle(() => {
       if (!map.current) return;
-      
+
       const center = map.current.getCenter();
       const centerCoords: [number, number] = [center.lng, center.lat];
-      
+
       // Son yükleme merkezinden mesafe kontrolü
       if (lastLoadCenterRef.current) {
         const distance = calculateDistance(lastLoadCenterRef.current, centerCoords);
-        
+
         // Eğer son yüklemeden bu yana çok az hareket ettiyse, yeni POI yükleme
         if (distance < APP_CONFIG.map.POI_RELOAD_DISTANCE_KM) {
           console.log(`⏸️ Harita yeterince kaymadı (${distance.toFixed(2)}km < ${APP_CONFIG.map.POI_RELOAD_DISTANCE_KM}km), POI yüklenmeyecek`);
           return;
         }
-        
+
         console.log(`🗺️ Harita ${distance.toFixed(2)}km kaydı, yeni POI'ler yüklenecek`);
       }
-      
+
       console.log('🗺️ Harita taşındı, yeni merkez:', centerCoords);
-      
+
       // Yeni viewport için POI'leri yükle - ref'ten güncel kategoriyi al
       loadPOIsInViewport(centerCoords, selectedCategoryRef.current);
     }, 300);
@@ -814,15 +790,15 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
   // selectedCategory değiştiğinde POI'leri yeniden yükle (harita zaten yüklüyse)
   useEffect(() => {
     if (!map.current || !map.current.loaded()) return;
-    
+
     const center = map.current.getCenter();
     const centerCoords: [number, number] = [center.lng, center.lat];
-    
+
     console.log('🔄 Kategori değişti, POI\'ler yeniden yükleniyor:', selectedCategory);
-    
+
     // Yeni kategori için POI'leri yükle
     loadPOIsInViewport(centerCoords, selectedCategory);
-    
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedCategory]);
 
@@ -830,7 +806,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
   useEffect(() => {
     // Sidebar'dan gelen POI'leri önceliklendir
     const poisToShow = sidebarPOIs && sidebarPOIs.length > 0 ? sidebarPOIs : visiblePOIs;
-    
+
     if (!map.current || !poisToShow || poisToShow.length === 0) {
       console.log('⚠️ Marker ekleme atlandı:', {
         hasMap: !!map.current,
@@ -842,32 +818,46 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
 
     // Harita yüklenmesini bekle
     const addMarkers = () => {
-      if (!map.current?.loaded()) {
-        console.log('⚠️ Harita henüz yüklenmedi, marker ekleme atlandı');
-        // Harita yüklendiğinde tekrar dene
-        map.current?.once('load', addMarkers);
+      // Harita henüz hazır değilse bekle
+      if (!map.current) {
+        console.log('⚠️ Map ref yok, marker ekleme atlandı');
+        return;
+      }
+
+      // Harita yüklenmediyse, idle event'ini bekle veya retry yap
+      if (!map.current.loaded() || !map.current.isStyleLoaded()) {
+        console.log('⚠️ Harita henüz yüklenmedi, 100ms sonra tekrar deneniyor...');
+        // Kısa bir gecikme ile tekrar dene (style yüklenmesi için)
+        setTimeout(() => {
+          if (map.current?.loaded() && map.current?.isStyleLoaded()) {
+            addMarkers();
+          } else {
+            // Hala yüklenmediyse idle event'ini bekle
+            map.current?.once('idle', addMarkers);
+          }
+        }, 100);
         return;
       }
 
       console.log('🗺️ Marker güncelleniyor, POI sayısı:', poisToShow.length);
       console.log('📊 POI kaynağı:', sidebarPOIs && sidebarPOIs.length > 0 ? 'Sidebar' : 'Viewport');
-      
+
       // Mevcut marker'ların ID'lerini al
       const currentMarkerIds = new Set(Object.keys(markersMapRef.current));
-      
+
       // Yeni POI ID'lerini al
       const newPoiIds = new Set(poisToShow.map(poi => poi.id));
-      
+
       // Eğer marker'lar aynıysa güncelleme yapma (blink önleme)
-      const markersAreSame = 
+      const markersAreSame =
         currentMarkerIds.size === newPoiIds.size &&
         [...currentMarkerIds].every(id => newPoiIds.has(id));
-      
+
       if (markersAreSame && Object.keys(markersMapRef.current).length > 0) {
         console.log('✅ Marker\'lar aynı, güncelleme atlandı (blink önlendi)');
         return;
       }
-      
+
       console.log('🔄 Marker\'lar farklı, güncelleniyor');
 
       // Önceki marker'ları temizle
@@ -875,7 +865,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
       markersMapRef.current = {};
 
       // Walking mode aktifse sadece hedef POI'yi göster
-      const markersToShow = isWalkingMode && walkingDestination 
+      const markersToShow = isWalkingMode && walkingDestination
         ? poisToShow.filter(poi => poi.id === walkingDestination.id)
         : poisToShow;
 
@@ -883,13 +873,13 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
 
       // Yeni marker'ları ekle
       markersToShow.forEach((poi) => {
-      const color = getCategoryColor(poi.category);
-      const icon = getIconForPOI(poi.category);
+        const color = getCategoryColor(poi.category);
+        const icon = getIconForPOI(poi.category);
 
-      // Marker elementi oluştur
-      const el = document.createElement('div');
-      el.className = 'poi-marker';
-      el.innerHTML = `
+        // Marker elementi oluştur
+        const el = document.createElement('div');
+        el.className = 'poi-marker';
+        el.innerHTML = `
         <div style="
           background: ${color};
           width: 40px;
@@ -911,82 +901,82 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
         </div>
       `;
 
-      // Hover efekti
-      el.addEventListener('mouseenter', () => {
-        const markerDiv = el.querySelector('div') as HTMLElement;
-        if (markerDiv) {
-          markerDiv.style.transform = 'rotate(-45deg) scale(1.2)';
-          markerDiv.style.zIndex = '1000';
-        }
-      });
-
-      el.addEventListener('mouseleave', () => {
-        const markerDiv = el.querySelector('div') as HTMLElement;
-        if (markerDiv) {
-          markerDiv.style.transform = 'rotate(-45deg) scale(1)';
-          markerDiv.style.zIndex = '1';
-        }
-      });
-
-      // Marker'a tıklayınca
-      el.addEventListener('click', () => {
-        console.log('🖱️ Marker tıklandı:', poi.name);
-        
-        // Mobilde: Custom popup aç, haritayı pin'e zoom yap (sol alt çeyrek)
-        if (!isDesktop) {
-          // Pin'i ekranın sol alt çeyreğine getir
-          const offsetX = window.innerWidth * 0.25;  // Ekranın %25'i sağa kaydır
-          const offsetY = -window.innerHeight * 0.25; // Ekranın %25'i yukarı kaydır
-          
-          map.current?.flyTo({
-            center: poi.coordinates,
-            zoom: APP_CONFIG.map.DETAIL_ZOOM,
-            duration: APP_CONFIG.ui.POI_FLY_TO_DURATION_MS,
-            offset: [offsetX, offsetY]
-          });
-
-          // Popup aç
-          setSelectedPOI(poi);
-
-          // Sidebar callback'i çağır ama sidebar'ı AÇMA (sadece highlight için)
-          // onPOIClick fonksiyonunu ÇAĞIRMA - böylece sidebar açılmaz
-        } else {
-          // Desktop: Custom popup aç (mobil gibi ama harita üzerinde)
-          setSelectedPOI(poi);
-
-          // Haritayı bu konuma zoom yap (desktop için ofset yok)
-          map.current?.flyTo({
-            center: poi.coordinates,
-            zoom: APP_CONFIG.map.DETAIL_ZOOM,
-            duration: APP_CONFIG.ui.RESET_CAMERA_DURATION_MS
-          });
-
-          // Sidebar callback'i varsa çağır
-          if (onPOIClick) {
-            onPOIClick(poi);
+        // Hover efekti
+        el.addEventListener('mouseenter', () => {
+          const markerDiv = el.querySelector('div') as HTMLElement;
+          if (markerDiv) {
+            markerDiv.style.transform = 'rotate(-45deg) scale(1.2)';
+            markerDiv.style.zIndex = '1000';
           }
-        }
+        });
+
+        el.addEventListener('mouseleave', () => {
+          const markerDiv = el.querySelector('div') as HTMLElement;
+          if (markerDiv) {
+            markerDiv.style.transform = 'rotate(-45deg) scale(1)';
+            markerDiv.style.zIndex = '1';
+          }
+        });
+
+        // Marker'a tıklayınca
+        el.addEventListener('click', () => {
+          console.log('🖱️ Marker tıklandı:', poi.name);
+
+          // Mobilde: Custom popup aç, haritayı pin'e zoom yap (sol alt çeyrek)
+          if (!isDesktop) {
+            // Pin'i ekranın sol alt çeyreğine getir
+            const offsetX = window.innerWidth * 0.25;  // Ekranın %25'i sağa kaydır
+            const offsetY = -window.innerHeight * 0.25; // Ekranın %25'i yukarı kaydır
+
+            map.current?.flyTo({
+              center: poi.coordinates,
+              zoom: APP_CONFIG.map.DETAIL_ZOOM,
+              duration: APP_CONFIG.ui.POI_FLY_TO_DURATION_MS,
+              offset: [offsetX, offsetY]
+            });
+
+            // Popup aç
+            setSelectedPOI(poi);
+
+            // Sidebar callback'i çağır ama sidebar'ı AÇMA (sadece highlight için)
+            // onPOIClick fonksiyonunu ÇAĞIRMA - böylece sidebar açılmaz
+          } else {
+            // Desktop: Custom popup aç (mobil gibi ama harita üzerinde)
+            setSelectedPOI(poi);
+
+            // Haritayı bu konuma zoom yap (desktop için ofset yok)
+            map.current?.flyTo({
+              center: poi.coordinates,
+              zoom: APP_CONFIG.map.DETAIL_ZOOM,
+              duration: APP_CONFIG.ui.RESET_CAMERA_DURATION_MS
+            });
+
+            // Sidebar callback'i varsa çağır
+            if (onPOIClick) {
+              onPOIClick(poi);
+            }
+          }
+        });
+
+        // Marker'ı haritaya ekle
+        const marker = new maplibregl.Marker({
+          element: el,
+          anchor: 'bottom'
+        })
+          .setLngLat(poi.coordinates)
+          .addTo(map.current!);
+
+        // Marker referansını POI ID ile sakla
+        markersMapRef.current[poi.id] = marker;
+
+        console.log(`✅ Marker DOM'a eklendi:`, {
+          element: el,
+          hasParent: !!el.parentElement,
+          visible: el.offsetWidth > 0
+        });
       });
 
-      // Marker'ı haritaya ekle
-      const marker = new maplibregl.Marker({
-        element: el,
-        anchor: 'bottom'
-      })
-        .setLngLat(poi.coordinates)
-        .addTo(map.current!);
-
-      // Marker referansını POI ID ile sakla
-      markersMapRef.current[poi.id] = marker;
-
-      console.log(`✅ Marker DOM'a eklendi:`, {
-        element: el,
-        hasParent: !!el.parentElement,
-        visible: el.offsetWidth > 0
-      });
-    });
-
-    console.log('✅ Tüm marker\'lar eklendi:', Object.keys(markersMapRef.current).length);
+      console.log('✅ Tüm marker\'lar eklendi:', Object.keys(markersMapRef.current).length);
     };
 
     // addMarkers fonksiyonunu çağır
@@ -1003,13 +993,13 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
     const handleZoomToPOI = (event: Event) => {
       const customEvent = event as CustomEvent<POI>;
       const poi = customEvent.detail;
-      
+
       if (map.current && poi) {
         // Mobilde: Pin'i ekranın sol alt çeyreğine getir ve popup aç
         if (!isDesktop) {
           const offsetX = window.innerWidth * 0.25;
           const offsetY = -window.innerHeight * 0.25;
-          
+
           map.current.flyTo({
             center: poi.coordinates,
             zoom: APP_CONFIG.map.DETAIL_ZOOM,
@@ -1045,7 +1035,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
 
     window.addEventListener('zoom-to-poi', handleZoomToPOI);
     window.addEventListener('get-map-center', handleGetMapCenter);
-    
+
     return () => {
       window.removeEventListener('zoom-to-poi', handleZoomToPOI);
       window.removeEventListener('get-map-center', handleGetMapCenter);
@@ -1054,18 +1044,18 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
 
   return (
     <div style={{ position: 'relative', width: '100%', height: '100vh' }}>
-      <div 
-        ref={mapContainer} 
-        style={{ 
-          width: '100%', 
-          height: '100vh' 
-        }} 
+      <div
+        ref={mapContainer}
+        style={{
+          width: '100%',
+          height: '100vh'
+        }}
       />
 
       {/* POI Popup - Sadece mobilde */}
       {/* POI Popup - Mobilde alttan, Desktop'ta harita üzerinde sağ üstte */}
       {selectedPOI && !isDesktop && (
-        <POIPopup 
+        <POIPopup
           poi={selectedPOI}
           onClose={() => setSelectedPOI(null)}
           language={language}
@@ -1085,7 +1075,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
           zIndex: APP_CONFIG.map.POPUP_Z_INDEX,
           maxWidth: '420px'
         }}>
-          <POIPopup 
+          <POIPopup
             poi={selectedPOI}
             onClose={() => setSelectedPOI(null)}
             language={language}
@@ -1160,7 +1150,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
           />
         </div>
       )}
-      
+
       {/* Dil değiştirici - Map butonunun üstünde */}
       <div
         style={{
@@ -1428,7 +1418,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
             </div>
           </div>
         )}
-        
+
         {/* Mini Games Button - harita butonlarının hemen altında */}
         {onNavigateToMiniGames && (
           <div style={{ marginTop: 12 }}>
@@ -1458,6 +1448,39 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
               aria-label="Mini oyunları aç"
             >
               <span style={{ fontSize: 22 }} aria-hidden="true">🎮</span>
+            </div>
+          </div>
+        )}
+
+        {/* Routes Button - Mini Games butonunun altında */}
+        {onNavigateToRoutes && (
+          <div style={{ marginTop: 12 }}>
+            <div
+              onClick={() => onNavigateToRoutes && onNavigateToRoutes()}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  onNavigateToRoutes && onNavigateToRoutes();
+                }
+              }}
+              style={{
+                backgroundColor: 'white',
+                borderRadius: '50%',
+                width: '50px',
+                height: '50px',
+                boxShadow: '0 2px 8px rgba(0,0,0,0.15)',
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                transition: 'all 0.2s ease',
+              }}
+              title="Gezi Rotaları"
+              role="button"
+              tabIndex={0}
+              aria-label="Gezi rotalarını aç"
+            >
+              <span style={{ fontSize: 22 }} aria-hidden="true">🗺️</span>
             </div>
           </div>
         )}

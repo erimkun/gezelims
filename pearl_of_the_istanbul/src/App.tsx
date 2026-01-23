@@ -3,12 +3,14 @@ import LoadingSpinner from './components/LoadingSpinner'
 import ErrorBoundary from './components/ErrorBoundary'
 import { ToastProvider } from './components/Toast'
 import { APP_CONFIG } from './config/app.config'
+import { useAuthStore } from './store/authStore'
 import './App.css'
 
 // Lazy load heavy components
 const Map = lazy(() => import('./components/Map'))
 const Sidebar = lazy(() => import('./components/Sidebar'))
 const MiniGames = lazy(() => import('./components/MiniGames'))
+const RoutesPage = lazy(() => import('./components/routes/RoutesPage'))
 
 type LanguageKey = 'tr' | 'en' | 'de' | 'fr' | 'es' | 'it';
 
@@ -38,9 +40,27 @@ function App() {
   const [poiCache, setPOICache] = useState<Record<string, POI>>({}); // Global POI cache
   const [mapVisiblePOIs, setMapVisiblePOIs] = useState<POI[]>([]); // Haritada görünen POI'ler
   const [isWalkingMode, setIsWalkingMode] = useState(false); // Walking navigation active
-  const [currentPage, setCurrentPage] = useState<'map' | 'mini-games'>('map');
+
+
+  // Sayfa durumunu localStorage'dan al
+  const [currentPage, setCurrentPage] = useState<'map' | 'mini-games' | 'routes'>(() => {
+    const savedPage = localStorage.getItem('current_page');
+    return (savedPage as 'map' | 'mini-games' | 'routes') || 'map';
+  });
+
   const [walkingDestination, setWalkingDestination] = useState<POI | null>(null); // Walking hedef POI
   const poiListRef = useRef<HTMLDivElement | null>(null);
+
+  // Sayfa değişince kaydet
+  useEffect(() => {
+    localStorage.setItem('current_page', currentPage);
+  }, [currentPage]);
+
+  // Auth initialization
+  useEffect(() => {
+    const unsub = useAuthStore.getState().initialize();
+    return () => unsub();
+  }, []);
 
   // Desktop'ta sidebar varsayılan açık
   useEffect(() => {
@@ -80,7 +100,7 @@ function App() {
   const handlePOIClickFromMap = useCallback((poi: POI) => {
     // Pin'e tıklayınca sidebar AÇILMASIN - sadece seçili POI'yi set et
     setSelectedPOIId(poi.id);
-    
+
     // Eğer sidebar zaten açıksa, scroll yap
     if (isSidebarOpen) {
       setTimeout(() => {
@@ -104,70 +124,76 @@ function App() {
           <Suspense fallback={<LoadingSpinner size="large" message="Harita yükleniyor..." />}>
             {currentPage === 'map' ? (
               <>
-                <Map 
-          language={language} 
-          onLanguageChange={setLanguage}
-          onPOIClick={handlePOIClickFromMap}
-          selectedCategory={selectedCategory}
-          poiCache={poiCache}
-          onPOIsLoad={addPOIsToCache}
-          sidebarPOIs={filteredPOIs}
-          onVisiblePOIsChange={setMapVisiblePOIs}
-          isWalkingMode={isWalkingMode}
-          walkingDestination={walkingDestination}
-          onNavigationStart={(poi: POI) => {
-            setIsWalkingMode(true);
-            setWalkingDestination(poi);
-          }}
-          onNavigationEnd={() => {
-            setIsWalkingMode(false);
-            setWalkingDestination(null);
-          }}
-              onNavigateToMiniGames={() => setCurrentPage('mini-games')}
-            />
-            
-            {/* Desktop Sidebar Toggle Button - Sadece kapalıyken göster */}
-        {!isSidebarOpen && (
-          <button 
-            className="sidebar-toggle-btn"
-            onClick={() => setIsSidebarOpen(true)}
-            aria-label="Open sidebar"
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-              <line x1="3" y1="12" x2="21" y2="12"></line>
-              <line x1="3" y1="6" x2="21" y2="6"></line>
-              <line x1="3" y1="18" x2="21" y2="18"></line>
-            </svg>
-          </button>
-        )}
-        
-            <Sidebar 
-          isOpen={isSidebarOpen} 
-          onToggle={() => setIsSidebarOpen(!isSidebarOpen)}
-          language={language}
-          onPOIsChange={handlePOIsChange}
-          onPOICardClick={(poiId: string) => {
-            const poi = filteredPOIs.find(p => p.id === poiId);
-            if (poi) {
-              // Haritayı POI'ye zoom yap
-              window.dispatchEvent(new CustomEvent('zoom-to-poi', { detail: poi }));
-            }
-          }}
-          onCategoryChange={setSelectedCategory}
-          poiListRef={poiListRef}
-          selectedPOIId={selectedPOIId}
-          mapVisiblePOIs={mapVisiblePOIs}
-          onNavigateToMiniGames={() => setCurrentPage('mini-games')}
-        />
-            </>
-          ) : (
-            <MiniGames 
-              language={language} 
-              onBack={() => setCurrentPage('map')} 
-            />
-          )}
-        </Suspense>
-      </div>
+                <Map
+                  language={language}
+                  onLanguageChange={setLanguage}
+                  onPOIClick={handlePOIClickFromMap}
+                  selectedCategory={selectedCategory}
+                  poiCache={poiCache}
+                  onPOIsLoad={addPOIsToCache}
+                  sidebarPOIs={filteredPOIs}
+                  onVisiblePOIsChange={setMapVisiblePOIs}
+                  isWalkingMode={isWalkingMode}
+                  walkingDestination={walkingDestination}
+                  onNavigationStart={(poi: POI) => {
+                    setIsWalkingMode(true);
+                    setWalkingDestination(poi);
+                  }}
+                  onNavigationEnd={() => {
+                    setIsWalkingMode(false);
+                    setWalkingDestination(null);
+                  }}
+                  onNavigateToMiniGames={() => setCurrentPage('mini-games')}
+                  onNavigateToRoutes={() => setCurrentPage('routes')}
+                />
+
+                {/* Desktop Sidebar Toggle Button - Sadece kapalıyken göster */}
+                {!isSidebarOpen && (
+                  <button
+                    className="sidebar-toggle-btn"
+                    onClick={() => setIsSidebarOpen(true)}
+                    aria-label="Open sidebar"
+                  >
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                      <line x1="3" y1="12" x2="21" y2="12"></line>
+                      <line x1="3" y1="6" x2="21" y2="6"></line>
+                      <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                  </button>
+                )}
+
+                <Sidebar
+                  isOpen={isSidebarOpen}
+                  onToggle={() => setIsSidebarOpen(!isSidebarOpen)}
+                  language={language}
+                  onPOIsChange={handlePOIsChange}
+                  onPOICardClick={(poiId: string) => {
+                    const poi = filteredPOIs.find(p => p.id === poiId);
+                    if (poi) {
+                      // Haritayı POI'ye zoom yap
+                      window.dispatchEvent(new CustomEvent('zoom-to-poi', { detail: poi }));
+                    }
+                  }}
+                  onCategoryChange={setSelectedCategory}
+                  poiListRef={poiListRef}
+                  selectedPOIId={selectedPOIId}
+                  mapVisiblePOIs={mapVisiblePOIs}
+                  onNavigateToMiniGames={() => setCurrentPage('mini-games')}
+                />
+              </>
+            ) : currentPage === 'routes' ? (
+              <RoutesPage
+                language={language}
+                onBack={() => setCurrentPage('map')}
+              />
+            ) : (
+              <MiniGames
+                language={language}
+                onBack={() => setCurrentPage('map')}
+              />
+            )}
+          </Suspense>
+        </div>
       </ToastProvider>
     </ErrorBoundary>
   )
