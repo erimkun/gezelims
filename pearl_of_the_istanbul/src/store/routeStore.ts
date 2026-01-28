@@ -4,13 +4,17 @@ import { persist } from 'zustand/middleware';
 import { 
   type Route, 
   type RoutePoint,
+  type RouteComment,
   createRoute,
   getAllRoutes,
   getPopularRoutes,
   getUserRoutes,
   voteRoute,
   unvoteRoute,
-  deleteRoute
+  deleteRoute,
+  addComment,
+  getComments,
+  deleteComment
 } from '../services/routeService';
 
 // POI tipi (haritadaki mekanlar)
@@ -56,6 +60,10 @@ interface RouteState {
   popularRoutes: Route[];
   userRoutes: Route[];
   isLoadingRoutes: boolean;
+
+  // Yorumlar State
+  comments: Record<string, RouteComment[]>; // routeId -> comments
+  isLoadingComments: boolean;
   
   // Actions - Rota oluşturma
   startCreatingRoute: () => void;
@@ -64,6 +72,7 @@ interface RouteState {
   removePoint: (poiId: string) => void;
   updatePointRating: (poiId: string, rating: number) => void;
   updatePointComment: (poiId: string, comment: string) => void;
+  updatePointPhoto: (poiId: string, photo: string | undefined) => void;
   reorderPoints: (fromIndex: number, toIndex: number) => void;
   setCurrentPOI: (poi: POI | null) => void;
   setRouteTitle: (title: string) => void;
@@ -74,10 +83,11 @@ interface RouteState {
   saveRoute: (userId: string, userName: string, userPhoto?: string) => Promise<string>;
   loadRoutes: () => Promise<void>;
   loadPopularRoutes: () => Promise<void>;
-  loadUserRoutes: (userId: string) => Promise<void>;
-  vote: (routeId: string, userId?: string) => Promise<boolean>;
-  unvote: (routeId: string, userId?: string) => Promise<boolean>;
-  removeRoute: (routeId: string) => Promise<void>;
+
+  // Actions - Yorumlar
+  loadComments: (routeId: string) => Promise<void>;
+  addRouteComment: (routeId: string, userId: string, userName: string, userPhoto: string | undefined, text: string) => Promise<void>;
+  userDeleteComment: (routeId: string, commentId: string) => Promise<void>;
 }
 
 export const useRouteStore = create<RouteState>()(
@@ -95,6 +105,8 @@ export const useRouteStore = create<RouteState>()(
       popularRoutes: [],
       userRoutes: [],
       isLoadingRoutes: false,
+      comments: {},
+      isLoadingComments: false,
 
       // Rota oluşturma başlat
       startCreatingRoute: () => {
@@ -138,6 +150,7 @@ export const useRouteStore = create<RouteState>()(
         const newPoint: RoutePoint = {
           poiId: poi.id,
           poiName: poi.name,
+          poiImage: poi.images?.[0], // İlk görseli kaydet (varsa)
           coordinates: poi.coordinates,
           rating: 5, // Varsayılan mutluluk skoru
           comment: '',
@@ -175,6 +188,16 @@ export const useRouteStore = create<RouteState>()(
         set({
           selectedPoints: selectedPoints.map(p => 
             p.poiId === poiId ? { ...p, comment } : p
+          )
+        });
+      },
+
+      // Nokta fotoğrafını güncelle
+      updatePointPhoto: (poiId: string, photo: string | undefined) => {
+        const { selectedPoints } = get();
+        set({
+          selectedPoints: selectedPoints.map(p => 
+            p.poiId === poiId ? { ...p, commentPhoto: photo } : p
           )
         });
       },
@@ -289,35 +312,111 @@ export const useRouteStore = create<RouteState>()(
         }
       },
 
-      // Oy ver
+      // Oy ver - Optimistic update ile
       vote: async (routeId, userId) => {
-        // userId yoksa guestId kullan
-        const voterId = userId || get().guestId;
-        
-        if (!voterId) {
-          // Guest ID yoksa oluştur
-          const newGuestId = `guest-${Math.random().toString(36).substr(2, 9)}`;
-          set({ guestId: newGuestId });
-          return get().vote(routeId, newGuestId);
+        // userId yoksa giriş yapmamıştır
+        if (!userId) {
+          console.warn('⚠️ Oy vermek için giriş gerekli');
+          return false;
         }
 
-        const success = await voteRoute(routeId, voterId);
-        if (success) {
-          // Rotaları yeniden yükle
-          await get().loadRoutes();
+        const { routes, popularRoutes, userRoutes } = get();
+        
+        // Optimistic update - UI'ı hemen güncelle
+        const updateRouteInList = (list: Route[]) => 
+          list.map(route => {
+            if (route.id === routeId) {
+              return {
+                ...route,
+                votes: (route.votes || 0) + 1,
+                votedBy: [...(route.votedBy || []), userId]
+              };
+            }
+            return route;
+          });
+
+        set({
+          routes: updateRouteInList(routes),
+          popularRoutes: updateRouteInList(popularRoutes),
+          userRoutes: updateRouteInList(userRoutes)
+        });
+
+        // Backend'e kaydet (arka planda)
+        const success = await voteRoute(routeId, userId);
+        
+        if (!success) {
+          // Başarısız olursa geri al
+          const revertRouteInList = (list: Route[]) => 
+            list.map(route => {
+              if (route.id === routeId) {
+                return {
+                  ...route,
+                  votes: Math.max(0, (route.votes || 1) - 1),
+                  votedBy: (route.votedBy || []).filter(id => id !== userId)
+                };
+              }
+              return route;
+            });
+
+          set({
+            routes: revertRouteInList(get().routes),
+            popularRoutes: revertRouteInList(get().popularRoutes),
+            userRoutes: revertRouteInList(get().userRoutes)
+          });
         }
+        
         return success;
       },
 
-      // Oyu geri çek
+      // Oyu geri çek - Optimistic update ile
       unvote: async (routeId, userId) => {
-        const voterId = userId || get().guestId;
-        if (!voterId) return false;
+        if (!userId) return false;
 
-        const success = await unvoteRoute(routeId, voterId);
-        if (success) {
-          await get().loadRoutes();
+        const { routes, popularRoutes, userRoutes } = get();
+        
+        // Optimistic update - UI'ı hemen güncelle
+        const updateRouteInList = (list: Route[]) => 
+          list.map(route => {
+            if (route.id === routeId) {
+              return {
+                ...route,
+                votes: Math.max(0, (route.votes || 1) - 1),
+                votedBy: (route.votedBy || []).filter(id => id !== userId)
+              };
+            }
+            return route;
+          });
+
+        set({
+          routes: updateRouteInList(routes),
+          popularRoutes: updateRouteInList(popularRoutes),
+          userRoutes: updateRouteInList(userRoutes)
+        });
+
+        // Backend'e kaydet (arka planda)
+        const success = await unvoteRoute(routeId, userId);
+        
+        if (!success) {
+          // Başarısız olursa geri al
+          const revertRouteInList = (list: Route[]) => 
+            list.map(route => {
+              if (route.id === routeId) {
+                return {
+                  ...route,
+                  votes: (route.votes || 0) + 1,
+                  votedBy: [...(route.votedBy || []), userId]
+                };
+              }
+              return route;
+            });
+
+          set({
+            routes: revertRouteInList(get().routes),
+            popularRoutes: revertRouteInList(get().popularRoutes),
+            userRoutes: revertRouteInList(get().userRoutes)
+          });
         }
+        
         return success;
       },
 
@@ -325,6 +424,52 @@ export const useRouteStore = create<RouteState>()(
       removeRoute: async (routeId) => {
         await deleteRoute(routeId);
         await get().loadRoutes();
+      },
+
+      // Yorumları yükle
+      loadComments: async (routeId) => {
+        set({ isLoadingComments: true });
+        try {
+          const comments = await getComments(routeId);
+          set(state => ({
+            comments: {
+              ...state.comments,
+              [routeId]: comments
+            },
+            isLoadingComments: false
+          }));
+        } catch (error) {
+          console.error('❌ Yorumlar yüklenemedi:', error);
+          set({ isLoadingComments: false });
+        }
+      },
+
+      // Yorum ekle
+      addRouteComment: async (routeId, userId, userName, userPhoto, text) => {
+        try {
+          await addComment(routeId, {
+            routeId,
+            userId,
+            userName,
+            userPhoto,
+            text
+          });
+          await get().loadComments(routeId);
+        } catch (error) {
+          console.error('❌ Yorum eklenemedi:', error);
+          throw error;
+        }
+      },
+
+      // Yorum sil
+      userDeleteComment: async (routeId, commentId) => {
+        try {
+          await deleteComment(routeId, commentId);
+          await get().loadComments(routeId);
+        } catch (error) {
+          console.error('❌ Yorum silinemedi:', error);
+          throw error;
+        }
       }
     }),
     {

@@ -21,6 +21,8 @@ import { db } from '../config/firebase';
 export interface RoutePoint {
   poiId: string;
   poiName: string;
+  poiImage?: string; // POI görseli (varsa)
+  commentPhoto?: string; // Kullanıcının eklediği fotoğraf (base64 veya URL)
   coordinates: [number, number];
   rating: number; // 1-5 mutluluk skoru
   comment: string;
@@ -46,11 +48,35 @@ export interface Route {
 // Routes collection referansı
 const routesRef = collection(db, 'routes');
 
+// Yardımcı fonksiyon: Undefined değerleri temizle (recursive)
+const cleanData = (data: any): any => {
+  if (data === null || data === undefined) {
+    return undefined;
+  }
+  
+  if (Array.isArray(data)) {
+    return data.map(item => cleanData(item)).filter(item => item !== undefined);
+  }
+  
+  if (typeof data === 'object') {
+    return Object.entries(data).reduce((acc, [key, value]) => {
+      const cleanedValue = cleanData(value);
+      if (cleanedValue !== undefined) {
+        acc[key] = cleanedValue;
+      }
+      return acc;
+    }, {} as any);
+  }
+  
+  return data;
+};
+
 // Yeni rota oluştur
 export const createRoute = async (route: Omit<Route, 'id' | 'createdAt' | 'updatedAt'>): Promise<string> => {
   try {
+    const cleanedRoute = cleanData(route);
     const docRef = await addDoc(routesRef, {
-      ...route,
+      ...cleanedRoute,
       votes: 0,
       votedBy: [],
       createdAt: serverTimestamp(),
@@ -67,9 +93,10 @@ export const createRoute = async (route: Omit<Route, 'id' | 'createdAt' | 'updat
 // Rota güncelle
 export const updateRoute = async (routeId: string, data: Partial<Route>): Promise<void> => {
   try {
+    const cleanedData = cleanData(data);
     const routeDoc = doc(db, 'routes', routeId);
     await updateDoc(routeDoc, {
-      ...data,
+      ...cleanedData,
       updatedAt: serverTimestamp()
     });
     console.log('✅ Rota güncellendi:', routeId);
@@ -241,4 +268,58 @@ export const searchRoutesByTag = async (tag: string): Promise<Route[]> => {
     throw error;
   }
 };
+
+// --- Yorum Sistemi (Comments) ---
+
+export interface RouteComment {
+  id?: string;
+  routeId: string;
+  userId: string;
+  userName: string;
+  userPhoto?: string;
+  text: string;
+  createdAt?: Timestamp;
+}
+
+// Yorum ekle
+export const addComment = async (routeId: string, comment: Omit<RouteComment, 'id' | 'createdAt'>): Promise<string> => {
+  try {
+    const commentsRef = collection(db, 'routes', routeId, 'comments');
+    const docRef = await addDoc(commentsRef, {
+      ...comment,
+      createdAt: serverTimestamp()
+    });
+    console.log('✅ Yorum eklendi:', docRef.id);
+    return docRef.id;
+  } catch (error) {
+    console.error('❌ Yorum ekleme hatası:', error);
+    throw error;
+  }
+};
+
+// Yorumları getir
+export const getComments = async (routeId: string): Promise<RouteComment[]> => {
+  try {
+    const commentsRef = collection(db, 'routes', routeId, 'comments');
+    const q = query(commentsRef, orderBy('createdAt', 'desc'));
+    const snapshot = await getDocs(q);
+    return snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() } as RouteComment));
+  } catch (error) {
+    console.error('❌ Yorumları getirme hatası:', error);
+    throw error;
+  }
+};
+
+// Yorum sil (Sadece kendi yorumunu silebilir - UI tarafında kontrol edilecek)
+export const deleteComment = async (routeId: string, commentId: string): Promise<void> => {
+  try {
+    const commentDoc = doc(db, 'routes', routeId, 'comments', commentId);
+    await deleteDoc(commentDoc);
+    console.log('✅ Yorum silindi:', commentId);
+  } catch (error) {
+    console.error('❌ Yorum silme hatası:', error);
+    throw error;
+  }
+};
+
 

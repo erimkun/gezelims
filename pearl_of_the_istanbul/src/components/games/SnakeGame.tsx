@@ -6,6 +6,11 @@ const INITIAL_SNAKE = [{ x: 10, y: 10 }];
 const INITIAL_DIRECTION = { x: 0, y: -1 };
 const GAME_SPEED = 150;
 
+interface TouchRef {
+  x: number;
+  y: number;
+}
+
 const SnakeGame: React.FC = () => {
   const [snake, setSnake] = useState(INITIAL_SNAKE);
   const [food, setFood] = useState({ x: 15, y: 5 });
@@ -15,6 +20,8 @@ const SnakeGame: React.FC = () => {
   const [isPaused, setIsPaused] = useState(false);
   
   const directionRef = useRef(INITIAL_DIRECTION);
+  const touchStartRef = useRef<TouchRef | null>(null);
+  const boardRef = useRef<HTMLDivElement>(null);
 
   const generateFood = useCallback(() => {
     let newFood: { x: number, y: number };
@@ -53,6 +60,44 @@ const SnakeGame: React.FC = () => {
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
+
+  // Touch/Swipe controls
+  const handleTouchStart = useCallback((e: React.TouchEvent) => {
+    const touch = e.touches[0];
+    touchStartRef.current = { x: touch.clientX, y: touch.clientY };
+  }, []);
+
+  const handleTouchMove = useCallback((e: React.TouchEvent) => {
+    // Prevent page scroll while swiping
+    if (touchStartRef.current) {
+      e.preventDefault();
+    }
+  }, []);
+
+  const handleTouchEnd = useCallback((e: React.TouchEvent) => {
+    if (!touchStartRef.current) return;
+    
+    const touch = e.changedTouches[0];
+    const deltaX = touch.clientX - touchStartRef.current.x;
+    const deltaY = touch.clientY - touchStartRef.current.y;
+    
+    const minSwipe = 30;
+    
+    // Determine swipe direction
+    if (Math.abs(deltaX) > Math.abs(deltaY)) {
+      // Horizontal swipe
+      if (Math.abs(deltaX) > minSwipe) {
+        changeDirection(deltaX > 0 ? { x: 1, y: 0 } : { x: -1, y: 0 });
+      }
+    } else {
+      // Vertical swipe
+      if (Math.abs(deltaY) > minSwipe) {
+        changeDirection(deltaY > 0 ? { x: 0, y: 1 } : { x: 0, y: -1 });
+      }
+    }
+    
+    touchStartRef.current = null;
   }, []);
 
   useEffect(() => {
@@ -101,7 +146,13 @@ const SnakeGame: React.FC = () => {
         </button>
       </div>
 
-      <div className="snake-board">
+      <div 
+        ref={boardRef}
+        className="snake-board"
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+      >
         {Array.from({ length: GRID_SIZE * GRID_SIZE }).map((_, i) => {
           const x = i % GRID_SIZE;
           const y = Math.floor(i / GRID_SIZE);

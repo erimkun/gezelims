@@ -1,10 +1,10 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import './Games.css';
 
 // Oyun Sabitleri
-const GAME_SPEED_INITIAL = 5; // px per frame approx
-const SPAWN_RATE_INITIAL = 1500; // ms
+const SPAWN_RATE_INITIAL = 1200; // ms
 const PLAYER_Y_POS = 80; // % from top
+const INITIAL_SPEED = 1.2; // % per frame
 
 interface GameObject {
   id: number;
@@ -12,83 +12,102 @@ interface GameObject {
   y: number; // % from top (0 to 100+)
   type: 'coin' | 'rock' | 'barrier' | 'tree';
   collected?: boolean;
+  passed?: boolean; // Object has passed the player - no collision check needed
+}
+
+interface GameState {
+  playerLane: 0 | 1 | 2;
+  objects: GameObject[];
+  score: number;
+  coins: number;
+  isPlaying: boolean;
+  isGameOver: boolean;
+  speed: number;
+}
+
+interface TouchRef {
+  x: number;
+  y: number;
+  time: number;
 }
 
 const RunnerGame: React.FC = () => {
-  const [playerLane, setPlayerLane] = useState<0 | 1 | 2>(1); // 0: Left, 1: Center, 2: Right
-  const [gameObjects, setGameObjects] = useState<GameObject[]>([]);
-  const [score, setScore] = useState(0);
-  const [coins, setCoins] = useState(0);
-  const [isGameOver, setIsGameOver] = useState(false);
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [runFrame, setRunFrame] = useState(0); // 0 or 1 for animation
+  // UI state for rendering
+  const [displayState, setDisplayState] = useState<GameState>({
+    playerLane: 1,
+    objects: [],
+    score: 0,
+    coins: 0,
+    isPlaying: false,
+    isGameOver: false,
+    speed: INITIAL_SPEED
+  });
+  const [runFrame, setRunFrame] = useState(0);
 
+  // Game state refs (for game loop - avoids stale closures)
+  const gameStateRef = useRef<GameState>({
+    playerLane: 1,
+    objects: [],
+    score: 0,
+    coins: 0,
+    isPlaying: false,
+    isGameOver: false,
+    speed: INITIAL_SPEED
+  });
   const requestRef = useRef<number>(0);
   const lastSpawnTime = useRef(0);
+  const lastFrameTime = useRef(0);
   const nextId = useRef(0);
-  const speedRef = useRef(GAME_SPEED_INITIAL);
-  const scoreRef = useRef(0);
+  const touchStartRef = useRef<TouchRef | null>(null);
+  const roadRef = useRef<HTMLDivElement>(null);
+
+  // Sync display state with game state
+  const syncDisplayState = useCallback(() => {
+    setDisplayState({ ...gameStateRef.current });
+  }, []);
 
   // Animation loop for running sprite
   useEffect(() => {
-    if (!isPlaying) return;
+    if (!displayState.isPlaying) return;
     const interval = setInterval(() => {
       setRunFrame(prev => (prev === 0 ? 1 : 0));
     }, 150);
     return () => clearInterval(interval);
-  }, [isPlaying]);
+  }, [displayState.isPlaying]);
 
-  const startGame = () => {
-    setPlayerLane(1);
-    setGameObjects([]);
-    setScore(0);
-    setCoins(0);
-    scoreRef.current = 0;
-    speedRef.current = 0.8; // Speed in % per frame
-    setIsGameOver(false);
-    setIsPlaying(true);
-    lastSpawnTime.current = performance.now();
-    requestRef.current = requestAnimationFrame(gameLoop);
-  };
-
-  const movePlayer = (direction: 'left' | 'right') => {
-    if (!isPlaying) return;
-    setPlayerLane(prev => {
-      if (direction === 'left') return Math.max(0, prev - 1) as 0 | 1 | 2;
-      if (direction === 'right') return Math.min(2, prev + 1) as 0 | 1 | 2;
-      return prev;
-    });
-  };
-
-  const spawnObject = () => {
+  const spawnObject = useCallback(() => {
     const lanes: (0 | 1 | 2)[] = [0, 1, 2];
     const lane = lanes[Math.floor(Math.random() * lanes.length)];
     const typeRoll = Math.random();
     let type: GameObject['type'] = 'coin';
     
-    if (typeRoll > 0.6) type = 'rock';
-    else if (typeRoll > 0.4) type = 'barrier';
-    else if (typeRoll > 0.3) type = 'tree';
+    if (typeRoll > 0.65) type = 'rock';
+    else if (typeRoll > 0.45) type = 'barrier';
+    else if (typeRoll > 0.35) type = 'tree';
     
-    // Ensure we don't spawn impossible patterns (simple logic for now)
+    const newObject: GameObject = {
+      id: nextId.current++,
+      lane,
+      y: -10,
+      type
+    };
+
+    gameStateRef.current.objects.push(newObject);
+  }, []);
+
+  const gameLoop = useCallback((time: number) => {
+    const state = gameStateRef.current;
     
-    setGameObjects(prev => [
-      ...prev,
-      {
-        id: nextId.current++,
-        lane,
-        y: -10, // Start slightly above screen
-        type
-      }
-    ]);
-  };
+    if (!state.isPlaying || state.isGameOver) {
+      return;
+    }
 
-  const gameLoop = (time: number) => {
-    if (!isPlaying) return;
+    // Calculate delta time for smooth movement
+    const deltaTime = lastFrameTime.current ? (time - lastFrameTime.current) / 16.67 : 1;
+    lastFrameTime.current = time;
 
-    // Spawn logic
-    // Increase difficulty: spawn faster as score increases
-    const currentSpawnRate = Math.max(600, SPAWN_RATE_INITIAL - scoreRef.current * 2);
+    // Spawn logic - spawn more frequently as score increases
+    const currentSpawnRate = Math.max(500, SPAWN_RATE_INITIAL - state.score * 1.5);
     
     if (time - lastSpawnTime.current > currentSpawnRate) {
       spawnObject();
@@ -96,106 +115,217 @@ const RunnerGame: React.FC = () => {
     }
 
     // Move objects & Collision Detection
-    setGameObjects(prev => {
-      const newObjects: GameObject[] = [];
-      let gameOver = false;
+    const newObjects: GameObject[] = [];
+    let gameOver = false;
+    let coinsCollected = 0;
+    let scoreFromCoins = 0;
 
-      prev.forEach(obj => {
-        const newY = obj.y + speedRef.current;
-        
-        // Collision Box (approximate)
-        // Player is at PLAYER_Y_POS (80%), height approx 10%
-        // Object hit zone approx 5% range
-        const playerHitZoneStart = PLAYER_Y_POS - 5;
-        const playerHitZoneEnd = PLAYER_Y_POS + 5;
+    for (const obj of state.objects) {
+      if (obj.collected) continue;
 
-        if (
-          !obj.collected &&
-          obj.lane === playerLane &&
-          newY > playerHitZoneStart &&
-          newY < playerHitZoneEnd
-        ) {
-          if (obj.type === 'coin') {
-            setCoins(c => c + 1);
-            setScore(s => s + 10);
-            scoreRef.current += 10;
-            obj.collected = true; // Mark as collected so we don't process again
-            // Don't add to newObjects if we want it to disappear immediately
-            // But maybe we want a "collected" animation? For now, just remove.
-            return; 
-          } else {
-            // Hit obstacle
-            gameOver = true;
-          }
-        }
+      const newY = obj.y + state.speed * deltaTime;
+      
+      // Collision detection - proper hitbox calculation
+      // Object: top = newY, bottom = newY + OBJECT_HEIGHT (~15%)
+      // Player: top = PLAYER_Y_POS - 5, bottom = PLAYER_Y_POS + 5
+      const OBJECT_HEIGHT = 12; // Object height in %
+      const PLAYER_HEIGHT = 6; // Player hitbox height in %
+      
+      const objectTop = newY;
+      const objectBottom = newY + OBJECT_HEIGHT;
+      const playerTop = PLAYER_Y_POS - PLAYER_HEIGHT;
+      const playerBottom = PLAYER_Y_POS + PLAYER_HEIGHT;
 
-        if (newY < 110) { // Keep if still on screen
-          newObjects.push({ ...obj, y: newY });
-        }
-      });
-
-      if (gameOver) {
-        setIsGameOver(true);
-        setIsPlaying(false);
-        if (requestRef.current) cancelAnimationFrame(requestRef.current);
-        return prev; // Return state as is to show collision
+      // Mark object as passed once it goes below the player
+      // This prevents collision when player moves into a lane after object has passed
+      if (objectTop > playerBottom) {
+        obj.passed = true;
       }
 
-      return newObjects;
-    });
+      // Only check collision if object hasn't passed the player yet
+      // Objects overlap when: objectBottom > playerTop AND objectTop < playerBottom
+      const isOverlapping = objectBottom > playerTop && objectTop < playerBottom;
 
-    if (!isGameOver) {
-      // Passive score increase
-      setScore(s => {
-        const newScore = s + 0.1;
-        scoreRef.current = newScore;
-        return newScore;
-      });
-      
-      // Speed up slightly
-      speedRef.current = Math.min(2.5, 0.8 + (scoreRef.current / 1000));
+      if (!obj.passed && obj.lane === state.playerLane && isOverlapping) {
+        if (obj.type === 'coin') {
+          coinsCollected++;
+          scoreFromCoins += 10;
+          obj.collected = true;
+          continue; // Don't add collected coins
+        } else {
+          // Hit obstacle
+          gameOver = true;
+          break;
+        }
+      }
 
-      requestRef.current = requestAnimationFrame(gameLoop);
+      if (newY < 115) {
+        newObjects.push({ ...obj, y: newY, passed: obj.passed });
+      }
     }
-  };
+
+    // Update game state
+    state.objects = newObjects;
+    state.coins += coinsCollected;
+    state.score += scoreFromCoins + 0.1; // Passive score increase
+    state.speed = Math.min(3.0, INITIAL_SPEED + (state.score / 800));
+
+    if (gameOver) {
+      state.isGameOver = true;
+      state.isPlaying = false;
+      syncDisplayState();
+      return;
+    }
+
+    // Sync to React state for rendering (throttled)
+    syncDisplayState();
+
+    // Continue loop
+    requestRef.current = requestAnimationFrame(gameLoop);
+  }, [spawnObject, syncDisplayState]);
+
+  const startGame = useCallback(() => {
+    // Reset game state
+    gameStateRef.current = {
+      playerLane: 1,
+      objects: [],
+      score: 0,
+      coins: 0,
+      isPlaying: true,
+      isGameOver: false,
+      speed: INITIAL_SPEED
+    };
+    nextId.current = 0;
+    lastSpawnTime.current = performance.now();
+    lastFrameTime.current = 0;
+    
+    syncDisplayState();
+    
+    // Start game loop
+    if (requestRef.current) {
+      cancelAnimationFrame(requestRef.current);
+    }
+    requestRef.current = requestAnimationFrame(gameLoop);
+  }, [gameLoop, syncDisplayState]);
+
+  const movePlayer = useCallback((direction: 'left' | 'right') => {
+    const state = gameStateRef.current;
+    if (!state.isPlaying) return;
+    
+    if (direction === 'left') {
+      state.playerLane = Math.max(0, state.playerLane - 1) as 0 | 1 | 2;
+    } else {
+      state.playerLane = Math.min(2, state.playerLane + 1) as 0 | 1 | 2;
+    }
+    syncDisplayState();
+  }, [syncDisplayState]);
 
   // Keyboard controls
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'ArrowLeft') movePlayer('left');
-      if (e.key === 'ArrowRight') movePlayer('right');
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        movePlayer('left');
+      }
+      if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        movePlayer('right');
+      }
+      // Space to start/restart
+      if (e.key === ' ' || e.key === 'Space') {
+        e.preventDefault();
+        if (!gameStateRef.current.isPlaying) {
+          startGame();
+        }
+      }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [playerLane, isPlaying]); // Dependencies for closure freshness if needed, though setState handles it
+  }, [movePlayer, startGame]);
+
+  // Touch/Swipe controls
+  const handleTouchStart = useCallback((e: React.TouchEvent) => {
+    const touch = e.touches[0];
+    touchStartRef.current = { 
+      x: touch.clientX, 
+      y: touch.clientY,
+      time: Date.now()
+    };
+  }, []);
+
+  const handleTouchMove = useCallback((e: React.TouchEvent) => {
+    // Prevent page scroll while swiping
+    if (touchStartRef.current) {
+      e.preventDefault();
+    }
+  }, []);
+
+  const handleTouchEnd = useCallback((e: React.TouchEvent) => {
+    if (!touchStartRef.current) return;
+    
+    const touch = e.changedTouches[0];
+    const deltaX = touch.clientX - touchStartRef.current.x;
+    const deltaTime = Date.now() - touchStartRef.current.time;
+    
+    // Swipe detection - minimum 30px horizontal, max 300ms
+    const minSwipe = 30;
+    
+    if (Math.abs(deltaX) > minSwipe && deltaTime < 300) {
+      movePlayer(deltaX > 0 ? 'right' : 'left');
+    }
+    
+    touchStartRef.current = null;
+  }, [movePlayer]);
+
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => {
+      if (requestRef.current) {
+        cancelAnimationFrame(requestRef.current);
+      }
+    };
+  }, []);
 
   return (
     <div className="game-container runner-game">
       <div className="game-score-board">
-        <span>Score: {Math.floor(score)}</span>
-        <span>Coins: {coins} 🟡</span>
+        <span>Skor: {Math.floor(displayState.score)}</span>
+        <span>Altın: {displayState.coins} 🟡</span>
       </div>
 
-      <div className="runner-road">
+      <div 
+        ref={roadRef}
+        className="runner-road"
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+      >
         {/* Lanes */}
         <div className="runner-lane"></div>
         <div className="runner-lane"></div>
         <div className="runner-lane"></div>
 
+        {/* Road markings animation */}
+        {displayState.isPlaying && (
+          <div className="road-markings-container">
+            <div className="road-marking"></div>
+            <div className="road-marking"></div>
+            <div className="road-marking"></div>
+          </div>
+        )}
+
         {/* Player */}
         <div 
-          className={`runner-player lane-${playerLane} ${isGameOver ? 'hit' : ''}`}
+          className={`runner-player lane-${displayState.playerLane} ${displayState.isGameOver ? 'hit' : ''}`}
           style={{ bottom: `${100 - PLAYER_Y_POS}%` }}
         >
-          {/* Placeholder for Player Sprite */}
-          {/* <img src={runFrame === 0 ? 'player_run_1.png' : 'player_run_2.png'} /> */}
           <div className={`player-sprite ${runFrame === 0 ? 'run-1' : 'run-2'}`}>
             🏃
           </div>
         </div>
 
         {/* Game Objects */}
-        {gameObjects.map(obj => (
+        {displayState.objects.map(obj => (
           <div
             key={obj.id}
             className={`runner-object lane-${obj.lane} type-${obj.type}`}
@@ -209,20 +339,21 @@ const RunnerGame: React.FC = () => {
         ))}
 
         {/* Game Over Overlay */}
-        {isGameOver && (
+        {displayState.isGameOver && (
           <div className="game-over-overlay">
             <h2>Çarptın! 💥</h2>
-            <p>Skor: {Math.floor(score)}</p>
-            <p>Toplanan Altın: {coins}</p>
+            <p>Skor: {Math.floor(displayState.score)}</p>
+            <p>Toplanan Altın: {displayState.coins}</p>
             <button className="game-btn game-btn-primary" onClick={startGame}>Tekrar Dene</button>
           </div>
         )}
 
         {/* Start Screen Overlay */}
-        {!isPlaying && !isGameOver && (
-          <div className="game-over-overlay" style={{ background: 'rgba(0,0,0,0.4)' }}>
-            <h2>Runner</h2>
+        {!displayState.isPlaying && !displayState.isGameOver && (
+          <div className="game-over-overlay start-overlay">
+            <h2>🏃 Sonsuz Koşu</h2>
             <p>Engellerden kaç, altınları topla!</p>
+            <p className="controls-hint">⬅️ ➡️ tuşları veya butonlar ile hareket et</p>
             <button className="game-btn game-btn-primary" onClick={startGame}>Koşmaya Başla</button>
           </div>
         )}
@@ -230,8 +361,20 @@ const RunnerGame: React.FC = () => {
 
       {/* Mobile Controls */}
       <div className="runner-controls">
-        <button className="runner-btn left" onPointerDown={() => movePlayer('left')}>⬅️</button>
-        <button className="runner-btn right" onPointerDown={() => movePlayer('right')}>➡️</button>
+        <button 
+          className="runner-btn left" 
+          onPointerDown={() => movePlayer('left')}
+          onTouchStart={(e) => { e.preventDefault(); movePlayer('left'); }}
+        >
+          ⬅️
+        </button>
+        <button 
+          className="runner-btn right" 
+          onPointerDown={() => movePlayer('right')}
+          onTouchStart={(e) => { e.preventDefault(); movePlayer('right'); }}
+        >
+          ➡️
+        </button>
       </div>
     </div>
   );

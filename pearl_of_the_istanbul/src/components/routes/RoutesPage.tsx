@@ -76,7 +76,7 @@ const RoutesPage = ({ language, onBack }: RoutesPageProps) => {
   const map = useRef<maplibregl.Map | null>(null);
   const markersRef = useRef<maplibregl.Marker[]>([]);
   const routeMarkersRef = useRef<maplibregl.Marker[]>([]); // Rota noktaları marker'ları
-  const routeLinesRef = useRef<string[]>([]); // Rota çizgi layer ID'leri
+  const routeLinesRef = useRef<{ sourceId: string; layerId: string }[]>([]); // Rota çizgi layer ID'leri
   const lastLoadCenterRef = useRef<[number, number] | null>(null); // Son POI yükleme merkezi
 
   const [visiblePOIs, setVisiblePOIs] = useState<POI[]>([]);
@@ -350,12 +350,12 @@ const RoutesPage = ({ language, onBack }: RoutesPageProps) => {
     if (!map.current || !map.current.loaded()) return;
 
     // Eski çizgileri temizle
-    routeLinesRef.current.forEach(layerId => {
+    routeLinesRef.current.forEach(({ sourceId, layerId }) => {
       if (map.current?.getLayer(layerId)) {
         map.current.removeLayer(layerId);
       }
-      if (map.current?.getSource(layerId)) {
-        map.current.removeSource(layerId);
+      if (map.current?.getSource(sourceId)) {
+        map.current.removeSource(sourceId);
       }
     });
     routeLinesRef.current = [];
@@ -410,7 +410,7 @@ const RoutesPage = ({ language, onBack }: RoutesPageProps) => {
           }
         });
 
-        routeLinesRef.current.push(sourceId);
+        routeLinesRef.current.push({ sourceId, layerId });
       }
 
       // Rota noktaları için marker'lar ekle

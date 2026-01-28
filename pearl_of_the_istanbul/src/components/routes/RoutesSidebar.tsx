@@ -3,9 +3,56 @@ import { useState, useEffect } from 'react';
 import { type User } from 'firebase/auth';
 import { useAuthStore, useRouteStore, ROUTE_TAGS } from '../../store';
 import { type Route } from '../../services/routeService';
+import RouteComments from './RouteComments';
 import './RoutesSidebar.css';
 
+// Placeholder görseller - tag'lere göre
+const PLACEHOLDER_IMAGES = {
+  tarihi: 'https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?w=200&h=200&fit=crop', // İstanbul tarihi
+  romantik: 'https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?w=200&h=200&fit=crop', // Gün batımı
+  lezzet: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=200&h=200&fit=crop', // Yemek
+  doga: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=200&h=200&fit=crop', // Doğa
+  kultur: 'https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=200&h=200&fit=crop', // Kültür
+  gece: 'https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=200&h=200&fit=crop', // Gece
+  default: [
+    'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=200&h=200&fit=crop', // İstanbul 1
+    'https://images.unsplash.com/photo-1527838832700-5059252407fa?w=200&h=200&fit=crop', // İstanbul 2
+    'https://images.unsplash.com/photo-1604941999586-f90d93a4e35e?w=200&h=200&fit=crop', // İstanbul 3
+    'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=200&fit=crop', // İstanbul 4
+  ]
+};
+
+// Rota için thumbnail URL'si belirle
+const getRouteThumbnail = (route: Route): string => {
+  // 1. Önce kullanıcının eklediği fotoğrafları ara (commentPhoto)
+  const pointWithCommentPhoto = route.points.find((p: any) => p.commentPhoto);
+  if (pointWithCommentPhoto && (pointWithCommentPhoto as any).commentPhoto) {
+    return (pointWithCommentPhoto as any).commentPhoto;
+  }
+
+  // 2. POI'lerden görsel ara (eğer varsa)
+  const pointWithImage = route.points.find((p: any) => p.poiImage);
+  if (pointWithImage && (pointWithImage as any).poiImage) {
+    return (pointWithImage as any).poiImage;
+  }
+
+  // 3. Tag'e göre placeholder seç
+  if (route.tags && route.tags.length > 0) {
+    const firstTag = route.tags[0].toLowerCase();
+    if (PLACEHOLDER_IMAGES[firstTag as keyof typeof PLACEHOLDER_IMAGES]) {
+      const img = PLACEHOLDER_IMAGES[firstTag as keyof typeof PLACEHOLDER_IMAGES];
+      if (typeof img === 'string') return img;
+    }
+  }
+
+  // 4. Varsayılan placeholder'lardan rastgele seç (route id'ye göre sabit)
+  const defaultImages = PLACEHOLDER_IMAGES.default;
+  const index = route.id ? route.id.charCodeAt(0) % defaultImages.length : 0;
+  return defaultImages[index];
+};
+
 interface RoutesSidebarProps {
+
   language: 'tr' | 'en' | 'de' | 'fr' | 'es' | 'it';
   isDesktop: boolean;
   user: User | null;
@@ -17,8 +64,12 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [expandedRouteId, setExpandedRouteId] = useState<string | null>(null);
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [commentRouteId, setCommentRouteId] = useState<string | null>(null);
+  const [animatingHearts, setAnimatingHearts] = useState<Set<string>>(new Set());
+  const [showLoginPrompt, setShowLoginPrompt] = useState(false);
 
   const { signIn } = useAuthStore();
+
   const {
     routes,
     popularRoutes,
@@ -53,12 +104,13 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
       noRoutes: 'Henüz rota yok',
       loginToCreate: 'Rota oluşturmak için giriş yapın',
       votes: 'oy',
-      points: 'nokta',
+      points: 'NOKTA',
       by: 'tarafından',
-      topRated: '🏆 En Çok Oy Alanlar',
+      topRated: 'POPÜLER LİDERLİK',
       deleteConfirm: 'Bu rotayı silmek istediğinizden emin misiniz?',
       steps: 'Durak',
-      rating: 'Puan'
+      rating: 'Puan',
+      comments: 'Yorumlar'
     },
     en: {
       routes: 'Routes',
@@ -69,12 +121,13 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
       noRoutes: 'No routes yet',
       loginToCreate: 'Login to create a route',
       votes: 'votes',
-      points: 'points',
+      points: 'POINTS',
       by: 'by',
-      topRated: '🏆 Top Rated',
+      topRated: 'TOP RANKED',
       deleteConfirm: 'Are you sure you want to delete this route?',
       steps: 'Steps',
-      rating: 'Rating'
+      rating: 'Rating',
+      comments: 'Comments'
     },
     de: {
       routes: 'Routen',
@@ -85,12 +138,13 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
       noRoutes: 'Noch keine Routen',
       loginToCreate: 'Melden Sie sich an',
       votes: 'Stimmen',
-      points: 'Punkte',
+      points: 'PUNKTE',
       by: 'von',
-      topRated: '🏆 Bestbewertet',
+      topRated: 'TOP BEWERTET',
       deleteConfirm: 'Möchten Sie diese Route wirklich löschen?',
       steps: 'Schritte',
-      rating: 'Bewertung'
+      rating: 'Bewertung',
+      comments: 'Kommentare'
     },
     fr: {
       routes: 'Itinéraires',
@@ -101,12 +155,13 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
       noRoutes: 'Pas encore d\'itinéraires',
       loginToCreate: 'Connectez-vous',
       votes: 'votes',
-      points: 'points',
+      points: 'POINTS',
       by: 'par',
-      topRated: '🏆 Les Mieux Notés',
+      topRated: 'LES MIEUX CLASSÉS',
       deleteConfirm: 'Êtes-vous sûr de vouloir supprimer cet itinéraire ?',
       steps: 'Étapes',
-      rating: 'Note'
+      rating: 'Note',
+      comments: 'Commentaires'
     },
     es: {
       routes: 'Rutas',
@@ -117,12 +172,13 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
       noRoutes: 'Aún no hay rutas',
       loginToCreate: 'Inicia sesión',
       votes: 'votos',
-      points: 'puntos',
+      points: 'PUNTOS',
       by: 'por',
-      topRated: '🏆 Mejor Valorados',
+      topRated: 'MEJOR VALORADOS',
       deleteConfirm: '¿Estás seguro de que quieres eliminar esta ruta?',
       steps: 'Pasos',
-      rating: 'Clasificación'
+      rating: 'Clasificación',
+      comments: 'Comentarios'
     },
     it: {
       routes: 'Percorsi',
@@ -133,12 +189,13 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
       noRoutes: 'Nessun percorso',
       loginToCreate: 'Accedi',
       votes: 'voti',
-      points: 'punti',
+      points: 'PUNTI',
       by: 'di',
-      topRated: '🏆 Più Votati',
+      topRated: 'PIÙ VOTATI',
       deleteConfirm: 'Sei sicuro di voler eliminare questo percorso?',
       steps: 'Passi',
-      rating: 'Valutazione'
+      rating: 'Valutazione',
+      comments: 'Commenti'
     }
   };
 
@@ -177,8 +234,13 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
   const handleVote = async (e: React.MouseEvent, route: Route) => {
     e.stopPropagation();
 
-    // Guest ID veya User ID kullan
-    const voterId = user?.uid || guestId;
+    // Giriş yapmamışsa login prompt göster
+    if (!user) {
+      setShowLoginPrompt(true);
+      return;
+    }
+
+    const voterId = user.uid;
 
     // Zaten oy vermiş mi?
     const hasVoted = route.votedBy?.includes(voterId);
@@ -186,8 +248,32 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
     if (hasVoted) {
       await unvote(route.id!, voterId);
     } else {
+      // Kalp animasyonu başlat
+      setAnimatingHearts(prev => new Set(prev).add(route.id!));
       await vote(route.id!, voterId);
+      
+      // Animasyon bitince kaldır
+      setTimeout(() => {
+        setAnimatingHearts(prev => {
+          const next = new Set(prev);
+          next.delete(route.id!);
+          return next;
+        });
+      }, 600);
     }
+  };
+
+  // Yorum butonuna tıklama
+  const handleCommentClick = (e: React.MouseEvent, routeId: string) => {
+    e.stopPropagation();
+    
+    // Giriş yapmamışsa login prompt göster
+    if (!user) {
+      setShowLoginPrompt(true);
+      return;
+    }
+    
+    setCommentRouteId(routeId);
   };
 
   const handleDelete = async (e: React.MouseEvent, routeId: string) => {
@@ -219,7 +305,19 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
       <div className={`routes-sidebar ${isOpen ? 'open' : ''}`}>
         {/* Header */}
         <div className="routes-sidebar-header">
-          <h2>🗺️ {t.routes}</h2>
+          <h2>
+            <span style={{ 
+              background: 'linear-gradient(135deg, #10B981, #059669)', 
+              borderRadius: '10px', 
+              padding: '6px 10px',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}>
+              <span style={{ color: 'white', fontSize: '16px' }}>🗺️</span>
+            </span>
+            {t.routes}
+          </h2>
           {isDesktop && (
             <button
               className="routes-sidebar-close"
@@ -232,7 +330,7 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
 
         {/* Toplam İstatistikler / Top Rated */}
         <div className="routes-top-rated">
-          <h3>{t.topRated}</h3>
+          <h3>🏆 {t.topRated}</h3>
           <div className="top-rated-list">
             {topRatedRoutes.map((route, index) => (
               <div key={route.id} className="top-rated-item" onClick={() => setExpandedRouteId(expandedRouteId === route.id ? null : route.id!)}>
@@ -244,28 +342,6 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
               </div>
             ))}
           </div>
-        </div>
-
-        {/* Create Route Button */}
-        <div className="routes-sidebar-create">
-          {user ? (
-            <button
-              className="create-route-btn"
-              onClick={startCreatingRoute}
-              disabled={isCreatingRoute}
-            >
-              <span className="btn-icon">➕</span>
-              <span>{t.createRoute}</span>
-            </button>
-          ) : (
-            <button
-              className="login-prompt"
-              onClick={signIn}
-            >
-              <span>🔐</span>
-              <span>{t.loginToCreate}</span>
-            </button>
-          )}
         </div>
 
         {/* Tabs */}
@@ -280,7 +356,7 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
             className={`tab ${activeTab === 'popular' ? 'active' : ''}`}
             onClick={() => setActiveTab('popular')}
           >
-            🔥 {t.popular}
+            {t.popular}
           </button>
           {user && (
             <button
@@ -340,6 +416,18 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
                   className="route-card-header"
                   onClick={() => setExpandedRouteId(expandedRouteId === route.id ? null : route.id!)}
                 >
+                  {/* Thumbnail */}
+                  <div className="route-thumbnail">
+                    <img 
+                      src={getRouteThumbnail(route)} 
+                      alt={route.title}
+                      onError={(e) => {
+                        // Görsel yüklenemezse varsayılan placeholder kullan
+                        (e.target as HTMLImageElement).src = PLACEHOLDER_IMAGES.default[0];
+                      }}
+                    />
+                  </div>
+
                   <div className="route-main-info">
                     <div className="route-header-top">
                       <div className="route-user">
@@ -366,10 +454,10 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
                     <h3 className="route-title">{route.title}</h3>
 
                     <div className="route-stat-row">
-                      <span className="route-stat">
+                      <span className="route-stat route-stat-points">
                         📍 {route.points.length} {t.points}
                       </span>
-                      <span className="route-stat">
+                      <span className="route-stat route-stat-rating">
                         ⭐ {route.totalRating.toFixed(1)}
                       </span>
                     </div>
@@ -377,11 +465,30 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
 
                   <div className="route-vote-section">
                     <button
-                      className={`route-vote-btn ${route.votedBy?.includes(user?.uid || guestId) ? 'voted' : ''}`}
+                      className={`route-vote-btn ${route.votedBy?.includes(user?.uid || '') ? 'voted' : ''} ${animatingHearts.has(route.id!) ? 'heart-burst' : ''}`}
                       onClick={(e) => handleVote(e, route)}
                     >
-                      <span className="vote-icon">▲</span>
+                      <span className="vote-icon">
+                        {route.votedBy?.includes(user?.uid || '') ? '❤️' : '🤍'}
+                      </span>
                       <span className="vote-count">{route.votes || 0}</span>
+                      {animatingHearts.has(route.id!) && (
+                        <div className="heart-particles">
+                          <span className="particle">❤️</span>
+                          <span className="particle">❤️</span>
+                          <span className="particle">❤️</span>
+                          <span className="particle">❤️</span>
+                          <span className="particle">❤️</span>
+                          <span className="particle">❤️</span>
+                        </div>
+                      )}
+                    </button>
+                    
+                    <button
+                      className="comment-btn"
+                      onClick={(e) => handleCommentClick(e, route.id!)}
+                    >
+                      <span>💬</span>
                     </button>
                   </div>
                 </div>
@@ -429,7 +536,72 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
             ))
           )}
         </div>
+
+        {/* Create Route Button - Fixed at bottom */}
+        <div className="routes-sidebar-create">
+          {user ? (
+            <button
+              className="create-route-btn"
+              onClick={startCreatingRoute}
+              disabled={isCreatingRoute}
+            >
+              <span className="btn-icon">➕</span>
+              <span>{t.createRoute}</span>
+            </button>
+          ) : (
+            <button
+              className="login-prompt"
+              onClick={signIn}
+            >
+              <span>🔐</span>
+              <span>{t.loginToCreate}</span>
+            </button>
+          )}
+        </div>
       </div>
+
+      {/* Yorumlar Modalı */}
+      {commentRouteId && (
+        <RouteComments
+          routeId={commentRouteId}
+          isOpen={!!commentRouteId}
+          onClose={() => setCommentRouteId(null)}
+          language={language}
+        />
+      )}
+
+      {/* Login Prompt Modal */}
+      {showLoginPrompt && (
+        <div className="login-modal-backdrop" onClick={() => setShowLoginPrompt(false)}>
+          <div className="login-modal" onClick={(e) => e.stopPropagation()}>
+            <button className="login-modal-close" onClick={() => setShowLoginPrompt(false)}>✕</button>
+            <div className="login-modal-icon">🔐</div>
+            <h3 className="login-modal-title">
+              {language === 'tr' ? 'Giriş Yapın' : 
+               language === 'de' ? 'Anmelden' :
+               language === 'fr' ? 'Connexion' :
+               language === 'es' ? 'Iniciar Sesión' :
+               language === 'it' ? 'Accedi' : 'Sign In'}
+            </h3>
+            <p className="login-modal-text">
+              {language === 'tr' ? 'Beğenmek ve yorum yapmak için giriş yapmanız gerekiyor.' :
+               language === 'de' ? 'Melden Sie sich an, um zu liken und zu kommentieren.' :
+               language === 'fr' ? 'Connectez-vous pour aimer et commenter.' :
+               language === 'es' ? 'Inicia sesión para dar me gusta y comentar.' :
+               language === 'it' ? 'Accedi per mettere mi piace e commentare.' :
+               'Please sign in to like and comment.'}
+            </p>
+            <button className="login-modal-btn" onClick={() => { setShowLoginPrompt(false); signIn(); }}>
+              <span>🚀</span>
+              {language === 'tr' ? 'Google ile Giriş Yap' :
+               language === 'de' ? 'Mit Google anmelden' :
+               language === 'fr' ? 'Se connecter avec Google' :
+               language === 'es' ? 'Iniciar con Google' :
+               language === 'it' ? 'Accedi con Google' : 'Sign in with Google'}
+            </button>
+          </div>
+        </div>
+      )}
     </>
   );
 };

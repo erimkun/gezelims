@@ -1,5 +1,5 @@
 // RouteCreationPanel - Rota oluşturma paneli
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { type User } from 'firebase/auth';
 import { useAuthStore, useRouteStore, ROUTE_TAGS } from '../../store';
 import './RouteCreationPanel.css';
@@ -12,6 +12,7 @@ interface RouteCreationPanelProps {
 const RouteCreationPanel = ({ language, user }: RouteCreationPanelProps) => {
   const [isSaving, setIsSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const fileInputRefs = useRef<Record<string, HTMLInputElement | null>>({});
 
   const {
     selectedPoints,
@@ -23,12 +24,28 @@ const RouteCreationPanel = ({ language, user }: RouteCreationPanelProps) => {
     toggleTag,
     removePoint,
     updatePointComment,
+    updatePointPhoto,
     reorderPoints,
     cancelCreatingRoute,
     saveRoute
   } = useRouteStore();
 
   const { signIn } = useAuthStore();
+
+  // Fotoğraf seçme ve base64'e çevirme
+  const handlePhotoSelect = (poiId: string, file: File) => {
+    if (file.size > 2 * 1024 * 1024) { // 2MB limit
+      setError(language === 'tr' ? 'Fotoğraf 2MB\'dan küçük olmalı' : 'Photo must be less than 2MB');
+      return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      const base64 = e.target?.result as string;
+      updatePointPhoto(poiId, base64);
+    };
+    reader.readAsDataURL(file);
+  };
 
   const translations = {
     tr: {
@@ -251,15 +268,49 @@ const RouteCreationPanel = ({ language, user }: RouteCreationPanelProps) => {
                       </div>
                     </div>
 
-                    {/* Comment Area */}
-                    <div className="point-comment-input">
-                      <input
-                        type="text"
-                        placeholder={translations[language].commentPlaceholder || "Yorum ekle..."}
-                        value={point.comment || ''}
-                        onChange={(e) => updatePointComment(point.poiId, e.target.value)}
-                        maxLength={100}
-                      />
+                    {/* Comment Area with Photo */}
+                    <div className="point-comment-section">
+                      <div className="point-comment-input">
+                        <input
+                          type="text"
+                          placeholder={translations[language].commentPlaceholder || "Yorum ekle..."}
+                          value={point.comment || ''}
+                          onChange={(e) => updatePointComment(point.poiId, e.target.value)}
+                          maxLength={100}
+                        />
+                        <button
+                          type="button"
+                          className="photo-add-btn"
+                          onClick={() => fileInputRefs.current[point.poiId]?.click()}
+                          title={language === 'tr' ? 'Fotoğraf ekle' : 'Add photo'}
+                        >
+                          📷
+                        </button>
+                        <input
+                          type="file"
+                          accept="image/*"
+                          ref={(el) => { fileInputRefs.current[point.poiId] = el; }}
+                          onChange={(e) => {
+                            const file = e.target.files?.[0];
+                            if (file) handlePhotoSelect(point.poiId, file);
+                          }}
+                          style={{ display: 'none' }}
+                        />
+                      </div>
+                      
+                      {/* Photo Preview */}
+                      {point.commentPhoto && (
+                        <div className="point-photo-preview">
+                          <img src={point.commentPhoto} alt="Preview" />
+                          <button 
+                            className="photo-remove-btn"
+                            onClick={() => updatePointPhoto(point.poiId, undefined)}
+                            title={language === 'tr' ? 'Fotoğrafı kaldır' : 'Remove photo'}
+                          >
+                            ✕
+                          </button>
+                        </div>
+                      )}
                     </div>
 
                     <div className="point-actions">
