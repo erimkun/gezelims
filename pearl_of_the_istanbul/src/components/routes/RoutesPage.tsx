@@ -84,11 +84,6 @@ const RoutesPage = ({ language, onBack }: RoutesPageProps) => {
   const [selectedCategory, setSelectedCategory] = useState<string>('all'); // Kategori filtresi
   const [visibleRoutes, setVisibleRoutes] = useState<typeof routes>([]); // Viewport'taki rotalar
 
-  // Kategoriye göre filtrele
-  const filteredPOIs = selectedCategory === 'all'
-    ? visiblePOIs
-    : visiblePOIs.filter(poi => poi.category === selectedCategory);
-
   // Store hooks
   const { user, initialize } = useAuthStore();
   const {
@@ -430,7 +425,7 @@ const RoutesPage = ({ language, onBack }: RoutesPageProps) => {
           el.addEventListener('click', (e) => {
             e.stopPropagation();
             // Basit bir popup göster
-            const popup = new maplibregl.Popup({ closeButton: true, maxWidth: '280px' })
+            new maplibregl.Popup({ closeButton: true, maxWidth: '280px' })
               .setLngLat(point.coordinates)
               .setHTML(`
                 <div style="padding: 10px;">

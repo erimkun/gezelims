@@ -83,6 +83,10 @@ interface RouteState {
   saveRoute: (userId: string, userName: string, userPhoto?: string) => Promise<string>;
   loadRoutes: () => Promise<void>;
   loadPopularRoutes: () => Promise<void>;
+  loadUserRoutes: (userId: string) => Promise<void>;
+  vote: (routeId: string, userId: string) => Promise<boolean>;
+  unvote: (routeId: string, userId: string) => Promise<boolean>;
+  removeRoute: (routeId: string) => Promise<void>;
 
   // Actions - Yorumlar
   loadComments: (routeId: string) => Promise<void>;
@@ -303,7 +307,7 @@ export const useRouteStore = create<RouteState>()(
       },
 
       // Kullanıcı rotalarını yükle
-      loadUserRoutes: async (userId) => {
+      loadUserRoutes: async (userId: string) => {
         try {
           const userRoutes = await getUserRoutes(userId);
           set({ userRoutes });
@@ -313,7 +317,7 @@ export const useRouteStore = create<RouteState>()(
       },
 
       // Oy ver - Optimistic update ile
-      vote: async (routeId, userId) => {
+      vote: async (routeId: string, userId: string) => {
         // userId yoksa giriş yapmamıştır
         if (!userId) {
           console.warn('⚠️ Oy vermek için giriş gerekli');
@@ -369,7 +373,7 @@ export const useRouteStore = create<RouteState>()(
       },
 
       // Oyu geri çek - Optimistic update ile
-      unvote: async (routeId, userId) => {
+      unvote: async (routeId: string, userId: string) => {
         if (!userId) return false;
 
         const { routes, popularRoutes, userRoutes } = get();
@@ -421,7 +425,7 @@ export const useRouteStore = create<RouteState>()(
       },
 
       // Rotayı sil
-      removeRoute: async (routeId) => {
+      removeRoute: async (routeId: string) => {
         await deleteRoute(routeId);
         await get().loadRoutes();
       },

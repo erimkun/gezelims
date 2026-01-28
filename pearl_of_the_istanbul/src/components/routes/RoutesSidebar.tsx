@@ -80,7 +80,6 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
     vote,
     unvote,
     removeRoute,
-    guestId,
     loadRoutes,
     loadPopularRoutes,
     loadUserRoutes
