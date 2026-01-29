@@ -684,7 +684,11 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
           maxLat: 41.08
         };
 
-        // Konum iznini kontrol et
+        // HEMEN default konumdan POI'leri yükle (geolocation beklenmeden)
+        console.log('🚀 İlk yükleme: Default konumdan POI\'ler yükleniyor...');
+        loadPOIsInViewport(DEFAULT_CENTER, selectedCategory);
+
+        // Sonra konum iznini kontrol et (async - POI yüklemesini bekletmez)
         if ('geolocation' in navigator) {
           navigator.geolocation.getCurrentPosition(
             (position) => {
@@ -709,37 +713,20 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
                   zoom: APP_CONFIG.map.NORMAL_ZOOM,
                   duration: APP_CONFIG.ui.MAP_FLY_TO_DURATION_MS
                 });
-                // Kullanıcı konumu etrafındaki 100 POI'yi yükle
+                // Kullanıcı konumu etrafındaki POI'leri yükle
                 loadPOIsInViewport(userCoords, selectedCategory);
-              } else {
-                console.log('⚠️ Kullanıcı Üsküdar dışında, default konuma gidiliyor');
-                map.current?.flyTo({
-                  center: DEFAULT_CENTER,
-                  zoom: APP_CONFIG.map.NORMAL_ZOOM,
-                  duration: APP_CONFIG.ui.MAP_FLY_TO_DURATION_MS
-                });
-                loadPOIsInViewport(DEFAULT_CENTER, selectedCategory);
               }
+              // Üsküdar dışındaysa zaten default konumda POI'ler yüklendi
             },
             (error) => {
               console.warn('⚠️ Konum izni reddedildi:', error);
-              // Konum izni yoksa default konuma git
-              map.current?.flyTo({
-                center: DEFAULT_CENTER,
-                zoom: APP_CONFIG.map.NORMAL_ZOOM,
-                duration: APP_CONFIG.ui.MAP_FLY_TO_DURATION_MS
-              });
-              loadPOIsInViewport(DEFAULT_CENTER, selectedCategory);
+              // Zaten default konumdan POI'ler yüklendi, ekstra işlem gerekmez
+            },
+            {
+              timeout: 5000, // 5 saniye timeout
+              maximumAge: 60000 // 1 dakika öncesine kadar cache kullan
             }
           );
-        } else {
-          console.warn('⚠️ Geolocation desteklenmiyor');
-          map.current?.flyTo({
-            center: DEFAULT_CENTER,
-            zoom: APP_CONFIG.map.NORMAL_ZOOM,
-            duration: APP_CONFIG.ui.MAP_FLY_TO_DURATION_MS
-          });
-          loadPOIsInViewport(DEFAULT_CENTER, selectedCategory);
         }
 
       } catch (error) {
