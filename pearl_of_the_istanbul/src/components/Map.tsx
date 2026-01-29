@@ -635,7 +635,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
         ]
       },
       center: [29.015295995137393, 41.02678314419098], // Başlangıç merkezi
-      zoom: 12, // Tüm Üsküdar'ı görecek zoom seviyesi
+      zoom: 15, // POI'lerin görünmesi için yakın zoom seviyesi
       maxZoom: 22,
       minZoom: 10
     });

@@ -189,27 +189,49 @@ const EmptyState: React.FC<EmptyStateProps> = ({
   action,
 }) => {
   const t = translations[language][type];
-  
+
   const displayTitle = title || t.title;
   const displayMessage = message || t.message;
   const displayIcon = icon || t.icon;
 
+  // Matrix rain shapes for no-data state
+  const matrixShapes = ['📍', '🗺️', '⭐', '🎭', '🍽️', '🌳', '🎉', '📌', '💫', '✨', '🏛️', '🌸'];
+
   return (
-    <div className="empty-state" role="status" aria-live="polite">
-      <div className="empty-state-icon" aria-hidden="true">
-        {displayIcon}
-      </div>
-      <h3 className="empty-state-title">{displayTitle}</h3>
-      <p className="empty-state-message">{displayMessage}</p>
-      {action && (
-        <button 
-          className="empty-state-action"
-          onClick={action.onClick}
-          type="button"
-        >
-          {action.label}
-        </button>
+    <div className={`empty-state ${type === 'no-data' ? 'matrix-bg' : ''}`} role="status" aria-live="polite">
+      {type === 'no-data' && (
+        <div className="matrix-rain-container">
+          {[...Array(15)].map((_, i) => (
+            <span
+              key={i}
+              className="matrix-shape"
+              style={{
+                left: `${(i * 7) % 100}%`,
+                animationDelay: `${(i * 0.3) % 3}s`,
+                animationDuration: `${2.5 + (i % 3) * 0.5}s`
+              }}
+            >
+              {matrixShapes[i % matrixShapes.length]}
+            </span>
+          ))}
+        </div>
       )}
+      <div className={type === 'no-data' ? 'empty-state-content' : ''}>
+        <div className="empty-state-icon" aria-hidden="true">
+          {displayIcon}
+        </div>
+        <h3 className="empty-state-title">{displayTitle}</h3>
+        <p className="empty-state-message">{displayMessage}</p>
+        {action && (
+          <button
+            className="empty-state-action"
+            onClick={action.onClick}
+            type="button"
+          >
+            {action.label}
+          </button>
+        )}
+      </div>
     </div>
   );
 };

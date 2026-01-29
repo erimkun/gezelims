@@ -18,9 +18,12 @@
 }
 
 @keyframes bounce {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-10px);
   }
@@ -90,4 +93,77 @@
 .empty-state.light-bg {
   background: #F9FAFB;
   border-radius: 16px;
+}
+
+/* Matrix Background Animation for no-data state */
+.empty-state.matrix-bg {
+  position: relative;
+  background: linear-gradient(180deg, #0d1117 0%, #1a1f2e 50%, #0d1117 100%);
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 50px 20px;
+  min-height: 280px;
+}
+
+.matrix-rain-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.matrix-shape {
+  position: absolute;
+  top: -50px;
+  font-size: 28px;
+  animation: matrixDrop linear infinite;
+  opacity: 0.85;
+  filter: drop-shadow(0 0 10px rgba(99, 102, 241, 0.5));
+}
+
+@keyframes matrixDrop {
+  0% {
+    transform: translateY(-50px) rotate(0deg) scale(0.7);
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 0.9;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  85% {
+    opacity: 0.2;
+  }
+
+  100% {
+    transform: translateY(350px) rotate(360deg) scale(0.3);
+    opacity: 0;
+  }
+}
+
+.empty-state-content {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 28px 36px;
+  border-radius: 16px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.empty-state.matrix-bg .empty-state-title {
+  color: #1F2937;
+}
+
+.empty-state.matrix-bg .empty-state-message {
+  color: #4B5563;
 }
