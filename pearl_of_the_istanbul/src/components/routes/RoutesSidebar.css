@@ -440,8 +440,7 @@
   background: #d1d5db;
 }
 
-.routes-loading,
-.routes-empty {
+.routes-loading {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -451,9 +450,103 @@
   gap: 16px;
 }
 
+.routes-empty {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  color: #9ca3af;
+  gap: 16px;
+  min-height: 300px;
+  overflow: hidden;
+  background: linear-gradient(180deg, #0a0a1a 0%, #1a1a2e 50%, #0a0a1a 100%);
+  border-radius: 16px;
+  margin: 8px;
+}
+
+/* Matrix Rain Animation */
+.matrix-rain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.matrix-drop {
+  position: absolute;
+  top: -40px;
+  font-size: 24px;
+  animation: matrixFall linear infinite;
+  opacity: 0.8;
+  filter: drop-shadow(0 0 8px rgba(16, 185, 129, 0.6));
+}
+
+@keyframes matrixFall {
+  0% {
+    transform: translateY(-40px) rotate(0deg) scale(0.8);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0.9;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+
+  90% {
+    opacity: 0.3;
+  }
+
+  100% {
+    transform: translateY(320px) rotate(360deg) scale(0.4);
+    opacity: 0;
+  }
+}
+
+.empty-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  background: rgba(26, 26, 46, 0.9);
+  padding: 24px 32px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
 .routes-empty .empty-icon {
   font-size: 56px;
-  opacity: 0.4;
+  opacity: 0.8;
+  animation: floatIcon 3s ease-in-out infinite;
+}
+
+@keyframes floatIcon {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.routes-empty .empty-content span:last-child {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .loading-spinner {
@@ -850,7 +943,7 @@
     background: #e5e7eb;
     border-radius: 4px;
   }
-  
+
   .route-thumbnail {
     width: 80px;
     min-width: 80px;
@@ -893,9 +986,17 @@
 }
 
 @keyframes heartPop {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.4); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.4);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* Heart burst animation */
@@ -904,9 +1005,17 @@
 }
 
 @keyframes buttonPulse {
-  0% { transform: scale(1); }
-  30% { transform: scale(1.1); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+
+  30% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .heart-particles {
@@ -925,22 +1034,53 @@
   opacity: 0;
 }
 
-.heart-particles .particle:nth-child(1) { animation-delay: 0ms; --angle: 0deg; --distance: 25px; }
-.heart-particles .particle:nth-child(2) { animation-delay: 50ms; --angle: 60deg; --distance: 30px; }
-.heart-particles .particle:nth-child(3) { animation-delay: 100ms; --angle: 120deg; --distance: 28px; }
-.heart-particles .particle:nth-child(4) { animation-delay: 50ms; --angle: 180deg; --distance: 25px; }
-.heart-particles .particle:nth-child(5) { animation-delay: 100ms; --angle: 240deg; --distance: 30px; }
-.heart-particles .particle:nth-child(6) { animation-delay: 0ms; --angle: 300deg; --distance: 28px; }
+.heart-particles .particle:nth-child(1) {
+  animation-delay: 0ms;
+  --angle: 0deg;
+  --distance: 25px;
+}
+
+.heart-particles .particle:nth-child(2) {
+  animation-delay: 50ms;
+  --angle: 60deg;
+  --distance: 30px;
+}
+
+.heart-particles .particle:nth-child(3) {
+  animation-delay: 100ms;
+  --angle: 120deg;
+  --distance: 28px;
+}
+
+.heart-particles .particle:nth-child(4) {
+  animation-delay: 50ms;
+  --angle: 180deg;
+  --distance: 25px;
+}
+
+.heart-particles .particle:nth-child(5) {
+  animation-delay: 100ms;
+  --angle: 240deg;
+  --distance: 30px;
+}
+
+.heart-particles .particle:nth-child(6) {
+  animation-delay: 0ms;
+  --angle: 300deg;
+  --distance: 28px;
+}
 
 @keyframes particleBurst {
   0% {
     opacity: 1;
     transform: translate(-50%, -50%) rotate(var(--angle)) translateY(0) scale(0.5);
   }
+
   50% {
     opacity: 1;
     transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(var(--distance) * -0.7)) scale(1);
   }
+
   100% {
     opacity: 0;
     transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(var(--distance) * -1)) scale(0.3);
@@ -968,8 +1108,13 @@
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .login-modal {
@@ -989,6 +1134,7 @@
     opacity: 0;
     transform: translateY(20px) scale(0.95);
   }
+
   to {
     opacity: 1;
     transform: translateY(0) scale(1);

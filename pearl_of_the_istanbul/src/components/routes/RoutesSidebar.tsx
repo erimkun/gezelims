@@ -250,7 +250,7 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
       // Kalp animasyonu başlat
       setAnimatingHearts(prev => new Set(prev).add(route.id!));
       await vote(route.id!, voterId);
-      
+
       // Animasyon bitince kaldır
       setTimeout(() => {
         setAnimatingHearts(prev => {
@@ -265,13 +265,13 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
   // Yorum butonuna tıklama
   const handleCommentClick = (e: React.MouseEvent, routeId: string) => {
     e.stopPropagation();
-    
+
     // Giriş yapmamışsa login prompt göster
     if (!user) {
       setShowLoginPrompt(true);
       return;
     }
-    
+
     setCommentRouteId(routeId);
   };
 
@@ -305,9 +305,9 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
         {/* Header */}
         <div className="routes-sidebar-header">
           <h2>
-            <span style={{ 
-              background: 'linear-gradient(135deg, #10B981, #059669)', 
-              borderRadius: '10px', 
+            <span style={{
+              background: 'linear-gradient(135deg, #10B981, #059669)',
+              borderRadius: '10px',
               padding: '6px 10px',
               display: 'inline-flex',
               alignItems: 'center',
@@ -404,8 +404,25 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
             </div>
           ) : displayRoutes.length === 0 ? (
             <div className="routes-empty">
-              <span className="empty-icon">🗺️</span>
-              <span>{t.noRoutes}</span>
+              <div className="matrix-rain">
+                {[...Array(20)].map((_, i) => (
+                  <div
+                    key={i}
+                    className="matrix-drop"
+                    style={{
+                      left: `${(i * 5) + Math.random() * 5}%`,
+                      animationDelay: `${Math.random() * 3}s`,
+                      animationDuration: `${2 + Math.random() * 2}s`
+                    }}
+                  >
+                    {['📍', '🗺️', '⭐', '🎭', '🍽️', '🌳', '🎉', '📌', '💫', '✨'][i % 10]}
+                  </div>
+                ))}
+              </div>
+              <div className="empty-content">
+                <span className="empty-icon">🗺️</span>
+                <span>{t.noRoutes}</span>
+              </div>
             </div>
           ) : (
             displayRoutes.map(route => (
@@ -417,8 +434,8 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
                 >
                   {/* Thumbnail */}
                   <div className="route-thumbnail">
-                    <img 
-                      src={getRouteThumbnail(route)} 
+                    <img
+                      src={getRouteThumbnail(route)}
                       alt={route.title}
                       onError={(e) => {
                         // Görsel yüklenemezse varsayılan placeholder kullan
@@ -482,7 +499,7 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
                         </div>
                       )}
                     </button>
-                    
+
                     <button
                       className="comment-btn"
                       onClick={(e) => handleCommentClick(e, route.id!)}
@@ -576,27 +593,27 @@ const RoutesSidebar = ({ language, isDesktop, user }: RoutesSidebarProps) => {
             <button className="login-modal-close" onClick={() => setShowLoginPrompt(false)}>✕</button>
             <div className="login-modal-icon">🔐</div>
             <h3 className="login-modal-title">
-              {language === 'tr' ? 'Giriş Yapın' : 
-               language === 'de' ? 'Anmelden' :
-               language === 'fr' ? 'Connexion' :
-               language === 'es' ? 'Iniciar Sesión' :
-               language === 'it' ? 'Accedi' : 'Sign In'}
+              {language === 'tr' ? 'Giriş Yapın' :
+                language === 'de' ? 'Anmelden' :
+                  language === 'fr' ? 'Connexion' :
+                    language === 'es' ? 'Iniciar Sesión' :
+                      language === 'it' ? 'Accedi' : 'Sign In'}
             </h3>
             <p className="login-modal-text">
               {language === 'tr' ? 'Beğenmek ve yorum yapmak için giriş yapmanız gerekiyor.' :
-               language === 'de' ? 'Melden Sie sich an, um zu liken und zu kommentieren.' :
-               language === 'fr' ? 'Connectez-vous pour aimer et commenter.' :
-               language === 'es' ? 'Inicia sesión para dar me gusta y comentar.' :
-               language === 'it' ? 'Accedi per mettere mi piace e commentare.' :
-               'Please sign in to like and comment.'}
+                language === 'de' ? 'Melden Sie sich an, um zu liken und zu kommentieren.' :
+                  language === 'fr' ? 'Connectez-vous pour aimer et commenter.' :
+                    language === 'es' ? 'Inicia sesión para dar me gusta y comentar.' :
+                      language === 'it' ? 'Accedi per mettere mi piace e commentare.' :
+                        'Please sign in to like and comment.'}
             </p>
             <button className="login-modal-btn" onClick={() => { setShowLoginPrompt(false); signIn(); }}>
               <span>🚀</span>
               {language === 'tr' ? 'Google ile Giriş Yap' :
-               language === 'de' ? 'Mit Google anmelden' :
-               language === 'fr' ? 'Se connecter avec Google' :
-               language === 'es' ? 'Iniciar con Google' :
-               language === 'it' ? 'Accedi con Google' : 'Sign in with Google'}
+                language === 'de' ? 'Mit Google anmelden' :
+                  language === 'fr' ? 'Se connecter avec Google' :
+                    language === 'es' ? 'Iniciar con Google' :
+                      language === 'it' ? 'Accedi con Google' : 'Sign in with Google'}
             </button>
           </div>
         </div>
