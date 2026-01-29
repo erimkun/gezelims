@@ -167,7 +167,7 @@ const ReactionGame: React.FC<ReactionGameProps> = ({ language = 'tr' }) => {
 
   const handleClick = useCallback(() => {
     switch (gameState) {
-      case 'waiting':
+      case 'waiting': {
         // Start the game - wait random time before showing green
         setGameState('ready');
         const delay = Math.random() * 3000 + 1500; // 1.5s to 4.5s
@@ -176,6 +176,7 @@ const ReactionGame: React.FC<ReactionGameProps> = ({ language = 'tr' }) => {
           startTimeRef.current = performance.now();
         }, delay);
         break;
+      }
         
       case 'ready':
         // Clicked too early!
@@ -186,7 +187,7 @@ const ReactionGame: React.FC<ReactionGameProps> = ({ language = 'tr' }) => {
         setGameState('too-early');
         break;
         
-      case 'go':
+      case 'go': {
         // Calculate reaction time
         const endTime = performance.now();
         const time = Math.round(endTime - startTimeRef.current);
@@ -194,6 +195,7 @@ const ReactionGame: React.FC<ReactionGameProps> = ({ language = 'tr' }) => {
         setAttempts(prev => [...prev, time]);
         setGameState('result');
         break;
+      }
         
       case 'result':
       case 'too-early':

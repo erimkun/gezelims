@@ -165,80 +165,110 @@ const Game2048: React.FC<Game2048Props> = ({ language = 'tr' }) => {
   }
 
   function moveTiles(direction: 'up' | 'down' | 'left' | 'right', currentTiles: Tile[]): { newTiles: Tile[]; addedScore: number; moved: boolean } {
-    // Create a working copy
-    let workingTiles = currentTiles.map(t => ({ ...t, isNew: false, isMerged: false }));
+    // Convert tiles to a 2D grid for easier manipulation
+    const grid: (Tile | null)[][] = Array(GRID_SIZE).fill(null).map(() => Array(GRID_SIZE).fill(null));
+    currentTiles.forEach(tile => {
+      grid[tile.row][tile.col] = { ...tile, isNew: false, isMerged: false };
+    });
+
     let addedScore = 0;
     let moved = false;
 
-    // Determine iteration order based on direction
-    const getOrder = () => {
-      switch (direction) {
-        case 'left': return { primary: 'row', secondary: 'col', reverse: false };
-        case 'right': return { primary: 'row', secondary: 'col', reverse: true };
-        case 'up': return { primary: 'col', secondary: 'row', reverse: false };
-        case 'down': return { primary: 'col', secondary: 'row', reverse: true };
+    // Helper to process a single line (row or column)
+    const processLine = (line: (Tile | null)[]): (Tile | null)[] => {
+      // Filter out nulls and get only tiles
+      const tiles = line.filter(t => t !== null) as Tile[];
+      const result: (Tile | null)[] = [];
+      
+      let i = 0;
+      while (i < tiles.length) {
+        if (i + 1 < tiles.length && tiles[i].value === tiles[i + 1].value) {
+          // Merge tiles
+          const mergedValue = tiles[i].value * 2;
+          result.push({
+            ...tiles[i],
+            value: mergedValue,
+            isMerged: true
+          });
+          addedScore += mergedValue;
+          i += 2; // Skip next tile since it was merged
+        } else {
+          result.push(tiles[i]);
+          i++;
+        }
       }
+      
+      // Pad with nulls to maintain grid size
+      while (result.length < GRID_SIZE) {
+        result.push(null);
+      }
+      
+      return result;
     };
 
-    const order = getOrder();
-    const newTiles: Tile[] = [];
-    const mergedPositions = new Set<string>();
-
-    // Process each line (row or column)
-    for (let primary = 0; primary < GRID_SIZE; primary++) {
-      // Get tiles in this line
-      let lineTiles = workingTiles.filter(t => 
-        order.primary === 'row' ? t.row === primary : t.col === primary
-      );
-
-      // Sort by secondary axis
-      lineTiles.sort((a, b) => {
-        const aVal = order.primary === 'row' ? a.col : a.row;
-        const bVal = order.primary === 'row' ? b.col : b.row;
-        return order.reverse ? bVal - aVal : aVal - bVal;
-      });
-
-      // Process line - slide and merge
-      let targetPos = order.reverse ? GRID_SIZE - 1 : 0;
-      
-      for (let i = 0; i < lineTiles.length; i++) {
-        const tile = lineTiles[i];
-        const posKey = order.primary === 'row' 
-          ? `${primary},${targetPos}` 
-          : `${targetPos},${primary}`;
-
-        // Check if we can merge with previous tile
-        const prevTile = newTiles.find(t => {
-          if (order.primary === 'row') {
-            return t.row === primary && t.col === targetPos && t.value === tile.value;
-          } else {
-            return t.col === primary && t.row === targetPos && t.value === tile.value;
-          }
-        });
-
-        if (prevTile && !mergedPositions.has(posKey)) {
-          // Merge
-          prevTile.value *= 2;
-          prevTile.isMerged = true;
-          addedScore += prevTile.value;
-          mergedPositions.add(posKey);
-          moved = true;
-        } else {
-          // Move to target position
-          const newRow = order.primary === 'row' ? primary : targetPos;
-          const newCol = order.primary === 'row' ? targetPos : primary;
-          
-          if (tile.row !== newRow || tile.col !== newCol) {
+    // Process based on direction
+    if (direction === 'left' || direction === 'right') {
+      for (let row = 0; row < GRID_SIZE; row++) {
+        const line = grid[row].slice();
+        if (direction === 'right') line.reverse();
+        
+        const processed = processLine(line);
+        
+        if (direction === 'right') processed.reverse();
+        
+        // Check if anything moved
+        for (let col = 0; col < GRID_SIZE; col++) {
+          const oldTile = grid[row][col];
+          const newTile = processed[col];
+          if ((oldTile === null) !== (newTile === null) ||
+              (oldTile && newTile && oldTile.value !== newTile.value)) {
             moved = true;
           }
-          
+        }
+        
+        grid[row] = processed;
+      }
+    } else {
+      for (let col = 0; col < GRID_SIZE; col++) {
+        const line: (Tile | null)[] = [];
+        for (let row = 0; row < GRID_SIZE; row++) {
+          line.push(grid[row][col]);
+        }
+        
+        if (direction === 'down') line.reverse();
+        
+        const processed = processLine(line);
+        
+        if (direction === 'down') processed.reverse();
+        
+        // Check if anything moved
+        for (let row = 0; row < GRID_SIZE; row++) {
+          const oldTile = grid[row][col];
+          const newTile = processed[row];
+          if ((oldTile === null) !== (newTile === null) ||
+              (oldTile && newTile && oldTile.value !== newTile.value)) {
+            moved = true;
+          }
+        }
+        
+        for (let row = 0; row < GRID_SIZE; row++) {
+          grid[row][col] = processed[row];
+        }
+      }
+    }
+
+    // Convert grid back to tiles array with updated positions
+    const newTiles: Tile[] = [];
+    for (let row = 0; row < GRID_SIZE; row++) {
+      for (let col = 0; col < GRID_SIZE; col++) {
+        const tile = grid[row][col];
+        if (tile) {
           newTiles.push({
             ...tile,
-            row: newRow,
-            col: newCol
+            id: tile.isMerged ? tileIdCounter++ : tile.id, // New ID for merged tiles
+            row,
+            col
           });
-          
-          targetPos += order.reverse ? -1 : 1;
         }
       }
     }
