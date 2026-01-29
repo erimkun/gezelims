@@ -442,7 +442,7 @@ const RoutesPage = ({ language, onBack }: RoutesPageProps) => {
 
           const marker = new maplibregl.Marker({
             element: el,
-            anchor: 'bottom'
+            anchor: 'center'
           })
             .setLngLat(point.coordinates)
             .addTo(map.current!);

@@ -217,13 +217,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  transform: translateY(-50%);
-  transition: transform 0.2s ease;
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   z-index: 10;
 }
 
 .route-point-marker:hover {
-  transform: translateY(-50%) scale(1.15);
+  transform: scale(1.15);
   z-index: 20;
 }
 
