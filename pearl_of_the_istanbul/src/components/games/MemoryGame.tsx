@@ -97,10 +97,10 @@ const MemoryGame: React.FC<MemoryGameProps> = ({ language = 'tr' }) => {
   const [isGameOver, setIsGameOver] = useState(false);
   const [focusedIndex, setFocusedIndex] = useState(0);
   const [announcement, setAnnouncement] = useState('');
-  
+
   const gridRef = useRef<HTMLDivElement>(null);
   const cardRefs = useRef<(HTMLButtonElement | null)[]>([]);
-  
+
   const t = translations[language];
 
   // Screen reader announcement
@@ -112,7 +112,7 @@ const MemoryGame: React.FC<MemoryGameProps> = ({ language = 'tr' }) => {
   const initializeGame = useCallback(() => {
     const shuffledEmojis = [...EMOJIS, ...EMOJIS]
       .sort(() => Math.random() - 0.5);
-    
+
     const newCards = shuffledEmojis.map((emoji, index) => ({
       id: index,
       emoji,
@@ -125,7 +125,7 @@ const MemoryGame: React.FC<MemoryGameProps> = ({ language = 'tr' }) => {
     setMoves(0);
     setIsGameOver(false);
     setFocusedIndex(0);
-    
+
     // Focus first card after initialization
     setTimeout(() => {
       cardRefs.current[0]?.focus();
@@ -162,7 +162,7 @@ const MemoryGame: React.FC<MemoryGameProps> = ({ language = 'tr' }) => {
       setCards(newCards);
       setFlippedCards([]);
       announce(t.matched);
-      
+
       if (newCards.every(card => card.isMatched)) {
         setIsGameOver(true);
         announce(t.congratulations);
@@ -223,7 +223,7 @@ const MemoryGame: React.FC<MemoryGameProps> = ({ language = 'tr' }) => {
     const row = Math.floor(index / GRID_SIZE) + 1;
     const col = (index % GRID_SIZE) + 1;
     const position = `Satır ${row}, Sütun ${col}`;
-    
+
     if (card.isMatched) {
       return `${card.emoji} - Eşleşti. ${position}`;
     }
@@ -234,21 +234,21 @@ const MemoryGame: React.FC<MemoryGameProps> = ({ language = 'tr' }) => {
   };
 
   return (
-    <div 
+    <div
       className="game-container memory-game"
       role="application"
       aria-label="Hafıza Oyunu"
     >
       {/* Screen reader announcements */}
-      <div 
-        role="status" 
-        aria-live="polite" 
-        aria-atomic="true" 
+      <div
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
         className="sr-only"
       >
         {announcement}
       </div>
-      
+
       {/* Hidden instructions */}
       <span id="memory-instructions" className="sr-only">
         {t.instructions}
@@ -256,8 +256,8 @@ const MemoryGame: React.FC<MemoryGameProps> = ({ language = 'tr' }) => {
 
       <div className="game-score-board" role="status" aria-live="polite">
         <span aria-label={`${t.moves}: ${moves}`}>{t.moves}: {moves}</span>
-        <button 
-          className="game-btn game-btn-primary" 
+        <button
+          className="game-btn game-btn-primary"
           onClick={initializeGame}
           aria-label={t.restart}
         >
@@ -265,7 +265,7 @@ const MemoryGame: React.FC<MemoryGameProps> = ({ language = 'tr' }) => {
         </button>
       </div>
 
-      <div 
+      <div
         ref={gridRef}
         className="memory-grid"
         role="grid"
@@ -277,7 +277,7 @@ const MemoryGame: React.FC<MemoryGameProps> = ({ language = 'tr' }) => {
         {cards.map((card, index) => (
           <button
             key={card.id}
-            ref={el => cardRefs.current[index] = el}
+            ref={(el) => { cardRefs.current[index] = el; }}
             className={`memory-card ${card.isFlipped || card.isMatched ? 'flipped' : ''} ${card.isMatched ? 'matched' : ''}`}
             onClick={() => handleCardClick(card.id)}
             onKeyDown={(e) => handleKeyDown(e, card.id)}
@@ -297,7 +297,7 @@ const MemoryGame: React.FC<MemoryGameProps> = ({ language = 'tr' }) => {
       </div>
 
       {isGameOver && (
-        <div 
+        <div
           className="game-over-overlay"
           role="alertdialog"
           aria-modal="true"
@@ -306,8 +306,8 @@ const MemoryGame: React.FC<MemoryGameProps> = ({ language = 'tr' }) => {
         >
           <h2 id="game-over-title">{t.congratulations}</h2>
           <p id="game-over-desc">{t.completedIn.replace('{moves}', moves.toString())}</p>
-          <button 
-            className="game-btn game-btn-primary" 
+          <button
+            className="game-btn game-btn-primary"
             onClick={initializeGame}
             autoFocus
           >

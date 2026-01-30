@@ -129,6 +129,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
   const [visiblePOIs, setVisiblePOIs] = useState<POI[]>([]);
   const lastLoadCenterRef = useRef<[number, number] | null>(null); // Son POI yükleme merkezi
   const [showWalkingNavigation, setShowWalkingNavigation] = useState(false); // Walking navigation görünürlüğü
+  const [mapReady, setMapReady] = useState(false); // Harita hazır mı?
 
   const translations = {
     tr: {
@@ -729,6 +730,10 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
           );
         }
 
+        // Harita hazır - artık marker'lar eklenebilir
+        console.log('✅ Harita hazır, mapReady = true');
+        setMapReady(true);
+
       } catch (error) {
         console.error('GeoJSON yükleme hatası:', error);
       }
@@ -794,9 +799,16 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
     // Sidebar'dan gelen POI'leri önceliklendir
     const poisToShow = sidebarPOIs && sidebarPOIs.length > 0 ? sidebarPOIs : visiblePOIs;
 
+    // Harita hazır değilse marker ekleme (mapReady state ile kontrol)
+    if (!mapReady) {
+      console.log('⚠️ Harita henüz hazır değil, marker ekleme bekleniyor...');
+      return;
+    }
+
     if (!map.current || !poisToShow || poisToShow.length === 0) {
       console.log('⚠️ Marker ekleme atlandı:', {
         hasMap: !!map.current,
+        mapReady,
         sidebarPOIsCount: sidebarPOIs?.length || 0,
         visiblePOIsCount: visiblePOIs?.length || 0
       });
@@ -968,7 +980,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
 
     // addMarkers fonksiyonunu çağır
     addMarkers();
-  }, [sidebarPOIs, visiblePOIs, onPOIClick, isDesktop, isWalkingMode, walkingDestination, selectedCategory]);
+  }, [mapReady, sidebarPOIs, visiblePOIs, onPOIClick, isDesktop, isWalkingMode, walkingDestination, selectedCategory]);
 
   // isWalkingMode değiştiğinde showWalkingNavigation'ı senkronize et
   useEffect(() => {
