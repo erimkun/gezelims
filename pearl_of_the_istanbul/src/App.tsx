@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback, lazy, Suspense } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import LoadingSpinner from './components/LoadingSpinner'
 import ErrorBoundary from './components/ErrorBoundary'
 import { ToastProvider } from './components/Toast'
@@ -193,6 +194,7 @@ function App() {
               />
             )}
           </Suspense>
+          <Analytics />
         </div>
       </ToastProvider>
     </ErrorBoundary>
