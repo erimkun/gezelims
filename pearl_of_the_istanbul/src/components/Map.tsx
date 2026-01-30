@@ -582,7 +582,7 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
     // Stil değişikliğinden sonra Üsküdar sınırlarını yeniden ekle
     map.current.once('styledata', async () => {
       try {
-        const response = await fetch('/src/data/uskudar.geojson');
+        const response = await fetch('/data/uskudar.geojson');
         const uskudarData = await response.json();
         const transformedData = transformGeoJSON(uskudarData);
 
@@ -645,97 +645,90 @@ const Map = ({ language, onLanguageChange, onPOIClick, selectedCategory, poiCach
     map.current.on('load', async () => {
       if (!map.current) return;
 
+      // Üsküdar sınırlarını yüklemeye çalış (opsiyonel - başarısız olursa devam et)
       try {
-        // GeoJSON dosyasını fetch ile yükle
-        const response = await fetch('/src/data/uskudar.geojson');
-        const uskudarData = await response.json();
+        const response = await fetch('/data/uskudar.geojson');
+        if (response.ok) {
+          const uskudarData = await response.json();
+          const transformedData = transformGeoJSON(uskudarData);
 
-        // GeoJSON verisini EPSG:5254'ten WGS84'e dönüştür
-        const transformedData = transformGeoJSON(uskudarData);
+          console.log('Harita yüklendi, Üsküdar sınırları ekleniyor');
 
-        console.log('Harita yüklendi!');
-        console.log('Orijinal GeoJSON:', uskudarData);
-        console.log('Dönüştürülmüş GeoJSON:', transformedData);
+          map.current?.addSource('uskudar-boundary', {
+            type: 'geojson',
+            data: transformedData as GeoJSON.FeatureCollection
+          });
 
-        // Üsküdar sınırları için source ekle
-        map.current?.addSource('uskudar-boundary', {
-          type: 'geojson',
-          data: transformedData as GeoJSON.FeatureCollection
-        });
-
-        // Sınır çizgisi layer'ı - kesikli çizgi
-        map.current?.addLayer({
-          id: 'uskudar-boundary-line',
-          type: 'line',
-          source: 'uskudar-boundary',
-          paint: {
-            'line-color': '#E63946',
-            'line-width': 3,
-            'line-opacity': 0.9,
-            'line-dasharray': [2, 2] // Kesikli çizgi: 2px çizgi, 2px boşluk
-          }
-        });
-
-        // Kullanıcı konumunu al ve initial POI'leri yükle
-        const DEFAULT_CENTER: [number, number] = [29.015295995137393, 41.02678314419098];
-        const USKUDAR_BOUNDS = {
-          minLng: 29.0,
-          maxLng: 29.12,
-          minLat: 40.98,
-          maxLat: 41.08
-        };
-
-        // HEMEN default konumdan POI'leri yükle (geolocation beklenmeden)
-        console.log('🚀 İlk yükleme: Default konumdan POI\'ler yükleniyor...');
-        loadPOIsInViewport(DEFAULT_CENTER, selectedCategory);
-
-        // Sonra konum iznini kontrol et (async - POI yüklemesini bekletmez)
-        if ('geolocation' in navigator) {
-          navigator.geolocation.getCurrentPosition(
-            (position) => {
-              const userCoords: [number, number] = [
-                position.coords.longitude,
-                position.coords.latitude
-              ];
-
-              console.log('📍 Kullanıcı konumu:', userCoords);
-
-              // Kullanıcı Üsküdar sınırları içinde mi?
-              const isInUskudar =
-                userCoords[0] >= USKUDAR_BOUNDS.minLng &&
-                userCoords[0] <= USKUDAR_BOUNDS.maxLng &&
-                userCoords[1] >= USKUDAR_BOUNDS.minLat &&
-                userCoords[1] <= USKUDAR_BOUNDS.maxLat;
-
-              if (isInUskudar) {
-                console.log('✅ Kullanıcı Üsküdar içinde, konuma zoom yapılıyor');
-                map.current?.flyTo({
-                  center: userCoords,
-                  zoom: APP_CONFIG.map.NORMAL_ZOOM,
-                  duration: APP_CONFIG.ui.MAP_FLY_TO_DURATION_MS
-                });
-                // Kullanıcı konumu etrafındaki POI'leri yükle
-                loadPOIsInViewport(userCoords, selectedCategory);
-              }
-              // Üsküdar dışındaysa zaten default konumda POI'ler yüklendi
-            },
-            (error) => {
-              console.warn('⚠️ Konum izni reddedildi:', error);
-              // Zaten default konumdan POI'ler yüklendi, ekstra işlem gerekmez
-            },
-            {
-              timeout: 5000, // 5 saniye timeout
-              maximumAge: 60000 // 1 dakika öncesine kadar cache kullan
+          map.current?.addLayer({
+            id: 'uskudar-boundary-line',
+            type: 'line',
+            source: 'uskudar-boundary',
+            paint: {
+              'line-color': '#E63946',
+              'line-width': 3,
+              'line-opacity': 0.9,
+              'line-dasharray': [2, 2]
             }
-          );
+          });
+        } else {
+          console.warn('⚠️ Üsküdar sınırları yüklenemedi, devam ediliyor...');
         }
-
-        // Harita hazır - artık marker'lar eklenebilir
-        console.log('✅ Harita hazır, mapReady = true');
-        setMapReady(true);
-
       } catch (error) {
-        console.error('GeoJSON yükleme hatası:', error);
+        console.warn('⚠️ Üsküdar sınırları yüklenirken hata:', error);
+      }
+
+      // POI yükleme - GeoJSON başarısız olsa bile çalışır
+      const DEFAULT_CENTER: [number, number] = [29.015295995137393, 41.02678314419098];
+      const USKUDAR_BOUNDS = {
+        minLng: 29.0,
+        maxLng: 29.12,
+        minLat: 40.98,
+        maxLat: 41.08
+      };
+
+      // HEMEN default konumdan POI'leri yükle
+      console.log('🚀 İlk yükleme: Default konumdan POI\'ler yükleniyor...');
+      loadPOIsInViewport(DEFAULT_CENTER, selectedCategory);
+
+      // Harita hazır - artık marker'lar eklenebilir
+      console.log('✅ Harita hazır, mapReady = true');
+      setMapReady(true);
+
+      // Konum iznini kontrol et (async - beklemeye gerek yok)
+      if ('geolocation' in navigator) {
+        navigator.geolocation.getCurrentPosition(
+          (position) => {
+            const userCoords: [number, number] = [
+              position.coords.longitude,
+              position.coords.latitude
+            ];
+
+            console.log('📍 Kullanıcı konumu:', userCoords);
+
+            const isInUskudar =
+              userCoords[0] >= USKUDAR_BOUNDS.minLng &&
+              userCoords[0] <= USKUDAR_BOUNDS.maxLng &&
+              userCoords[1] >= USKUDAR_BOUNDS.minLat &&
+              userCoords[1] <= USKUDAR_BOUNDS.maxLat;
+
+            if (isInUskudar) {
+              console.log('✅ Kullanıcı Üsküdar içinde, konuma zoom yapılıyor');
+              map.current?.flyTo({
+                center: userCoords,
+                zoom: APP_CONFIG.map.NORMAL_ZOOM,
+                duration: APP_CONFIG.ui.MAP_FLY_TO_DURATION_MS
+              });
+              loadPOIsInViewport(userCoords, selectedCategory);
+            }
+          },
+          (error) => {
+            console.warn('⚠️ Konum izni reddedildi:', error);
+          },
+          {
+            timeout: 5000,
+            maximumAge: 60000
+          }
+        );
       }
     });
 
