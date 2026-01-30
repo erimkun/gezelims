@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-three/fiber": "^9.4.2",
     "@tanstack/react-virtual": "^3.13.12",
+    "@vercel/analytics": "^1.6.1",
     "country-flag-icons": "^1.5.21",
     "firebase": "^12.7.0",
     "maplibre-gl": "^5.10.0",
