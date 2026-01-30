@@ -1944,3 +1944,126 @@
   0% { transform: translateY(0); opacity: 1; }
   100% { transform: translateY(-30px); opacity: 0; }
 }
+
+/* ==================== Accessibility Utilities ==================== */
+/* Screen reader only - visually hidden but accessible */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Focus indicator for keyboard navigation */
+.game-focus-visible:focus {
+  outline: 3px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Memory game keyboard focus */
+.memory-card:focus {
+  outline: 3px solid #3b82f6;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.3);
+}
+
+.memory-card:focus-visible {
+  outline: 3px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+.memory-card.focused {
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5);
+  transform: scale(1.05);
+}
+
+/* Snake game keyboard focus */
+.snake-board:focus {
+  outline: 3px solid #34d399;
+  outline-offset: 2px;
+}
+
+.snake-board:focus-visible {
+  outline: 3px solid #34d399;
+  outline-offset: 2px;
+}
+
+/* Game button focus states */
+.game-btn:focus {
+  outline: 3px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+.game-btn:focus-visible {
+  outline: 3px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .memory-card {
+    border: 2px solid #000;
+  }
+  
+  .memory-card.flipped {
+    border: 3px solid #000;
+  }
+  
+  .memory-card.matched {
+    border: 3px solid #000;
+  }
+  
+  .snake-board {
+    border: 3px solid #000;
+  }
+  
+  .game-btn {
+    border: 2px solid #000;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .memory-card {
+    transition: none;
+  }
+  
+  .memory-card.flipped {
+    transform: none;
+  }
+  
+  .balloon {
+    animation: none;
+  }
+  
+  .runner-object.type-coin {
+    animation: none;
+  }
+  
+  .mole-container.visible {
+    animation: none;
+  }
+  
+  .tile-2048.tile-new {
+    animation: none;
+  }
+  
+  .tile-2048.tile-merged {
+    animation: none;
+  }
+  
+  .target {
+    animation: none;
+  }
+  
+  .target.normal,
+  .target.bonus,
+  .target.fast {
+    animation: none;
+  }
+}
